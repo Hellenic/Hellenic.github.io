@@ -1,0 +1,38 @@
+/* 
+    Document   : style
+    Created on : 25.2.2012, 16:53:27
+    Author     : Hellenic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    margin: 0px;
+    overflow: hidden;
+}
+
+#stats
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#debug
+{
+    z-index: 5;
+    text-align: right;
+    color: white;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#messages
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

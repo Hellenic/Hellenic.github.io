@@ -1,0 +1,134 @@
+{
+  "category": {
+    "name": "@string/quiz_animals_name",
+    "description": "@string/quiz_animals_description",
+    "image": "animals.jpg",
+    "link": "@string/quiz_animals_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_animals_bear_name",
+          "hint": "@string/quiz_animals_bear_hint",
+          "description": "@string/quiz_animals_bear_description",
+          "answers": "@array/quiz_animals_bear_answers",
+          "image": "bear.jpg",
+          "link": "@string/quiz_animals_bear_link",
+          "facts": "@array/quiz_animals_bear_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_animals_moose_name",
+          "hint": "@string/quiz_animals_moose_hint",
+          "description": "@string/quiz_animals_moose_description",
+          "answers": "@array/quiz_animals_moose_answers",
+          "image": "moose.jpg",
+          "link": "@string/quiz_animals_moose_link",
+          "facts": "@array/quiz_animals_moose_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_animals_deer_name",
+          "hint": "@string/quiz_animals_deer_hint",
+          "description": "@string/quiz_animals_deer_description",
+          "answers": "@array/quiz_animals_deer_answers",
+          "image": "deer.jpg",
+          "link": "@string/quiz_animals_deer_link",
+          "facts": "@array/quiz_animals_deer_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_animals_fox_name",
+          "hint": "@string/quiz_animals_fox_hint",
+          "description": "@string/quiz_animals_fox_description",
+          "answers": "@array/quiz_animals_fox_answers",
+          "image": "fox.jpg",
+          "link": "@string/quiz_animals_fox_link",
+          "facts": "@array/quiz_animals_fox_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_animals_frog_name",
+          "hint": "@string/quiz_animals_frog_hint",
+          "description": "@string/quiz_animals_frog_description",
+          "answers": "@array/quiz_animals_frog_answers",
+          "image": "frog.jpg",
+          "link": "@string/quiz_animals_frog_link",
+          "facts": "@array/quiz_animals_frog_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_animals_snake_name",
+          "hint": "@string/quiz_animals_snake_hint",
+          "description": "@string/quiz_animals_snake_description",
+          "answers": "@array/quiz_animals_snake_answers",
+          "image": "snake.jpg",
+          "link": "@string/quiz_animals_snake_link",
+          "facts": "@array/quiz_animals_snake_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_animals_wolf_name",
+          "hint": "@string/quiz_animals_wolf_hint",
+          "description": "@string/quiz_animals_wolf_description",
+          "answers": "@array/quiz_animals_wolf_answers",
+          "image": "wolf.jpg",
+          "link": "@string/quiz_animals_wolf_link",
+          "facts": "@array/quiz_animals_wolf_facts"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_animals_squirrel_name",
+          "hint": "@string/quiz_animals_squirrel_hint",
+          "description": "@string/quiz_animals_squirrel_description",
+          "answers": "@array/quiz_animals_squirrel_answers",
+          "image": "squirrel.jpg",
+          "link": "@string/quiz_animals_squirrel_link",
+          "facts": "@array/quiz_animals_squirrel_facts"
+        },
+        {
+          "id": "9",
+          "name": "@string/quiz_animals_hedgehog_name",
+          "hint": "@string/quiz_animals_hedgehog_hint",
+          "description": "@string/quiz_animals_hedgehog_description",
+          "answers": "@array/quiz_animals_hedgehog_answers",
+          "image": "hedgehog.jpg",
+          "link": "@string/quiz_animals_hedgehog_link",
+          "facts": "@array/quiz_animals_hedgehog_facts"
+        },
+        {
+          "id": "10",
+          "name": "@string/quiz_animals_mouse_name",
+          "hint": "@string/quiz_animals_mouse_hint",
+          "description": "@string/quiz_animals_mouse_description",
+          "answers": "@array/quiz_animals_mouse_answers",
+          "image": "mouse.jpg",
+          "link": "@string/quiz_animals_mouse_link",
+          "facts": "@array/quiz_animals_mouse_facts"
+        },
+        {
+          "id": "11",
+          "name": "@string/quiz_animals_rat_name",
+          "hint": "@string/quiz_animals_rat_hint",
+          "description": "@string/quiz_animals_rat_description",
+          "answers": "@array/quiz_animals_rat_answers",
+          "image": "rat.jpg",
+          "link": "@string/quiz_animals_rat_link",
+          "facts": "@array/quiz_animals_rat_facts"
+        },
+        {
+          "id": "12",
+          "name": "@string/quiz_animals_rabbit_name",
+          "hint": "@string/quiz_animals_rabbit_hint",
+          "description": "@string/quiz_animals_rabbit_description",
+          "answers": "@array/quiz_animals_rabbit_answers",
+          "image": "rabbit.jpg",
+          "link": "@string/quiz_animals_rabbit_link",
+          "facts": "@array/quiz_animals_rabbit_facts"
+        }
+      ]
+    }
+  }
+}

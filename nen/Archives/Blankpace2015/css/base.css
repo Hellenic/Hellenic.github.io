@@ -1,0 +1,40 @@
+/* 
+    Document   : base
+    Created on : 21.04.2014, 17:16:42
+    Author     : Hellenic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body 
+{
+    background-color: #FCFCFC;
+    color: black;
+    font-family: Ubuntu, Helvetica, Arial;
+}
+
+canvas
+{
+	z-index: -1;
+	position: fixed;
+}
+
+.pointer
+{
+	cursor: pointer;
+}
+
+.information-panel
+{
+	float: right;
+	max-width: 300px;
+	margin-right: 20px;
+	padding: 10px;
+	z-index: 10;
+	background: #C9C9C9;
+	opacity: 0.9;
+}
+.information-panel h2
+{
+	text-align: right;
+}

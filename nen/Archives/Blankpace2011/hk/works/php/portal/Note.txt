@@ -1,0 +1,4 @@
+Tietokantaan
+
+Table: usr
+Uusi kenttä: usrlvl  --- Arvot:   1 = Normal, 2 = Moderator, 3 = Administrator

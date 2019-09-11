@@ -1,0 +1,77 @@
+<?
+$language['months'] = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+$language['days'] = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+$language['abrvdays'] = array("<font color=B1C6F3>Su</font>", "Mo", "Tu", "We", "Th", "Fr", "<font color=B1C6F3>Sa</font>");
+// eventdisplay.php
+$language['otheritems'] = "Also On This Day:";
+$language['deleteconfirm'] = "Are you sure you want to delete this item?";
+$language['postedby'] = "Posted by";
+// index.php
+$language['login'] = "Login";
+$language['logout'] = "Logout";
+$language['adminlnk'] = "User Admin";
+$language['changepw'] = "Change Password";
+// editnews_page.php
+$language['datetext'] = "Date:";
+$language['title'] = "Title:";
+$language['text'] = "Text:";
+$language['cancel'] = "Cancel";
+$language['editeventtitle'] = "phpEventCalendar: Event Edit Screen";
+$language['editheader'] = "Edit Event";
+$language['editbutton'] = "Update";
+$language['updated'] = "Updated";
+$language['addeventtitle'] = "phpEventCalendar: Event Add Screen";
+$language['addheader'] = "Add New Event";
+$language['addbutton'] = "Post";
+$language['added'] = "Added";
+$language['starttime'] = "Start Time:";
+$language['endtime'] = "End Time:";
+$language['titlemissing'] = "The Title is Missing";
+$language['missingevent'] = "Error: event does not exit";
+$language['accessdenied'] = "Authorization Required.  You are not logged in.  Click <a href=\"index.php\">here</a> to return to the calendar.";
+$language['popaccessdenied'] = "Access Denied!!!  Please login to access this page.";
+$language['Day View']="Day View";
+$language['Today']="Today";
+$language['Week ']="Week ";
+$language['Month View']="Month View";
+$language['Year View']="Year View";
+$language['Search in Calendar']="Search in Calendar";
+$language['Add Event']="Add Event";
+$language['Time']="Time";
+$language['Date']="Date";
+$language['No events for']="No events for";
+$language['No events for the month']="No events for the month";
+$language['Events for the week']="Events for the week";
+$language['No events for the week']="No events for the week";
+$language['No SEARCH results found in Calendar for']="No SEARCH results found in Calendar for";
+$language['SEARCH results in Calendar for']="SEARCH results in Calendar for";
+$language['Are you sure, you want to delete the event?']="Are you sure, you want to delete the event?";
+$language['Events for the month']="Events for the month";
+$language['Event Description']="Event Description";
+$language['noTitle']="You have sent an event without a Title. Always use Title for the events. Try again!";
+$language['Public']="Public";
+$language['Private']="Private";
+// general
+$language['The query is']="The query is";
+$language['Invalid DataBase Query']="Invalid DataBase Query";
+$language['ERROR']="ERROR";
+$language['Go'] = "Go";
+$language['Add User']= "Add Usear";
+$language['Manage Users']= "Manage Users";
+$language['Edit Page']=   "Edit Page";
+$language['Are you sure, you want to add a new page?']= "Are you sure, you want to add a new page?";
+$language['Add Page']=  "Add Page";
+$language['Site Config']= "Site Config";
+$language['Please Register']="Please Register";
+$language['User Online']=   "User Online";
+$language['Users Online']=  "Users Online";
+$language['MENU']="MENU";
+$language['Admin menu']="Admin menu";
+$language['Users (Login)']="Users (Login)";
+$language['(Logout)']="(Logout)";
+$language['Delete']="Delete";
+$language['Posted by']="Posted by";
+$language['Edit']="Edit";
+$language['Currently there is']="Currently there is";
+$language['Currently there are']="Currently there are";
+?>

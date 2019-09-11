@@ -1,0 +1,47 @@
+{
+
+    "app_header": "NatureQuiz",
+    "quiz_description": "[RU] Web-version of the famous Android game!",
+    "quiz_development_note": "[RU] Note! This version is currently being developed and does not have all the functions the Android game has. For the Android game check <a href=\"https://play.google.com/store/apps/details?id=net.blankpace.naturequiz\">Google Play</a>.",
+    "nav_toggle": "[RU] Toggle navigation",
+    "nav_home": "[RU] Home",
+    "nav_help": "[RU] Instructions",
+    "play_button": "Играть",
+    "footer_version": "[RU] NatureQuiz v0.1.2",
+
+    "settings_text": "Настройки",
+    "settings_general": "Общие",
+    "settings_language": "Язык",
+    "settings_locale_fi": "Финский (Suomi)",
+    "settings_locale_en": "Английский (English)",
+    "settings_locale_ru": "Русский",
+    "help_title": "[RU] Instructions for playing the game",
+    "help_description": "В Nature Quiz ты увидишь разные картинки, и тебе нужно написать , что изображено на картинке. Например, если изображен медведь, тебе нужно написать \"медведь\". Не нужно определять, бурый или белый, достаточно просто написать \"медведь\".Чтобы начать игру в Nature Quiz, выбери \"Играть\" на первом экране. На втором экране выбери тот раздел, в котором ты хочешь проверить свои знания. После этого ты увидишь картинки и если ты хочешь (или не знаешь ответ), то картинку можно пропустить и перейти к следующей. Желаем приятно провести время с Nature Quiz - Игрой о природе! Information from Wikipedia. Thanks for the pictures goes to: <ul><li>http://pixabay.com/</li><li>http://commons.wikimedia.org/wiki/</li></ul>",
+
+    "title_activity_play": "Игра",
+    "title_activity_final": "Завершен",
+    "title_activity_category": "Разделы",
+    "quiz_read_more": "[RU] Read more on Wikipedia",
+    "quiz_facts": "[RU] Fun facts:",
+    "quiz_picture_description": "Картинка в игре",
+    "quiz_answer_placeholder": "Напиши ответ здесь",
+    "quiz_answer_button": "Сделано",
+    "quiz_next_button": "ОК",
+    "quiz_complete_game": "Заверши игру",
+    "quiz_category_text": "Раздел",
+    "quiz_dialog_reset_category": "Сбросить результаты в этом разделе?",
+    "quiz_dialog_yes": "Да",
+    "quiz_dialog_no": "Нет",
+
+    "game_action_back_fast": "Вернуться назад",
+    "game_action_back": "Назад",
+    "game_action_forward": "Вперед",
+    "game_action_forward_fast": "Перейти вперед",
+
+    "quiz_default_hint": "Подсказка",
+    "quiz_default_answer_text": "Правильно!",
+    "quiz_default_synonym_answer_text": "Почти угадал, зачтем за правильный ответ!",
+    "quiz_default_incorrect_answer_text": "Попробуй снова!",
+    "quiz_default_category_completed": "Молодец! Все уровни этого раздела завершены. Посмотрим, сможешь ли ты справиться с другими разделами игры!",
+    "quiz_default_category_progress": "Хорошо! Но ты не ответил на некоторые вопросы. Попробуй ответить и на них!"
+}

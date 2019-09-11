@@ -1,0 +1,157 @@
+body {
+ 		background: #3A85A4 url('tausta.jpg') repeat-x;
+		font-family: Verdana,Arial,sans-serif;
+		color: #000000;
+ 		text-align: center;}
+h1 {font-size: 1.8em;}
+h2 {background-color: #E1E1FF; font-size: 1.2em; padding: 7px 0 7px 5px;}
+h3 {padding: 0 0 0 25px;}
+p {padding-left: 20px;}
+img {border-width: 0px; padding: 0px; margin: 0px;}
+dt {background-color: #E1E1FF;}
+a {}
+a:hover {}
+a:active {}
+a:visited {}
+
+/****************************** HEADER ***********************************/
+
+#otsikko {
+		width: 760px;
+		height: 120px;
+		border-width: 2px 2px 0px 2px;
+		border-style: solid;
+		border-color: #4B525C;
+		margin: 15px auto 0px auto;
+		background-color: #7BA7D6;}
+
+/****************************** NAVBAR ***********************************/
+
+#navbar {
+		width: 760px;
+		height: 40px;
+		border-width: 0px 2px 0px 2px;
+		border-style: solid;
+		border-color: #4B525C;
+		margin: 0px auto 0px auto;
+		background: #7BA7D6 url('back.jpg') repeat-x;
+		color: #FFFFFF;}
+
+#navbar ul {margin: 0px; padding: 5px;}
+#navbar li {display: inline;}
+#navbar a {color: #FFFFFF; padding: 10px 35px 10px 35px;}
+#navbar a:hover {background-color: #0E3F64;}
+
+/***************************** MAIN ************************************/
+
+#main {
+		width: 760px;
+		border-width: 0px 2px 0px 2px;
+		border-style: solid;
+		border-color: #4B525C;
+		margin: 0px auto 0px auto;
+		background-color: #FFFFFF;
+		text-align: left;}
+
+#sisalto {padding: 5px;}
+#ylakuva {text-align: left;}
+#alakuva {text-align: right;}
+
+/***************************** FOOTER ************************************/
+
+#footer {
+		width: 760px;
+		height: 80px;
+		border-width: 2px 2px 0px 2px;
+		border-style: solid;
+		border-color: #4B525C;
+		margin: 0px auto 0px auto;
+		text-align: center;}
+#footer a {color: #000066;}
+#footer td {text-align: center; font-size: 0.7em;}
+#footer #foot-vas {width: 150px;}
+#footer #foot-kesk {width: 410px;}
+#footer #foot-oik {width: 250px;}
+
+#alavas {float: left;}
+#alaoik {float: right;}
+
+/******************************* CV **********************************/
+
+#cv table {
+		border-collapse: collapse;
+		border-width: 0px;
+		margin-left: 25px;}
+#cv tr {}
+#cv th {
+		background-color: #F0F0FF;
+		border-bottom: 2px solid #FFFFFF;
+		border-right: 2px solid black;
+		text-align: left;
+		vertical-align: top;
+		padding-left: 5px;
+		width: 200px;}
+#cv td {
+		border-bottom: 2px solid #F0F0FF;
+		padding-left: 5px;
+		width: 490px;}
+.cvhr {
+		background-color: #E1E1FF; 
+		color: #E1E1FF; 
+		border-width: 0px; 
+		height: 3px; 
+		width: 250px;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;}
+.lang {width: 135px !important;}
+.langhead {width: 135px !important; text-decoration: underline;} 
+
+/*****************************************************************/
+
+#floatbox {float: right; margin-left: 5px;}
+#floatbox table {width: 200px; border: 3px double black;}
+#floatbox th {border-bottom: 1px solid black; padding-top: 5px; text-align: left;}
+.floatpic {float: right;}
+
+#guestbook {margin-left: 20px;}
+#wtd1 {width: 150px;}
+#wtd2 {width: 450px;}
+.td1 {width: 150px;}
+.td2 {width: 520px; border: 1px solid #AAAAAA; padding-left: 5px;}
+
+#gally {border: 1px solid black; margin: 0 auto 0 auto; text-align: center;}
+#gally tr {vertical-align: top;}
+#gally td {border: 1px solid black;}
+#gallylink {text-align: center; font-size: 1.3em;}
+
+#picadd {padding-left: 15px;}
+#picview {padding-left: 15px; border: 1px solid black; margin: 0 auto 0 auto;}
+#picview th {width: 150px;}
+#picview td {width: 550px; text-align: left;}
+.picturecoms {padding-left: 20px;}
+.border {width: 230px; border: 1px solid #AAAAAA;}
+
+.smalltext {font-size: 0.6em;}
+.padding {padding-left: 20px;}
+
+.center {margin: 0 auto 0 auto; text-align: center;}
+.center .text {text-align: left;}
+
+/****************************** PRINT ***********************************/
+
+@media print {
+		body {background: none;}
+		a {color: #000000;}
+		img {display: none;}
+		#otsikko {border: 0; display: none;}
+		#navbar {border: 0; display: none;}
+		#main {border: 0; background: none; width: 640px;}
+		#footer {border: 0; display: none;}
+}
+
+@media handheld {
+		img {display: none;}
+		#navbar {background-color: white;}
+		#floatbox {display: none;}
+}

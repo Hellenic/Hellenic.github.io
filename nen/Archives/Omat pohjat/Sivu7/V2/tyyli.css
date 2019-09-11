@@ -1,0 +1,197 @@
+body
+{
+	background-color: #666666;
+	font-family: Verdana,Arial,sans-serif;
+	color: #000000; 
+	text-align: center;
+/* 	overflow-y: scroll; */
+}
+
+p
+{
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+img
+{
+	border: 0px;
+}
+
+h1,h2,h3
+{
+  padding-left: 5px;
+}
+
+a {}
+a:hover {}
+a:visited {}
+
+dt
+{
+ 	padding-left: 5px;
+ 	background-color: #BBBBBB;
+}
+
+hr
+{
+ 	color: #B6B6B6;
+}
+
+
+/* -----=====----- ****** -----=====----- */
+
+
+table#main
+{
+  border-spacing: 0px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table#main td
+{
+	border-style: solid;
+	border-color: black;
+}
+
+table#links td
+{ 
+	vertical-align: top;
+}
+
+#otsikko
+{
+	background-color: #E0E0E0;
+}
+
+#ots1
+{
+	width: 30px;
+	border-width: 2px 0px 0px 2px;
+}
+
+#ots2
+{
+	width: 570px;
+	text-align: center;
+	border-width: 2px 0px 2px 0px;
+}
+
+#ots3
+{
+	width: 30px;
+	background-color: #E0E0E0;
+	border-width: 2px 2px 0px 0px;
+}
+
+#gleft
+{
+	background-color: #E0E0E0;
+	border-width: 0px 0px 0px 2px;
+}
+
+#gmid
+{
+	background-color: #E0E0E0;
+	border-width: 2px 2px 2px 0px;
+	padding: 4px;
+}
+
+#gright
+{
+	background-color: #B6B6B6;
+	border-width: 0px 2px 0px 0px;
+}
+
+#navleft
+{
+	height: 30px;
+	width: 30px;
+	background-color: #E0E0E0;
+	border-width: 0px 0px 0px 2px;
+}
+
+#navbar
+{
+	height: 30px;
+	background-color: #C1C1C1;
+	border-width: 0px 2px 0px 2px;
+	padding-left: 5px;
+}
+
+#navright
+{
+	height: 30px;
+	width: 30px;
+	background-color: #E0E0E0;
+	border-width: 0px 2px 0px 0px;
+}
+
+#navbar a:hover 
+{
+	background-color: #D7D7D7;
+/*	-moz-border-radius: 4px 4px 4px 4px; */
+}
+
+#leftbar
+{
+	height: 450px;
+	width: 30px;
+	background-color: #E0E0E0;
+	vertical-align: top;
+	border-width: 0px 0px 0px 2px;
+}
+
+#sisalto
+{
+	height: 450px;
+	width: 570px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	border-width: 2px 2px 0px 2px;
+	padding-bottom: 5px;
+}
+
+#rightbar
+{
+	height: 450px;
+	width: 30px;
+	background-color: #E0E0E0;
+	vertical-align: top;
+	border-width: 0px 2px 0px 0px;
+}
+
+#footer
+{
+	background-color: #E0E0E0;
+	text-align: right;
+	border-width: 2px 2px 2px 2px;
+}
+
+#ankka
+{
+	float: right;
+}
+
+.copyr
+{
+	font-size: 0.7em;
+}
+
+.old-fi
+{
+	font-size: 0.8em;
+}
+
+
+@media print 
+{
+body {background: none;}
+a {color: #000000;}
+#main {background: none;}
+#navbar {background: none;}
+#otsikko {background: none;}
+#footer {background: none;}
+}

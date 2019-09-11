@@ -1,0 +1,7 @@
+Sky:
+
+- Esineille eri "hinnat"
+- Ajoissa tuleminen eventtiin +1 pojo
+- Henkilöt haluavat saman tavaran mutta toisella pelaajalla on enemmän pisteitä joten hän saa lottia.
+	Saman verran pisteitä = kumpikin lottaa.
+- 

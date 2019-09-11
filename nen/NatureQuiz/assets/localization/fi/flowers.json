@@ -1,0 +1,249 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Kukat",
+        "name": "quiz_flowers_name"
+      },
+      {
+        "_": "Testaa kuinka hyvin tunnet yleisimmät kukat!",
+        "name": "quiz_flowers_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kukat",
+        "name": "quiz_flowers_link"
+      },
+      {
+        "_": "Voikukka",
+        "name": "quiz_flowers_dandelion_name"
+      },
+      {
+        "name": "quiz_flowers_dandelion_hint"
+      },
+      {
+        "_": "Voikukat (Taraxacum) on asterikasveihin kuuluva kasvisuku, johon kuuluu muun muassa tavallinen voikukka. Voikukat eivät ole kovin vaativia kasvuympäristön suhteen. Ne suosivat valoisia, kuivia alueita. Voikukat saattavat kasvaa kuivalla puoliaavikolla, tunturissa tai jäätikön reunalla. Tunturissa viihtyvät tunturivoikukka ja atlanninvoikukka ja napa-alueella kasvaa mm. valkoinen lumivoikukka ja tavallisemman näköisiä voikukkiakin.",
+        "name": "quiz_flowers_dandelion_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Voikukat",
+        "name": "quiz_flowers_dandelion_link"
+      },
+      {
+        "_": "Leskenlehti",
+        "name": "quiz_flowers_coltsfoot_name"
+      },
+      {
+        "name": "quiz_flowers_coltsfoot_hint"
+      },
+      {
+        "_": "Leskenlehti (Tussilago farfara) on asterikasveihin kuuluva monivuotinen, matalakasvuinen kasvi. Sitä tavataan yleisesti lähes koko Euroopassa. Myös Suomessa se on hyvin yleinen laji. Leskenlehti on Itä-Uudenmaan maakuntakasvi.",
+        "name": "quiz_flowers_coltsfoot_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Leskenlehti",
+        "name": "quiz_flowers_coltsfoot_link"
+      },
+      {
+        "_": "Ruusu",
+        "name": "quiz_flowers_rose_name"
+      },
+      {
+        "name": "quiz_flowers_rose_hint"
+      },
+      {
+        "_": "Ruusut (Rosa) on suku ruusukasvien heimossa. Sukuun kuuluu yli sata lajia. Ruusut ovat puuvartisia pensaita tai melko jäykkävartisia köynnöksiä. Ruusuja käytetään yleisesti koristekasveina. Suvusta on jalostettu runsaasti erilaisia lajikkeita koristekasvikäyttöön, joista monia käytetään leikkokukkina. Ruusut ovat piikkisiä pensaita tai köynnöksiä. Ruusun lehdet ovat yleensä 5–15 cm pitkät ja niissä on yleisimmin 5–9 lehdykkää. Lehtien koko ja värisävyt vaihtelevat, samoin piikkien määrä ja koko.",
+        "name": "quiz_flowers_rose_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Ruusut",
+        "name": "quiz_flowers_rose_link"
+      },
+      {
+        "_": "Keltamo",
+        "name": "quiz_flowers_celandine_name"
+      },
+      {
+        "name": "quiz_flowers_celandine_hint"
+      },
+      {
+        "_": "Keltamo (Chelidonium majus) on unikkokasveihin kuuluva monivuotinen keltakukkainen ruohokasvi, jonka varresta erittyy oranssia maitiaisnestettä. Se luetaan yleensä Chelidonium-suvun ainoaksi edustajaksi. Keltamoa tavataan varsinkin Euroopassa, mutta melko laajasti myös muissa maanosissa pohjoisella pallonpuoliskolla. Myrkyllisyydestään huolimatta lajia on käytetty muinoin rohtokasvina.",
+        "name": "quiz_flowers_celandine_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Keltamo",
+        "name": "quiz_flowers_celandine_link"
+      },
+      {
+        "_": "Lumikellot",
+        "name": "quiz_flowers_snowdrop_name"
+      },
+      {
+        "name": "quiz_flowers_snowdrop_hint"
+      },
+      {
+        "_": "Lumikellojen uloimmat kolme kehälehteä ovat pitempiä kuin sisemmät kehälehdet. Sisemmissä kehälehdissä on yleensä vihreä kuvio.",
+        "name": "quiz_flowers_snowdrop_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Galanthus",
+        "name": "quiz_flowers_snowdrop_link"
+      },
+      {
+        "_": "Ruiskaunokki",
+        "name": "quiz_flowers_cornflower_name"
+      },
+      {
+        "name": "quiz_flowers_cornflower_hint"
+      },
+      {
+        "_": "Ruiskaunokki (Centaurea cyanus) eli ruiskukka on 30–70 cm korkea sinikukkainen, yksivuotinen mykerökukkainen kasvi. Se on peräisin Italian kuivilta vuorenrinteiltä. Suomessa se on muinaistulokas, jota kasvaa pelloilla, puutarhoissa, pientareilla ja joutomailla maan eteläosissa. Ruiskaunokki on aikaisemmin kasvanut hyvin yleisenä ruispelloissa, mutta nykyään se on harvinaistunut. Ruiskaunokki on myös vanha puutarhakasvi. Se kukkii heinä-syyskuussa.",
+        "name": "quiz_flowers_cornflower_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Ruiskaunokki",
+        "name": "quiz_flowers_cornflower_link"
+      },
+      {
+        "_": "Tarhaneilikka",
+        "name": "quiz_flowers_carnation_name"
+      },
+      {
+        "name": "quiz_flowers_carnation_hint"
+      },
+      {
+        "_": "Tarhaneilikka (Dianthus caryophyllus) on leikkokukaksi viljeltävä kohokkikasvien laji. Se on luultavasti alkujaan välimeren seudulta kotoisin, mutta sitä on viljelty yli kahdentuhannen vuoden ajan, ja siitä on jalostettu lukuisia näyttäviä lajikkeita.\n\nTarhaneilikka on ruohovartinen monivuotinen kasvi. Sen varsi kasvaa noin 80 cm pitkäksi. Lehdet ovat kapeat, harmahtavat ja vahapintaiset. Kukat kasvavat yksittäin tai 3-5 kukan kukintoina.",
+        "name": "quiz_flowers_carnation_description"
+      },
+      {
+        "_": "http://fi.wikipedia.org/wiki/Tarhaneilikka",
+        "name": "quiz_flowers_carnation_link"
+      },
+      {
+        "_": "Englanninsinililja",
+        "name": "quiz_flowers_bluebell_name"
+      },
+      {
+        "name": "quiz_flowers_bluebell_hint"
+      },
+      {
+        "_": "Englanninsinililja (Hyacinthoides non-scripta) on parsakasveihin (Asparagaceae, aiemmassa luokittelussa hyasinttikasveihin, Hyacinthaceae) kuuluva monivuotinen sipulikasvi, jota viljellään koristekasvina. Laji esiintyy alkuperäisenä Britteinsaarilla, Belgiassa, Hollannissa, Ranskassa ja Espanjassa.\n\nEnglanninsinililja kasvaa 20:stä 30:een senttimetriä korkeaksi. Kukkavanat ovat kärjestä nuokkuvat. Niissä kasvaa runsaasti sinisiä pyöreäpohjaisia kellokukkia. Laji kukkii keväällä tai alkukesällä.",
+        "name": "quiz_flowers_bluebell_description"
+      },
+      {
+        "_": "http://fi.wikipedia.org/wiki/Englanninsinililja",
+        "name": "quiz_flowers_bluebell_link"
+      },
+      {
+        "_": "Daalia",
+        "name": "quiz_flowers_dahlia_name"
+      },
+      {
+        "name": "quiz_flowers_dahlia_hint"
+      },
+      {
+        "_": "Daaliat (Dahlia) on mehevävartisten kesällä kukkivien kasvien suku. Ne ovat alun perin kotoisin Meksikosta, josta tuotiin daalian mukuloita Hollantiin 1872. Nykyisin daaliasta on jalostettu satoja hybridejä. Suku on saanut nimensä nuoren ruotsalaisen kasvitieteilijän Anders Dahlin mukaan.s\n\nPerinteiset daaliat (joriinit) kasvavat 60–80 cm korkeiksi ja tekevät punasävyisiä pallomaisia kukkia. Niiden mukulat nostetaan Suomen oloissa talveksi kellariin. Etenkin parvekkeille on jalostettu kesädaalioita, jotka eivät talvehdi, mutta pysyvät matalina ja haarautuvat hyvin tuottaen pitkäaikaista kukkaloistoa.",
+        "name": "quiz_flowers_dahlia_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Daaliat",
+        "name": "quiz_flowers_dahlia_link"
+      },
+      {
+        "_": "Tarhakehäkukka",
+        "name": "quiz_flowers_marigold_name"
+      },
+      {
+        "name": "quiz_flowers_marigold_hint"
+      },
+      {
+        "_": "Tarhakehäkukka (Calendula officinalis) on yksivuotinen asterikasvien (Asteraceae) heimoon kuuluva kasvi, jota käytetään koriste- ja hyötykasvina. Tarhakehäkukka kasvaa 20–50 cm:n pituiseksi. Kukinto on 4–7 cm:n levyinen mykerö, jossa laitakukat ovat kielellisiä emikukkia, jotka ovat väriltään keltaisia tai oransseja ja kehräkukat hedekukkia, jotka ovat ruskehtavia torvikukkia.",
+        "name": "quiz_flowers_marigold_description"
+      },
+      {
+        "_": "http://fi.wikipedia.org/wiki/Tarhakehäkukka",
+        "name": "quiz_flowers_marigold_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_flowers_dandelion_answers",
+        "item": "voikukka"
+      },
+      {
+        "name": "quiz_flowers_dandelion_facts"
+      },
+      {
+        "name": "quiz_flowers_coltsfoot_answers",
+        "item": "leskenlehti"
+      },
+      {
+        "name": "quiz_flowers_coltsfoot_facts"
+      },
+      {
+        "name": "quiz_flowers_rose_answers",
+        "item": "ruusu"
+      },
+      {
+        "name": "quiz_flowers_rose_facts"
+      },
+      {
+        "name": "quiz_flowers_celandine_answers",
+        "item": "keltamo"
+      },
+      {
+        "name": "quiz_flowers_celandine_facts"
+      },
+      {
+        "name": "quiz_flowers_snowdrop_answers",
+        "item": [
+          "lumikello",
+          "galanthus"
+        ]
+      },
+      {
+        "name": "quiz_flowers_snowdrop_facts"
+      },
+      {
+        "name": "quiz_flowers_cornflower_answers",
+        "item": "ruiskaunokki"
+      },
+      {
+        "name": "quiz_flowers_cornflower_facts"
+      },
+      {
+        "name": "quiz_flowers_carnation_answers",
+        "item": "tarhaneilikka"
+      },
+      {
+        "name": "quiz_flowers_carnation_facts"
+      },
+      {
+        "name": "quiz_flowers_bluebell_answers",
+        "item": [
+          "sinililja",
+          "englanninsinililja"
+        ]
+      },
+      {
+        "name": "quiz_flowers_bluebell_facts"
+      },
+      {
+        "name": "quiz_flowers_dahlia_answers",
+        "item": "daalia"
+      },
+      {
+        "name": "quiz_flowers_dahlia_facts"
+      },
+      {
+        "name": "quiz_flowers_marigold_answers",
+        "item": [
+          "kehäkukka",
+          "tarhakehäkukka"
+        ]
+      },
+      {
+        "name": "quiz_flowers_marigold_facts"
+      }
+    ]
+  }
+}

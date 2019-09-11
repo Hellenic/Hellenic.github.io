@@ -1,0 +1,69 @@
+	<h1>{{date | date:'EEEE dd.MM.yyyy @ HH:mm:ss' }}</h1>
+	<p class="lead">Our old wonderful HourTrap taken to this century.</p>
+
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title">Tasks</h3>
+		</div>
+		<div class="panel-body">
+			<div class="row form-inline" ng-class="{well: task.active}" ng-repeat="task in tasks">
+
+				<div class="col-md-1">
+					<img src="img/task.png" style="max-height: 50px; max-width: 50px" />
+				</div>
+				<div class="col-md-2">
+					<label class="col-sm-1 control-label">
+						{{task.start | date:'HH:mm:ss' }}
+					</label><br />
+					<label class="col-sm-2 control-label">
+						{{getDuration(task.duration) | date:'HH:mm:ss' }}
+					</label>
+				</div>
+
+				<div class="col-md-6">
+					<input type="text" class="form-control" ng-model="task.customer" placeholder="Customer" />
+
+					<select ng-model="task.type" class="form-control">
+						<option>Implementation</option>
+						<option>Documentation</option>
+						<option>Testing</option>
+						<option>Work</option>
+						<option>Meeting</option>
+						<option>Lunch</option>
+						<option>Break</option>
+						<option>Personal</option>
+						<option>Off</option>
+					</select>
+
+					<textarea class="form-control" ng-model="task.description" placeholder="Description" rows="1" cols="20">
+					</textarea>
+				</div>
+
+				<div class="col-md-3">
+					<button class="btn btn-primary" ng-click="activateTask(task)">Activate</button>
+					<button class="btn btn-default" ng-click="clearTask(task)">Clear</button>
+					<button class="btn btn-default" ng-click="removeTask(task)">Remove</button>
+				</div>
+
+			</div>
+
+			<div class="row form-inline">
+				<div class="col-md-1">
+					&nbsp;
+				</div>
+				<div class="col-md-2">
+					<label class="control-label">
+						Total: {{getTotalDuration() | date:'HH:mm:ss' }}
+					</label>
+				</div>
+			</div>
+
+			<hr />
+			<button class="btn btn-lg btn-primary" ng-click="addTask()">Add</button>
+
+			<button class="btn btn-lg btn-primary" ng-click='toggleModal()'>Copy data</button>
+			<div style="display: none; width: 70%; height: 40%;" title="TaskData" id="taskData">
+				<textarea style="width: 100%; height: 100%;">[Content]<textarea>
+			</div>
+		</div>
+	</div>

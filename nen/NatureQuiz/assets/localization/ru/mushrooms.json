@@ -1,0 +1,186 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Грибы",
+        "name": "quiz_mushrooms_name"
+      },
+      {
+        "_": "Проверь, как ты знаешь грибы!",
+        "name": "quiz_mushrooms_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Грибы",
+        "name": "quiz_mushrooms_link"
+      },
+      {
+        "_": "Белый гриб",
+        "name": "quiz_mushrooms_cep_name"
+      },
+      {
+        "name": "quiz_mushrooms_cep_hint"
+      },
+      {
+        "_": "Бе́лый гриб (лат. Boletus edulis), или борови́к (сокращённо: белый) — гриб из рода Боровик.В старину «грибами» называли главным образом съедобные грибы, в наибольшей мере это слово относилось к белому грибу как к наиболее ценному. Шляпка зрелого гриба диаметром 7—30 см (иногда до 50 см), выпуклая, у старых грибов плоско-выпуклая, редко распростёртая. Поверхность гладкая или морщинистая, в сухую погоду может растрескиваться, голая, может быть тонковойлочная (особенно у края), редко волокнисто-чешуйчатая. Во влажную погоду поверхность слегка слизистая, в сухую матовая или блестящая. Цвет кожицы — от красно-коричневого до почти белого, с возрастом темнеет, может также быть лимонно-жёлтых, оранжевых, пурпурных тонов, часто окраска неравномерная, со светлыми краями, иногда с узким чисто-белым или желтоватым ободком. Кожица приросшая, не отделяется от мякоти.",
+        "name": "quiz_mushrooms_cep_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Белый_гриб",
+        "name": "quiz_mushrooms_cep_link"
+      },
+      {
+        "_": "Gyromitra esculenta",
+        "name": "quiz_mushrooms_morel_name"
+      },
+      {
+        "name": "quiz_mushrooms_morel_hint"
+      },
+      {
+        "_": "Строчок обыкновенный (лат. Gyromitra esculenta) — вид сумчатых грибов рода Строчок (Gyromitra) семейства Дисциновые (Discinaceae) порядка Пецицевые (Pezizales); типовой вид рода. Широко распространён в Европе и Северной Америке. Сапротроф. Обитает на гарях, песчаных почвах. Преимущественно встречается под хвойными деревьями. Плодовые тела появляются в апреле-мае. Хотя данный гриб является условно съедобным,известны случаи отравления. Употребление строчка распространено в некоторых странах Европы и Северной Америки. В Италии его продажа запрещена.",
+        "name": "quiz_mushrooms_morel_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Строчок_обыкновенный",
+        "name": "quiz_mushrooms_morel_link"
+      },
+      {
+        "_": "Лиси́чка обыкнове́нная",
+        "name": "quiz_mushrooms_chanterelle_name"
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_hint"
+      },
+      {
+        "_": "Лиси́чка обыкнове́нная, или Лисичка настоя́щая (лат. Cantharēllus cibārius) — вид грибов семейства лисичковых.  Образует микоризу с различными деревьями, наиболее часто с елью, сосной, дубом, буком. Встречается повсеместно в лесах умеренного климата, чаще в хвойных и смешанных лесах, во влажном мху, среди травы или под опадом. Образует плодовые тела, расположенные группами, часто очень многочисленными, часто появляется летом после грозовых дождей.",
+        "name": "quiz_mushrooms_chanterelle_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Лисичка_обыкновенная",
+        "name": "quiz_mushrooms_chanterelle_link"
+      },
+      {
+        "_": "Мухомо́р кра́сный",
+        "name": "quiz_mushrooms_flyagaric_name"
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_hint"
+      },
+      {
+        "_": "Мухомо́р кра́сный (лат. Amanita muscaria) — ядовитый психоактивный гриб рода Мухомор, или Аманита (лат. Amanita) порядка агариковых (лат. Agaricales), относится к базидиомицетам. Мухомор красный использовался как опьяняющее вещество и энтеоген в Сибири и имел религиозное значение в местной культуре. Во многих европейских языках название этого гриба происходит от старинного его способа применения — в качестве средства против мух (англ. fly agaric, нем. Fliegenpilz, фр. amanite tue-mouches), латинский видовой эпитет тоже происходит от слова «муха» (лат. musca). В славянских языках слово «мухомор» (польск. muchomor, болг. мухоморка, чеш. muchomůrka и др.) стало названием рода Amanita.",
+        "name": "quiz_mushrooms_flyagaric_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Мухомор_красный",
+        "name": "quiz_mushrooms_flyagaric_link"
+      },
+      {
+        "_": "Боровик",
+        "name": "quiz_mushrooms_annulatedboletus_name"
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_hint"
+      },
+      {
+        "_": "Борови́к, или Бо́лет (Бо́летус) (лат. Bolētus) — род грибов семейства Болетовые (лат. Boletaceae). Боровиком называют также один из наиболее распространённых видов этого рода — Белый гриб. Некоторыми микологами к роду Боровик часто причисляются представители рода Моховик (лат. Xerocomus). Боровики издавна используются в пищу.",
+        "name": "quiz_mushrooms_annulatedboletus_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Боровик",
+        "name": "quiz_mushrooms_annulatedboletus_link"
+      },
+      {
+        "_": "Сырое́жка",
+        "name": "quiz_mushrooms_russula_name"
+      },
+      {
+        "name": "quiz_mushrooms_russula_hint"
+      },
+      {
+        "_": " (лат. Rússula, от лат. rússulus — красноватый) — род пластинчатых грибов семейства Сыроежковые (лат. Russulaceae). Большинство грибов этого рода съедобно, некоторые имеют горький вкус, однако он обычно исчезает после вымачивания и отваривания. Виды со жгуче-едкой мякотью несъедобны, их часто описывают как ядовитые. При употреблении в сыром виде они сильно раздражают слизистые оболочки, что может привести к рвоте, но такое действие нельзя считать отравлением в полном смысле.",
+        "name": "quiz_mushrooms_russula_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Сырое́жка",
+        "name": "quiz_mushrooms_russula_link"
+      },
+      {
+        "_": "Шампиньо́н",
+        "name": "quiz_mushrooms_champignon_name"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_hint"
+      },
+      {
+        "_": "Шампиньо́н двуспо́ровый (лат. Agaricus bisporus) — вид грибов рода шампиньонов. В природных условиях встречается сравнительно редко, обычно на местах, лишённых травы. Плодоносит большими группами на компостных кучах, в садах, около теплиц, в придорожных канавах.",
+        "name": "quiz_mushrooms_champignon_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Шампиньо́н",
+        "name": "quiz_mushrooms_champignon_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_mushrooms_cep_answers",
+        "item": "Белый гриб"
+      },
+      {
+        "name": "quiz_mushrooms_cep_facts"
+      },
+      {
+        "name": "quiz_mushrooms_morel_answers",
+        "item": [
+          "строчок",
+          "строчок обыкновенный"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_morel_facts",
+        "item": "Съедобный"
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_answers",
+        "item": "лисичка"
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_facts",
+        "item": "Съедобный"
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_answers",
+        "item": "мухомор"
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_facts",
+        "item": "Ядовитый"
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_answers",
+        "item": [
+          "боровик",
+          "болет"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_facts",
+        "item": "Ядовитый/Съедобный"
+      },
+      {
+        "name": "quiz_mushrooms_russula_answers",
+        "item": "Сырое́жка"
+      },
+      {
+        "name": "quiz_mushrooms_russula_facts",
+        "item": "Съедобный"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_answers",
+        "item": "Шампиньо́н"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_facts",
+        "item": "Съедобный"
+      }
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Isot linnut",
+        "name": "quiz_bigbirds_name"
+      },
+      {
+        "_": "Miten hyvin tunnet isoja lintuja?",
+        "name": "quiz_bigbirds_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Linnut",
+        "name": "quiz_bigbirds_link"
+      },
+      {
+        "_": "Ankka",
+        "name": "quiz_bigbirds_duck_name"
+      },
+      {
+        "name": "quiz_bigbirds_duck_hint"
+      },
+      {
+        "_": "Ankka (Anas platyrhynchos f. domestica) on sinisorsan kesytetty, kotieläimeksi jalostettu muoto. Sinisorsasta jalostetun tavallisen ankan lisäksi ankoiksi voidaan nimittää Amerikasta peräisin olevan myskisorsan (Cairina moschata) tarhattuja ja jalostettuja muotoja.Ankkaa on todennäköisesti alettu kasvattaa Kiinassa yli 2 000 vuotta sitten, ja niitä on myös kasvatettu Rooman valtakunnassa ainakin jo 100 jaa. Kiinassa ankkoja on jo satoja vuosia laidunnettu korjatuilla riisiviljelmillä.",
+        "name": "quiz_bigbirds_duck_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/ankka",
+        "name": "quiz_bigbirds_duck_link"
+      },
+      {
+        "_": "Hanhi",
+        "name": "quiz_bigbirds_goose_name"
+      },
+      {
+        "name": "quiz_bigbirds_goose_hint"
+      },
+      {
+        "_": "Hanhet (Anserinae) on sorsien (Anatidae) heimon alaheimo. Hanhien alaheimoon kuuluvat varsinaiset hanhet ja joutsenet.Kesyhanhi on merihanhen kesytetty muoto.Hanhet ovat pitkäkaulaisia kasvinsyöjiä.",
+        "name": "quiz_bigbirds_goose_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/nanhet",
+        "name": "quiz_bigbirds_goose_link"
+      },
+      {
+        "_": "Joutsen",
+        "name": "quiz_bigbirds_swan_name"
+      },
+      {
+        "name": "quiz_bigbirds_swan_hint"
+      },
+      {
+        "_": "Joutsenet (Cygnus) on hanhien alaheimon (Anserinae) suku, johon kuuluu 6 nykyistä lajia. Joutsenet ovat vesilintuja ja niillä on pitkä kaula ja yleensä valkoinen höyhenpeite.Joutsenet voivat pitkän kaulansa ansioista syödä ruokaa kohtalaisen syvältä. Ne ovat raskaita lintuja, joten niiden lentoonlähtö on työlästä. Joutsenet solmivat elinikäisen parisuhteen kumppaninsa kanssa.",
+        "name": "quiz_bigbirds_swan_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/joutsenet",
+        "name": "quiz_bigbirds_swan_link"
+      },
+      {
+        "_": "Telkkä",
+        "name": "quiz_bigbirds_goldeneye_name"
+      },
+      {
+        "name": "quiz_bigbirds_goldeneye_hint"
+      },
+      {
+        "_": "Telkkä (Bucephala clangula) on sorsien heimoon kuuluva keskikokoinen kokosukeltaja. Telkkä on vilkas ja pirteä lintu, joka on varsinkin muuttoaikoina hyvin valpas ja varovainen. Sen lento on erityisen nopeaa ja linnun lentäessä kuuluu tunnusomainen viuhina. Telkkä nousee vedestä muiden kokosukeltajien tapaan juosten pitkin vedenpintaa.Suomeksi telkkää on kutsuttu vanhastaan myös sotkaksi. 1900-luvulla vakiintuneessa linnunnimistössä sotka-nimitystä käytetään kuitenkin Aythya-suvun sorsalinnuista.Kalevalassa maailma syntyy, kun Ilmattaren polvelle pesineen sotkan seitsemän munaa särkyvät. Runon sotkan tulkitaan tarkoittavan nimenomaan telkkää, joskin runon toisinnoissa esiintyy samassa roolissa myös muita lintuja, kuten alli ja haapana.",
+        "name": "quiz_bigbirds_goldeneye_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Telkkä",
+        "name": "quiz_bigbirds_goldeneye_link"
+      },
+      {
+        "_": "Kurki",
+        "name": "quiz_bigbirds_crane_name"
+      },
+      {
+        "name": "quiz_bigbirds_crane_hint"
+      },
+      {
+        "_": "Kurki (Grus grus) on kurkilintujen lahkoon kuuluva lintulaji.Kurjen vartalo on pääosin vaaleanharmaa. Sillä on musta pää ja kaulan yläosa sekä valkoinen poski. Takaraivolla kurjella on punainen paljas laikku, jonka koko vaihtelee. Nuorten kurkien pää on yksivärinen ja ruskehtava.",
+        "name": "quiz_bigbirds_crane_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kurki",
+        "name": "quiz_bigbirds_crane_link"
+      },
+      {
+        "_": "Haikara",
+        "name": "quiz_bigbirds_heron_name"
+      },
+      {
+        "name": "quiz_bigbirds_heron_hint"
+      },
+      {
+        "_": "Haikarat (Ardeidae) on haikaralintujen lahkoon kuuluva heimo.",
+        "name": "quiz_bigbirds_heron_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/haikarat",
+        "name": "quiz_bigbirds_heron_link"
+      },
+      {
+        "_": "Haukka",
+        "name": "quiz_bigbirds_hawk_name"
+      },
+      {
+        "name": "quiz_bigbirds_hawk_hint"
+      },
+      {
+        "_": "Haukat (Accipitridae) on suuri päiväpetolintujen heimo. Siihen kuuluvat kotkat sekä monet linnut, joiden nimen lopussa on \"haukka\". Osa haukka-nimisistä linnuista kuuluu kuitenkin jalohaukkoihin. Haukkojen nykyinen luokittelu on sekainen.",
+        "name": "quiz_bigbirds_hawk_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/haukat",
+        "name": "quiz_bigbirds_hawk_link"
+      },
+      {
+        "_": "Kotka",
+        "name": "quiz_bigbirds_eagle_name"
+      },
+      {
+        "name": "quiz_bigbirds_eagle_hint"
+      },
+      {
+        "_": "Kotkat ovat suurikokoisia päiväpetolintuja. Varsinaisten kotkien (Aquila) suvun lisäksi kotkiksi nimitetään myös useita muita haukkojen (Accipitridae) heimoon kuuluvien sukujen lintuja.Kaikki kotkiksi nimitetyt lajit eivät välttämättä ole läheistä sukua toisilleen. Sukupuolten väritykset ovat samanlaiset, mutta naaraat ovat tavallisesti koiraita suurempia. Vanhojen lintujen puku kehittyy vähitellen useiden vuosien kuluessa. Kotkilla on erittäin tarkka näköaisti.",
+        "name": "quiz_bigbirds_eagle_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/kotkat",
+        "name": "quiz_bigbirds_eagle_link"
+      },
+      {
+        "_": "Pöllö",
+        "name": "quiz_bigbirds_owl_name"
+      },
+      {
+        "name": "quiz_bigbirds_owl_hint"
+      },
+      {
+        "_": "Pöllöt (Strigidae) on lintuheimo. Ne ovat yöeläimiä, mutta jotkut liikkuvat päivälläkin. Pöllöille on tyypillistä suhteellisen suuri pää, lyhyt kaula ja koukkumainen lyhyt nokka. Sukupuolet ovat samannäköiset, mutta naaras on usein koirasta suurikokoisempi. Pöllöt tunnetaan hyvästä hämäränäöstä, lähes äänettömästä lennosta sekä noin 270 astetta kääntyvästä päästä. Pöllöillä on usein matalan suppilon mallinen naamakiehkura, joka kerää ääniä korva-aukkoon siten tehostaen sen kuuloa.",
+        "name": "quiz_bigbirds_owl_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/pöllöt",
+        "name": "quiz_bigbirds_owl_link"
+      },
+      {
+        "_": "Riekko",
+        "name": "quiz_bigbirds_grouse_name"
+      },
+      {
+        "name": "quiz_bigbirds_grouse_hint"
+      },
+      {
+        "_": "Riekko (Lagopus lagopus) eli metsäkana on pohjoisten alueiden keskikokoinen kanalintu. Riekko on Peräpohjolan maakuntalintu.Riekkoa tavataan yleisesti Pohjois-Euroopassa, Pohjois-Aasiassa ja Pohjois-Amerikassa. Suomessa riekko on Pohjois-Lapissa erittäin yleinen. Etelään päin tultaessa kannat pienenevät, mutta voivat kausiluontoisesti olla runsaita, varsinkin Itä-Suomessa, Joensuun ja Tampereen korkeudelle saakka. Etelä-Suomessa riekko on harvinainen.",
+        "name": "quiz_bigbirds_grouse_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/riekko",
+        "name": "quiz_bigbirds_grouse_link"
+      },
+      {
+        "_": "Pyy",
+        "name": "quiz_bigbirds_fgrouse_name"
+      },
+      {
+        "name": "quiz_bigbirds_fgrouse_hint"
+      },
+      {
+        "_": "Pyy (Tetrastes bonasia, aikaisemmin Bonasa bonasia)on metsäkanoihin kuuluva lintu.Pyy on pieni kyyhkyn kokoinen metsäkanalintu. Se on noin 34–39 cm pitkä ja painaa noin 250–450 grammaa. Selkäpuolelta pyy on harmaankirjava, rinnasta ruskehtava. Pyrstön kärki ruskea. Kukolla on musta ja kanalla vaaleankirjava leukalappu. Päälaella on toisinaan selvästi näkyvä töyhtö.",
+        "name": "quiz_bigbirds_fgrouse_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/pyy",
+        "name": "quiz_bigbirds_fgrouse_link"
+      },
+      {
+        "_": "Fasaani",
+        "name": "quiz_bigbirds_pheasant_name"
+      },
+      {
+        "name": "quiz_bigbirds_pheasant_hint"
+      },
+      {
+        "_": "Fasaani (Phasianus colchicus) on suurehko ja värikäs, alkuperältään aasialainen peltokanalintu, jota on istutettu moniin maihin riistalajiksi. Se on kestävä ja sopeutuva ja siksi sitä on levitetty lähes ympäri maapallon, myös Suomeen. Fasaani viihtyy hyvin asutusten lähistöllä.",
+        "name": "quiz_bigbirds_pheasant_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/fasaani",
+        "name": "quiz_bigbirds_pheasant_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_bigbirds_duck_answers",
+        "item": "ankka"
+      },
+      {
+        "name": "quiz_bigbirds_duck_facts"
+      },
+      {
+        "name": "quiz_bigbirds_goose_answers",
+        "item": "hanhi"
+      },
+      {
+        "name": "quiz_bigbirds_goose_facts"
+      },
+      {
+        "name": "quiz_bigbirds_swan_answers",
+        "item": "joutsen"
+      },
+      {
+        "name": "quiz_bigbirds_swan_facts"
+      },
+      {
+        "name": "quiz_bigbirds_goldeneye_answers",
+        "item": "telkkä"
+      },
+      {
+        "name": "quiz_bigbirds_goldeneye_facts"
+      },
+      {
+        "name": "quiz_bigbirds_crane_answers",
+        "item": "kurki"
+      },
+      {
+        "name": "quiz_bigbirds_crane_facts"
+      },
+      {
+        "name": "quiz_bigbirds_heron_answers",
+        "item": "haikara"
+      },
+      {
+        "name": "quiz_bigbirds_heron_facts"
+      },
+      {
+        "name": "quiz_bigbirds_hawk_answers",
+        "item": "haukka"
+      },
+      {
+        "name": "quiz_bigbirds_hawk_facts"
+      },
+      {
+        "name": "quiz_bigbirds_eagle_answers",
+        "item": "kotka"
+      },
+      {
+        "name": "quiz_bigbirds_eagle_facts"
+      },
+      {
+        "name": "quiz_bigbirds_owl_answers",
+        "item": "pöllö"
+      },
+      {
+        "name": "quiz_bigbirds_owl_facts"
+      },
+      {
+        "name": "quiz_bigbirds_grouse_answers",
+        "item": [
+          "riekko",
+          "metso"
+        ]
+      },
+      {
+        "name": "quiz_bigbirds_grouse_facts"
+      },
+      {
+        "name": "quiz_bigbirds_fgrouse_answers",
+        "item": [
+          "riekko",
+          "pyy"
+        ]
+      },
+      {
+        "name": "quiz_bigbirds_fgrouse_facts"
+      },
+      {
+        "name": "quiz_bigbirds_pheasant_answers",
+        "item": "fasaani"
+      },
+      {
+        "name": "quiz_bigbirds_pheasant_facts"
+      }
+    ]
+  }
+}

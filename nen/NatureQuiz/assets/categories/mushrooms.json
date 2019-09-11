@@ -1,0 +1,84 @@
+{
+  "category": {
+    "name": "@string/quiz_mushrooms_name",
+    "description": "@string/quiz_mushrooms_description",
+    "image": "mushrooms.jpg",
+    "link": "@string/quiz_mushrooms_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_mushrooms_cep_name",
+          "hint": "@string/quiz_mushrooms_cep_hint",
+          "description": "@string/quiz_mushrooms_cep_description",
+          "answers": "@array/quiz_mushrooms_cep_answers",
+          "image": "cep.jpg",
+          "link": "@string/quiz_mushrooms_cep_link",
+          "facts": "@array/quiz_mushrooms_cep_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_mushrooms_morel_name",
+          "hint": "@string/quiz_mushrooms_morel_hint",
+          "description": "@string/quiz_mushrooms_morel_description",
+          "answers": "@array/quiz_mushrooms_morel_answers",
+          "image": "gyromitra.jpg",
+          "link": "@string/quiz_mushrooms_morel_link",
+          "facts": "@array/quiz_mushrooms_morel_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_mushrooms_chanterelle_name",
+          "hint": "@string/quiz_mushrooms_chanterelle_hint",
+          "description": "@string/quiz_mushrooms_chanterelle_description",
+          "answers": "@array/quiz_mushrooms_chanterelle_answers",
+          "image": "chanterelle.jpg",
+          "link": "@string/quiz_mushrooms_chanterelle_link",
+          "facts": "@array/quiz_mushrooms_chanterelle_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_mushrooms_flyagaric_name",
+          "hint": "@string/quiz_mushrooms_flyagaric_hint",
+          "description": "@string/quiz_mushrooms_flyagaric_description",
+          "answers": "@array/quiz_mushrooms_flyagaric_answers",
+          "image": "fly-agaric.jpg",
+          "link": "@string/quiz_mushrooms_flyagaric_link",
+          "facts": "@array/quiz_mushrooms_flyagaric_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_mushrooms_annulatedboletus_name",
+          "hint": "@string/quiz_mushrooms_annulatedboletus_hint",
+          "description": "@string/quiz_mushrooms_annulatedboletus_description",
+          "answers": "@array/quiz_mushrooms_annulatedboletus_answers",
+          "image": "annulated-boletus.jpg",
+          "link": "@string/quiz_mushrooms_annulatedboletus_link",
+          "facts": "@array/quiz_mushrooms_annulatedboletus_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_mushrooms_russula_name",
+          "hint": "@string/quiz_mushrooms_russula_hint",
+          "description": "@string/quiz_mushrooms_russula_description",
+          "answers": "@array/quiz_mushrooms_russula_answers",
+          "image": "russula.jpg",
+          "link": "@string/quiz_mushrooms_russula_link",
+          "facts": "@array/quiz_mushrooms_russula_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_mushrooms_champignon_name",
+          "hint": "@string/quiz_mushrooms_champignon_hint",
+          "description": "@string/quiz_mushrooms_champignon_description",
+          "answers": "@array/quiz_mushrooms_champignon_answers",
+          "image": "champignon.jpg",
+          "link": "@string/quiz_mushrooms_champignon_link",
+          "facts": "@array/quiz_mushrooms_champignon_facts"
+        }
+      ]
+    }
+  }
+}

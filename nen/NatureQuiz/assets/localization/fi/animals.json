@@ -1,0 +1,315 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Eläimet",
+        "name": "quiz_animals_name"
+      },
+      {
+        "_": "Miten hyvin tunnet eläimiä?",
+        "name": "quiz_animals_description"
+      },
+      {
+        "_": "http://fi.wikipedia.org/wiki/Eläinkunta",
+        "name": "quiz_animals_link"
+      },
+      {
+        "_": "Karhu",
+        "name": "quiz_animals_bear_name"
+      },
+      {
+        "name": "quiz_animals_bear_hint"
+      },
+      {
+        "_": "Karhu on Euroopan suurin maalla elävä petoeläin. Eurooppalaisen ruskeakarhun pituus on 130–250 cm ja hännän pituus on 5–15 cm. Naaraat painavat 60–170 (200) kg, urokset 100–230 (300) kg.",
+        "name": "quiz_animals_bear_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/karhu",
+        "name": "quiz_animals_bear_link"
+      },
+      {
+        "_": "Hirvi",
+        "name": "quiz_animals_moose_name"
+      },
+      {
+        "name": "quiz_animals_moose_hint"
+      },
+      {
+        "_": "Hirvi (Alces alces) on hirvieläinten heimoon kuuluva suurikokoinen nisäkäslaji, joka elää pohjoisella havumetsävyöhykkeellä Euroopassa ja läntisessä Aasiassa. Pohjois-Amerikassa ja Aasiassa Jenisein itäpuolella elävä Alces americanus on nykykäsityksen mukaan eri laji.Hirvi on pohjoisiin oloihin sopeutunut eläinlaji, jonka ontot karvat suojaavat sitä pakkaselta. Pitkien vahvojen raajojensa avulla se pystyy kulkemaan hyvin lumessa, soilla ja ryteiköissä. Hirven turkin väri on tummanruskeanharmahtava.",
+        "name": "quiz_animals_moose_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/hirvi",
+        "name": "quiz_animals_moose_link"
+      },
+      {
+        "_": "Peura",
+        "name": "quiz_animals_deer_name"
+      },
+      {
+        "name": "quiz_animals_deer_hint"
+      },
+      {
+        "_": "Peura (Rangifer tarandus) on arktisella tundralla ja pohjoisella havumetsävyöhykkeellä useina alalajeina esiintyvä hirvieläin. Se on Rangifer-suvun ainoa laji. Pohjois-Amerikassa villeinä eläviä alalajeja nimitetään karibuiksi. Kesytetystä peurasta käytetään nimitystä poro.Lajin levinneisyysalue ulottuu Pohjois-Eurooppaan, Siperiaan, Pohjois-Amerikan pohjoisosiin ja Jäämeren arktisille saarille, mukaan lukien Grönlantiin.",
+        "name": "quiz_animals_deer_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/peura",
+        "name": "quiz_animals_deer_link"
+      },
+      {
+        "_": "Kettu",
+        "name": "quiz_animals_fox_name"
+      },
+      {
+        "name": "quiz_animals_fox_hint"
+      },
+      {
+        "_": "Kettu eli punakettu (Vulpes vulpes) on koiraeläin. Se on nykyisin maailman levinnein maalla liikkuva petoeläin: sen levinneisyysalue käsittää lähes koko Pohjois-Amerikan ja Euraasian. Lisäksi Pohjois-Afrikassa elää jonkin verran kettuja.Kettu on aikaisemmin ollut arvokas turkiseläin ja varsinkin sen harvinaiset värimuunnokset ovat olleet haluttua kauppatavaraa vuosisatojen ajan. Näitä muunnoksia ovat muun muassa mustakettu, ristikettu, hopeakettu ja harvinainen, kokonaan valkoinen ja punasilmäinen albiinokettu.",
+        "name": "quiz_animals_fox_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/kettu",
+        "name": "quiz_animals_fox_link"
+      },
+      {
+        "_": "Sammakko",
+        "name": "quiz_animals_frog_name"
+      },
+      {
+        "name": "quiz_animals_frog_hint"
+      },
+      {
+        "_": "Sammakko eli ruskosammakko, tavallinen sammakko (Rana temporaria) on aitosammakoihin kuuluva yleinen sammakkolaji.Sammakko on yleisin Suomen sammakkoeläimistä. Sitä tavataan koko maassa pohjoisin Lappi mukaan luettuna. Sammakko on yleinen myös Euroopassa, lukuun ottamatta Pyreneiden niemimaata, Italiaa ja Balkanin niemimaan eteläosia.Sammakko ja sammakon kutu ovat Suomessa rauhoitettuja.",
+        "name": "quiz_animals_frog_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/sammakko",
+        "name": "quiz_animals_frog_link"
+      },
+      {
+        "_": "Käärme",
+        "name": "quiz_animals_snake_name"
+      },
+      {
+        "name": "quiz_animals_snake_hint"
+      },
+      {
+        "_": "Käärmeet (Serpentes) ovat jalattomia matelijoita. Ne ovat lähisukua liskoille, jotka kuuluvat samaan suomumatelijoiden (Squamata) lahkoon. On olemassa muutamia jalattomia liskoja, jotka näyttävät käärmeiltä, mutta eivät kuulu käärmeiden alalahkoon. Käärmeiden kylkiluiden ja nikamien määrä on huomattavasti suurempi kuin muilla matelijoilla.",
+        "name": "quiz_animals_snake_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/käärmeet",
+        "name": "quiz_animals_snake_link"
+      },
+      {
+        "_": "Susi",
+        "name": "quiz_animals_wolf_name"
+      },
+      {
+        "name": "quiz_animals_wolf_hint"
+      },
+      {
+        "_": "Susi eli harmaasusi(Canis lupus) on koiraeläimiin kuuluva nisäkäs, joka on biologisesti määriteltynä samaa lajia kuin kesy koira. Susi on peto- ja laumaeläin. Susi on suurikokoisin nykyisin elävä koiraeläinlaji.Urokset ovat tyypillisesti kookkaampia kuin naaraat. Suomessa naarassuden keskipaino on 32 kg ja uroksen 40 kg (yleensä 30–70 kg). Suurimmat Suomessa kaadetut sudet ovat painaneet hieman yli 65 kg.",
+        "name": "quiz_animals_wolf_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/susi",
+        "name": "quiz_animals_wolf_link"
+      },
+      {
+        "_": "Orava",
+        "name": "quiz_animals_squirrel_name"
+      },
+      {
+        "name": "quiz_animals_squirrel_hint"
+      },
+      {
+        "_": "Orava (Sciurus vulgaris) on jyrsijöiden lahkoon kuuluva, Suomessakin varsin yleisesti esiintyvä nisäkäslaji.Oravaa tavataan pohjoisella havumetsävyöhykkeellä lähes koko Euroopassa sekä Aasian pohjoisosissa, lukuun ottamatta kaikkein pohjoisimpia alueita, mistä havupuut puuttuvat. Yhdistyneessä kuningaskunnassa on amerikkalainen harmaaorava lähes syrjäyttänyt eurooppalaisen oravan.",
+        "name": "quiz_animals_squirrel_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/orava",
+        "name": "quiz_animals_squirrel_link"
+      },
+      {
+        "_": "Siili",
+        "name": "quiz_animals_hedgehog_name"
+      },
+      {
+        "name": "quiz_animals_hedgehog_hint"
+      },
+      {
+        "_": "Siili eli eurooppalainen siili (Erinaceus europaeus) on pieni ja piikikäs yöeläjä ja hyönteissyöjä, jota esiintyy suuressa osassa läntistä Eurooppaa. Siilien heimo on hyvin vanha, ja siilit ovat säilyneet melko muuttumattomina vuosimiljoonia. Siiliä kutsutaankin joskus eläväksi fossiiliksi.Siili on noin 20–30 senttimetriä pitkä, ja sen häntä on 1,5–4 senttimetriä pitkä. Siilin paino on 0,4–1,2 kilogrammaa ja joskus jopa 1,9 kilogrammaa.Paino vaihtelee kuitenkin huomattavasti vuodenajan mukaan. Talvihorroksesta herännyt siili voi painaa alle 300 grammaa, mutta ne lihovat nopeasti alkukesästä.",
+        "name": "quiz_animals_hedgehog_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/siili",
+        "name": "quiz_animals_hedgehog_link"
+      },
+      {
+        "_": "Hiiri",
+        "name": "quiz_animals_mouse_name"
+      },
+      {
+        "name": "quiz_animals_mouse_hint"
+      },
+      {
+        "_": "Metsähiirtä tavataan suuressa osassa Eurooppaa, ei kuitenkaan pohjoisessa eikä eräissä Länsi-Euroopan osissa. Idässä laji on levinnyt Uralin tienoille. Suomessa metsähiirtä tavataan maan etelä- ja keskiosissa. Elinympäristöä on kangasmetsät, lehtomaiset sekametsät ja pensaikkoiset niityt. Syksyisin ne voivat ilmestyä rakennuksiin ja kesämökkeihin tehden tuhoa lämmöneristeisiin. ",
+        "name": "quiz_animals_mouse_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/metsähiiri",
+        "name": "quiz_animals_mouse_link"
+      },
+      {
+        "_": "Rotta",
+        "name": "quiz_animals_rat_name"
+      },
+      {
+        "name": "quiz_animals_rat_hint"
+      },
+      {
+        "_": "Isorotta eli rotta (Rattus norvegicus) on pieni tai keskikokoinen, kaikkiruokainen ja nopeasti lisääntyvä jyrsijä. Isorotta on satunnaisesti Suomessa esiintyvää mustarottaa suurikokoisempi. Useimmat lemmikkeinä pidettävät kesyrotat on kesytetty isorotasta.",
+        "name": "quiz_animals_rat_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/isorotta",
+        "name": "quiz_animals_rat_link"
+      },
+      {
+        "_": "Jänis",
+        "name": "quiz_animals_rabbit_name"
+      },
+      {
+        "name": "quiz_animals_rabbit_hint"
+      },
+      {
+        "_": "Jänikset,joskus myös jänikset ja kaniinit (Leporidae) on jäniseläinten heimo. Ne eroavat samaan jäniseläinten lahkoon kuuluvista piiskujäniksistä sillä, että niillä on lyhyt ja pörröinen häntä, pitkät korvat ja takajalat. Jäniksiä on maailmassa 11 sukua ja 61 lajia. Ne voidaan jaotella varsinaisiin jäniksiin ja kaniineihin. Kaniinien ja varsinaisten jänisten ero on lähinnä siinä, että useimmat kaniinit elävät maan alla käytävissä, kun taas vain harvoilla jänislajeilla on minkäänlaista pesää.Jänikset ovat kooltaan 25–70 senttimetriä ja painoltaan 0,4–7 kilogrammaa. Turkin väri vaihtelee yleensä harmaasta ruskeaan. Jänikset elävät monenlaisissa ympäristöissä aina tundralta sademetsiin.",
+        "name": "quiz_animals_rabbit_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/jänikset",
+        "name": "quiz_animals_rabbit_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_animals_bear_answers",
+        "item": "karhu"
+      },
+      {
+        "name": "quiz_animals_bear_facts",
+        "item": [
+          "Ruskea",
+          "Karvainen"
+        ]
+      },
+      {
+        "name": "quiz_animals_moose_answers",
+        "item": "hirvi"
+      },
+      {
+        "name": "quiz_animals_moose_facts",
+        "item": [
+          "Ruskea",
+          "Karvainen"
+        ]
+      },
+      {
+        "name": "quiz_animals_deer_answers",
+        "item": "peura"
+      },
+      {
+        "name": "quiz_animals_deer_facts",
+        "item": [
+          "Ruskea",
+          "Karvainen"
+        ]
+      },
+      {
+        "name": "quiz_animals_fox_answers",
+        "item": "kettu"
+      },
+      {
+        "name": "quiz_animals_fox_facts",
+        "item": [
+          "Punakka/Oranssi",
+          "Karvainen"
+        ]
+      },
+      {
+        "name": "quiz_animals_frog_answers",
+        "item": "sammakko"
+      },
+      {
+        "name": "quiz_animals_frog_facts",
+        "item": "Moniväriset"
+      },
+      {
+        "name": "quiz_animals_snake_answers",
+        "item": "käärme"
+      },
+      {
+        "name": "quiz_animals_snake_facts",
+        "item": "Moniväriset"
+      },
+      {
+        "name": "quiz_animals_wolf_answers",
+        "item": "susi"
+      },
+      {
+        "name": "quiz_animals_wolf_facts",
+        "item": [
+          "Harmahtava",
+          "Karvainen"
+        ]
+      },
+      {
+        "name": "quiz_animals_squirrel_answers",
+        "item": "orava"
+      },
+      {
+        "name": "quiz_animals_squirrel_facts",
+        "item": [
+          "Punakka/Ruskea",
+          "Karvainen"
+        ]
+      },
+      {
+        "name": "quiz_animals_hedgehog_answers",
+        "item": "siili"
+      },
+      {
+        "name": "quiz_animals_hedgehog_facts",
+        "item": "Piikikäs"
+      },
+      {
+        "name": "quiz_animals_mouse_answers",
+        "item": "hiiri"
+      },
+      {
+        "name": "quiz_animals_mouse_facts"
+      },
+      {
+        "name": "quiz_animals_rat_answers",
+        "item": "rotta"
+      },
+      {
+        "name": "quiz_animals_rat_facts"
+      },
+      {
+        "name": "quiz_animals_rabbit_answers",
+        "item": "jänis"
+      },
+      {
+        "name": "quiz_animals_rabbit_facts",
+        "item": [
+          "Karvainen",
+          "Söpö"
+        ]
+      }
+    ]
+  }
+}

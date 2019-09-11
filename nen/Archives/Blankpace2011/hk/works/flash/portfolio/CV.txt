@@ -1,0 +1,69 @@
+CVtxt=Curriculum Vitae
+
+Personal information
+	Name					Hannu Antero Kärkkäinen
+	Address				Linnunradankatu 13 as.1
+	Address				11130 RIIHIMÄKI, Finland
+	Phone					%2B358 40 050 6991
+	Email					<font color='#0F0FCE'><u><a href="mailto:hannu.karkkainen@gmail.com">hannu.karkkainen@gmail.com</a></u></font>
+	Nationality				Finnish
+	Date of birth			26.06.1987
+	Gender				Male
+
+Work experience
+	Employer				<font color='#0F0FCE'><u><a href="http://www.siemens.fi/">Siemens Osakeyhtiö</a></u></font>, Espoo, Leppävaara
+	Date					02.06.2008 - 29.08.2008
+	Main activities			Database updates and upkeep, collecting system information
+							(Windows, HP-UX, Unix, Solaris, AIX) and updating,
+							analyzing and checking of configuration information
+
+	Employer				<font color='#0F0FCE'><u><a href="http://www.fortek.fi/">Fortek Oy</a></u></font>, Lieksa (pankakoski)
+	Date					05.06.2006 - 01.12.2006
+	Occupation			Updating information to upkeep system (SAP)
+	Main activities			Collecting information and updating it to SAP-system and helping
+							IT-support. Also some word processing and use of other office programs.
+
+	Employer				<font color='#0F0FCE'><u><a href="http://www.tietotapio.fi/">Tietotapio Ky</a></u></font>, Lieksa
+	Date					01.02.2006 - 01.05.2006
+	Main activities			Assembling and maintenancing computers, hardware and software
+							troupleshooting and some customer service.
+							This period of work was part of school's practical training.
+
+Education
+	Dates					01.09.2007 - ..2011 (Ongoing)
+	Title					Media technology, engineer
+	Principal subject		Software technology
+	Name and type of
+	organisation			HAMK University of Applied Sciences, Riihimäki
+
+	Dates					06.08.2003 - 02.06.2006
+	Title					Information technology, datanome
+	Name and type of
+	organisation			Northern Karelia vocational school, Lieksa
+
+Personal skills
+	Mother tongue			Finnish
+	
+	Other languages		Understanding		Speaking		Writing
+	 - English				Excellent			Good			Excellent
+
+	Social skills			Able to work with a group or independently, but working alone
+							is usually little more efficient.
+	Technical skills		EA1 first aid course completed on 7.12.2007
+	Computer skills		My knowledge with computers is very good thoroughly, hardware and
+							software. I can handle office programs very efficiently. I'm also familiar
+							with Linux and Windows servers.
+							
+	Programming / scripting				
+			Decent knowledge and still studying:
+					<b>C%2B%2B</b>
+			Good knowledge:
+					<b>C#</b>, <b>Java</b>, <b>PHP</b>, <b>MySQL</b>, <b>XHTML</b> and <b>CSS</b>
+			Basics of:
+					<b>JavaScript</b>, <b>Python</b> and <b>C</b>.
+			Long time ago I also studied basics of
+					<b>ASP</b>, <b>MS SQL</b> and <b>Visual Basic</b>.
+					
+	Driving licence			B
+ 
+ 

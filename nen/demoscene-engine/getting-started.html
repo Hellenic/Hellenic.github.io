@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started ∙ Demoscene Engine</title>
+
+    <meta name="description" content="Demoscene engine is a framework to build your own WebGL demos or games">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700italic">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/demoscene-engine/css/main.min.css">
+</head>
+<body>
+
+    <!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <a href="https://github.com/Hellenic/demoscene-engine"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1100;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="/">Home</a>
+                    </li>
+                    <li >
+                        <a href="getting-started">Getting started</a>
+                    </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Demoscene engine</h1>
+            <p class="lead">Use this engine and example to get quickly started with your WebGL demos – or even games!</p>
+            <p><small>2015-09-26 &nbsp; | &nbsp; v0.1.0 - Hannu Kärkkäinen</small></p>
+            <p>
+                <a href="http://karkk.ai/demoscene-engine/">Running demo</a> -
+                <a href="https://github.com/Hellenic/demoscene-engine">Github</a>
+            </p>
+        </div>
+    </div><!-- /.container -->
+
+
+
+    <div class="container">
+        <h1>Getting Started</h1>
+<ol>
+<li>Start by cloning this repo, e.g.</li>
+</ol>
+<pre><code class="language-shell"><span class="hljs-variable">$ </span>git clone <span class="hljs-symbol">https:</span>/<span class="hljs-regexp">/github.com/</span><span class="hljs-constant">Hellenic</span>/demoscene-engine
+<span class="hljs-variable">$ </span>cd demoscene-engine
+</code></pre>
+<ol start="2">
+<li>Install dependencies with</li>
+</ol>
+<pre><code class="language-shell">$ npm <span class="hljs-keyword">install</span>
+</code></pre>
+<ol start="3">
+<li>Build changes with</li>
+</ol>
+<pre><code class="language-shell">$ npm <span class="hljs-command">run</span> build
+</code></pre>
+<ol start="4">
+<li>Finally, start the example with the demoscene engine</li>
+</ol>
+<pre><code class="language-shell">$ npm <span class="hljs-command">run</span> start
+</code></pre>
+<h2>Building your own demo</h2>
+<p>This project is mainly for building the engine itself but also comes with an
+example demo. You can start by modifying the examples in docs/ folder and to get
+familiar with the engine.</p>
+<p>Engine codes are located in <code>src</code> folder and the tests for it are in <code>test</code>
+folder. If you modify the code run <code>npm run build</code> to compile the source code
+into a distributable format and under the example in docs/.</p>
+<p>Write documentation in markdown format in <code>docs</code> folder. Run
+<code>npm run start</code> to launch a development server with the documentation site and
+the example demo.</p>
+<p>Update your name in <code>LICENSE.txt</code> and project information in <code>package.json</code> and
+<code>README.md</code> files.</p>
+<h2>Building your models for the demo</h2>
+<p>I personally prefer Blender. In short, you can just model your models in Blender
+and export them with THREE.js Blender exporter, which will conver them to JSON
+files. These JSON files you include in your Model definition, which is then
+included in Scene definition.</p>
+<h2>How to test</h2>
+<pre><code class="language-shell">$ <span class="hljs-built_in">npm</span> run lint          <span class="hljs-comment"># Lint your code</span>
+$ <span class="hljs-built_in">npm</span> test              <span class="hljs-comment"># Run unit tests, or `npm test -- --watch`</span>
+</code></pre>
+
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+</body>
+</html>

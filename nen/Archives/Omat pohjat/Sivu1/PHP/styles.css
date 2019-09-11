@@ -1,0 +1,126 @@
+body
+{
+	background-color: #000000;
+	background-repeat: no-repeat;
+	color: #99CCFF;
+	font-family: Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+	overflow-y: scroll;
+}
+	
+b
+{
+	padding-left: 7px;
+}
+
+p
+{
+	padding-left: 25px;
+}
+
+.title 
+{
+	background-color: #333366;
+	font-size: 16;
+	color: #87CEEB;
+	margin: 0;
+	text-align: center;
+	border-top: ridge #87CEEB;
+	border-bottom: ridge #87CEEB;
+}
+
+.bar 
+{
+	background-color: #333366;
+	color: #87CEEB;
+	margin: 0;
+	border-top: ridge #87CEEB;
+	border-bottom: ridge #87CEEB;
+	padding-left: 7px;
+}
+	
+.sivulink{
+	padding-left: 25px;
+	}
+
+a.link:link{
+	color : #00BFFF;
+	}
+	
+a.link:visited{
+	color : #99CCFF;
+	}
+	
+a.link:hover{
+	color : #FFFFFF;
+	text-decoration: underline
+	}
+
+	
+#otsi{
+	height : 200px; 
+	width : 1000px; 
+	background : url("pics/plussa1.jpg");
+	background-repeat: no-repeat;
+	padding : 0; 
+	position : absolute; 
+	left : 50%; 
+	margin-left : -500px; 
+	top : 50;
+	border : 0px solid black;
+	}
+	
+#tekstipalkki{
+	height : 25px;
+	width : 1000px;
+	position : absolute; 
+	left : 50%; 
+	margin-left : -500px; 
+	top : 200;
+	border : 0px solid black;
+	padding-top : 3px;
+	}
+	
+
+#isoin{
+	border : 0px solid black;
+	width : 1000px;
+	padding : 0; 
+	position : absolute; 
+	left : 50%; 
+	margin-left : -500px; 
+	top : 225; 
+	}
+
+#isoin #vasen{ 
+	width : 150;
+	float : left;
+	}
+	
+#isoin #vasen .box{
+	padding : 10px;
+	border-bottom : 0px solid #000;
+	border-right : 0px solid black;
+	}
+	
+
+#isoin #sisalto{
+	height : 100%;
+	width : 830;
+	float : left;
+	}
+	
+
+.vali{
+	padding-top : 20px;
+	padding-bottom : 20px;
+	}

@@ -1,0 +1,224 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Trees",
+        "name": "quiz_trees_name"
+      },
+      {
+        "_": "Trees - the lungs of the world. Test how well you know the most common ones!",
+        "name": "quiz_trees_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Trees",
+        "name": "quiz_trees_link"
+      },
+      {
+        "_": "Congratulations! You\\'ve completed all the levels of the category. See if you can do the other categories!",
+        "name": "quiz_trees_completedText"
+      },
+      {
+        "_": "Good attempt. However, there is still some unanswered questions. Try to get those too!",
+        "name": "quiz_trees_progressText"
+      },
+      {
+        "_": "Birch",
+        "name": "quiz_trees_birch_name"
+      },
+      {
+        "name": "quiz_trees_birch_hint"
+      },
+      {
+        "_": "Very common leave-tree especially on Nordic countries. Bark is mostly white with some black spots. Gets green leaves on the spring and drops them for winter.",
+        "name": "quiz_trees_birch_description"
+      },
+      {
+        "_": "That\\'s correct!",
+        "name": "quiz_trees_birch_answerText"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Birch",
+        "name": "quiz_trees_birch_link"
+      },
+      {
+        "_": "Pine",
+        "name": "quiz_trees_pine_name"
+      },
+      {
+        "name": "quiz_trees_pine_hint"
+      },
+      {
+        "_": "Common conifer which mostle has branches on the upper part, also stays green throughout the year.",
+        "name": "quiz_trees_pine_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Pine",
+        "name": "quiz_trees_pine_link"
+      },
+      {
+        "_": "Spruce",
+        "name": "quiz_trees_spruce_name"
+      },
+      {
+        "_": "Popular for Christmas!",
+        "name": "quiz_trees_spruce_hint"
+      },
+      {
+        "_": "Common conifer which is thick on branches, also stays green throughout the year.",
+        "name": "quiz_trees_spruce_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Spruce",
+        "name": "quiz_trees_spruce_link"
+      },
+      {
+        "_": "Oak",
+        "name": "quiz_trees_oak_name"
+      },
+      {
+        "name": "quiz_trees_oak_hint"
+      },
+      {
+        "_": "An oak is a tree or shrub in the genus Quercus (/ˈkwɜrkəs/; Latin \"oak tree\") of the beech family, Fagaceae. There are approximately 600 extant species of oaks. The common name \"oak\" may also appear in the names of species in related genera, notably Lithocarpus. The genus is native to the Northern Hemisphere, and includes deciduous and evergreen species extending from cool temperate to tropical latitudes in Asia and the Americas.",
+        "name": "quiz_trees_oak_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Oak",
+        "name": "quiz_trees_oak_link"
+      },
+      {
+        "_": "Alder",
+        "name": "quiz_trees_alder_name"
+      },
+      {
+        "name": "quiz_trees_alder_hint"
+      },
+      {
+        "_": "Alder is the common name of a genus of flowering plants (Alnus) belonging to the birch family Betulaceae. The genus comprises about 30 species of monoecious trees and shrubs, a few reaching a large size, distributed throughout the north temperate zone with a few species extending into Central America and the northern Andes.",
+        "name": "quiz_trees_alder_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/alder",
+        "name": "quiz_trees_alder_link"
+      },
+      {
+        "_": "Aspen",
+        "name": "quiz_trees_aspen_name"
+      },
+      {
+        "name": "quiz_trees_aspen_hint"
+      },
+      {
+        "_": "Aspen is a common name for certain tree species; some, but not all, are classified by botanists in the section Populus, of the poplar genus.",
+        "name": "quiz_trees_aspen_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/aspen",
+        "name": "quiz_trees_aspen_link"
+      },
+      {
+        "_": "Willow",
+        "name": "quiz_trees_willow_name"
+      },
+      {
+        "name": "quiz_trees_willow_hint"
+      },
+      {
+        "_": "Willows, also called sallows, and osiers, form the genus Salix, around 400 species of deciduous trees and shrubs, found primarily on moist soils in cold and temperate regions of the Northern Hemisphere. Most species are known as willow, but some narrow-leaved shrub species are called osier, and some broader-leaved species are referred to as sallow (from Old English sealh, related to the Latin word salix, willow). Some willows (particularly arctic and alpine species) are low-growing or creeping shrubs; for example, the dwarf willow (Salix herbacea) rarely exceeds 6 cm (2.4 in) in height, though it spreads widely across the ground.",
+        "name": "quiz_trees_willow_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/willow",
+        "name": "quiz_trees_willow_link"
+      },
+      {
+        "_": "Rowan",
+        "name": "quiz_trees_rowan_name"
+      },
+      {
+        "name": "quiz_trees_rowan_hint"
+      },
+      {
+        "_": "The rowans or mountain-ashes are shrubs or trees in genus Sorbus of family Rosaceae. They are native throughout the cool temperate regions of the Northern Hemisphere, with the highest species diversity in the mountains of western China and the Himalaya, where numerous apomictic microspecies occur. The name rowan was originally applied to the species Sorbus aucuparia, and is also used for other species in Sorbus subgenus Sorbus. Rowans are unrelated to the true ash trees, which belong to the genus Fraxinus, family Oleaceae, though their leaves bear superficial similarity.",
+        "name": "quiz_trees_rowan_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/rowan",
+        "name": "quiz_trees_rowan_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_trees_birch_answers",
+        "item": "birch"
+      },
+      {
+        "name": "quiz_trees_birch_facts",
+        "item": [
+          "Black/White bark",
+          "Green leaves"
+        ]
+      },
+      {
+        "name": "quiz_trees_pine_answers",
+        "item": "pine"
+      },
+      {
+        "name": "quiz_trees_pine_facts",
+        "item": [
+          "Brown bark",
+          "Green twigs"
+        ]
+      },
+      {
+        "name": "quiz_trees_spruce_answers",
+        "item": [
+          "spruce",
+          "fir"
+        ]
+      },
+      {
+        "name": "quiz_trees_spruce_facts",
+        "item": [
+          "Brown bark",
+          "Green twigs"
+        ]
+      },
+      {
+        "name": "quiz_trees_oak_answers",
+        "item": "oak"
+      },
+      {
+        "name": "quiz_trees_oak_facts"
+      },
+      {
+        "name": "quiz_trees_alder_answers",
+        "item": "alder"
+      },
+      {
+        "name": "quiz_trees_alder_facts"
+      },
+      {
+        "name": "quiz_trees_aspen_answers",
+        "item": "aspen"
+      },
+      {
+        "name": "quiz_trees_aspen_facts"
+      },
+      {
+        "name": "quiz_trees_willow_answers",
+        "item": "willow"
+      },
+      {
+        "name": "quiz_trees_willow_facts"
+      },
+      {
+        "name": "quiz_trees_rowan_answers",
+        "item": "rowan"
+      },
+      {
+        "name": "quiz_trees_rowan_facts"
+      }
+    ]
+  }
+}

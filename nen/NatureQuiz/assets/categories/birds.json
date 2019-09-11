@@ -1,0 +1,114 @@
+{
+  "category": {
+    "name": "@string/quiz_commonbirds_name",
+    "description": "@string/quiz_commonbirds_description",
+    "image": "birds.jpg",
+    "link": "@string/quiz_commonbirds_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_commonbirds_swallow_name",
+          "hint": "@string/quiz_commonbirds_swallow_hint",
+          "description": "@string/quiz_commonbirds_swallow_description",
+          "answers": "@array/quiz_commonbirds_swallow_answers",
+          "image": "swallow.jpg",
+          "link": "@string/quiz_commonbirds_swallow_link",
+          "facts": "@array/quiz_commonbirds_swallow_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_commonbirds_sparrow_name",
+          "hint": "@string/quiz_commonbirds_sparrow_hint",
+          "description": "@string/quiz_commonbirds_sparrow_description",
+          "answers": "@array/quiz_commonbirds_sparrow_answers",
+          "image": "sparrow.jpg",
+          "link": "@string/quiz_commonbirds_sparrow_link",
+          "facts": "@array/quiz_commonbirds_sparrow_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_commonbirds_wagtail_name",
+          "hint": "@string/quiz_commonbirds_wagtail_hint",
+          "description": "@string/quiz_commonbirds_wagtail_description",
+          "answers": "@array/quiz_commonbirds_wagtail_answers",
+          "image": "wagtail.jpg",
+          "link": "@string/quiz_commonbirds_wagtail_link",
+          "facts": "@array/quiz_commonbirds_wagtail_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_commonbirds_greattit_name",
+          "hint": "@string/quiz_commonbirds_greattit_hint",
+          "description": "@string/quiz_commonbirds_greattit_description",
+          "answers": "@array/quiz_commonbirds_greattit_answers",
+          "image": "greattit.jpg",
+          "link": "@string/quiz_commonbirds_greattit_link",
+          "facts": "@array/quiz_commonbirds_greattit_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_commonbirds_thrush_name",
+          "hint": "@string/quiz_commonbirds_thrush_hint",
+          "description": "@string/quiz_commonbirds_thrush_description",
+          "answers": "@array/quiz_commonbirds_thrush_answers",
+          "image": "thrush.jpg",
+          "link": "@string/quiz_commonbirds_thrush_link",
+          "facts": "@array/quiz_commonbirds_thrush_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_commonbirds_seagull_name",
+          "hint": "@string/quiz_commonbirds_seagull_hint",
+          "description": "@string/quiz_commonbirds_seagull_description",
+          "answers": "@array/quiz_commonbirds_seagull_answers",
+          "image": "seagull.jpg",
+          "link": "@string/quiz_commonbirds_seagull_link",
+          "facts": "@array/quiz_commonbirds_seagull_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_commonbirds_raven_name",
+          "hint": "@string/quiz_commonbirds_raven_hint",
+          "description": "@string/quiz_commonbirds_raven_description",
+          "answers": "@array/quiz_commonbirds_raven_answers",
+          "image": "raven.jpg",
+          "link": "@string/quiz_commonbirds_raven_link",
+          "facts": "@array/quiz_commonbirds_raven_facts"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_commonbirds_magpie_name",
+          "hint": "@string/quiz_commonbirds_magpie_hint",
+          "description": "@string/quiz_commonbirds_magpie_description",
+          "answers": "@array/quiz_commonbirds_magpie_answers",
+          "image": "magpie.jpg",
+          "link": "@string/quiz_commonbirds_magpie_link",
+          "facts": "@array/quiz_commonbirds_magpie_facts"
+        },
+        {
+          "id": "9",
+          "name": "@string/quiz_commonbirds_crow_name",
+          "hint": "@string/quiz_commonbirds_crow_hint",
+          "description": "@string/quiz_commonbirds_crow_description",
+          "answers": "@array/quiz_commonbirds_crow_answers",
+          "image": "crow.jpg",
+          "link": "@string/quiz_commonbirds_crow_link",
+          "facts": "@array/quiz_commonbirds_crow_facts"
+        },
+        {
+          "id": "10",
+          "name": "@string/quiz_commonbirds_pigeon_name",
+          "hint": "@string/quiz_commonbirds_pigeon_hint",
+          "description": "@string/quiz_commonbirds_pigeon_description",
+          "answers": "@array/quiz_commonbirds_pigeon_answers",
+          "image": "pigeon.jpg",
+          "link": "@string/quiz_commonbirds_pigeon_link",
+          "facts": "@array/quiz_commonbirds_pigeon_facts"
+        }
+      ]
+    }
+  }
+}

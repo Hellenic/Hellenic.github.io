@@ -1,0 +1,25 @@
+/* 
+    Document   : style
+    Created on : 01.02.2014, 09:28:32
+    Author     : Hellenic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    margin: 0px;
+    overflow: hidden;
+    
+	background: #420025; /* Old browsers */
+	background: -moz-linear-gradient(top,  #420025 0%, #04000f 65%, #1e002d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#420025), color-stop(65%,#04000f), color-stop(100%,#1e002d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #420025 0%,#04000f 65%,#1e002d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #420025 0%,#04000f 65%,#1e002d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #420025 0%,#04000f 65%,#1e002d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #420025 0%,#04000f 65%,#1e002d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#420025', endColorstr='#1e002d',GradientType=0 ); /* IE6-9 */
+	
+	height: 100%;
+	min-height: 1200px;
+}

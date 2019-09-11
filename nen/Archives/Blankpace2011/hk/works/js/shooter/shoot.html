@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+  <meta http-equiv="content-type"
+  content="text/html; charset=iso-8859-1">
+  <title>Shoot Em Up</title>
+  <style type="text/css">
+    body {background: black; color:white}
+  </style>
+  <script type="text/javascript">
+    var left = false;
+    var right = false;
+    var space = false;
+    var x = 200;
+    var sprite = null;
+    var spriteWidth;
+    var text = null;
+    var dynamic = null;
+    var missiles = [];
+    var enemies = [];
+    var ufos = [];
+    var ufoWidth, ufoHeight;
+    var speed = 4;
+    var points = 0;
+    var counter = 0;
+    // preload ufo images
+    for(i=0;i<4;i++) {
+      ufo = new Image();
+      ufo.src = "ufo"+i+".gif";
+      ufos.push(ufo);
+    }
+    ufoWidth = parseInt(ufo.width);
+    ufoHeight = parseInt(ufo.height);
+    function start() {
+      sprite = document.getElementById("spriteid");
+      spriteWidth = parseInt(sprite.width);
+      text = document.getElementById("textid");
+      dynamic = document.getElementById("dynamicid");
+      initializeEnemies();
+      setInterval(update, 20);
+    }
+    function initializeEnemies() {
+      for(i=0;i<5;i++) {
+        new Enemy(100+120*i, 20, i);
+        new Enemy(100+120*i, 100, i);
+      }
+    }
+    function keyDown(e) {
+        e = e || window.event;
+        if (e.keyCode) code = e.keyCode;
+        else if (e.which) code = e.which;
+        if (code==37 || code==52) left = true;
+        if (code==39 || code==54) right = true;
+        if (code==32 && !space) {
+          new Missile(x+spriteWidth/2-3,390);
+          space = true;
+        }
+        cancelEvent(e);
+    }
+    function keyUp(e) {
+        e = e || window.event;
+        if (e.keyCode) code = e.keyCode;
+        else if (e.which) code = e.which;
+        if (code==37 || code==52) left = false;
+        if (code==39 || code==54) right = false;
+        if (code==32) {
+          space = false;
+        }
+        cancelEvent(e);
+    }
+    function cancelEvent(e) { 
+      // try to prevent side effects (browser defaults) 
+      e = e || window.event; 
+      e.cancelBubble = true; 
+      e.returnValue = false; 
+      if (e.stopPropagation) e.stopPropagation(); 
+      if (e.preventDefault) e.preventDefault();     
+      return false; 
+    }
+    function Missile(x, y) {
+      this.x = x;
+      this.y = y;
+      missiles.push(this); // adds to missiles array
+    } 
+    Missile.prototype.update = function() {
+      this.y -= 2*speed;
+      if (this.y<-15) { // out of screen?
+        removeFromList(missiles, this);
+      }
+	  else {
+        for(i in enemies) 
+		{
+          var enemy = enemies[i];
+          diffX = (enemy.x+ufoWidth/2)-this.x;
+          diffY = (enemy.y+ufoHeight/2)-this.y;
+          if (Math.abs(diffX)<ufoWidth/2 && Math.abs(diffY)<ufoHeight/2)
+		  {
+            enemies.splice(i, 1);
+            removeFromList(missiles, this);
+            points++;
+            text.innerHTML = points;
+            if (enemies.length==0)
+			{
+              initializeEnemies();
+            }
+          }
+        }
+      }      
+    }
+    function Enemy(x, y, animCount) {
+      this.origX = x;
+      this.x = x;
+      this.y = y;
+      if (animCount) this.animCount = animCount;
+      else this.animCount = 0;
+      enemies.push(this);
+    }
+    Enemy.prototype.update = function() {
+      this.x = this.origX+50*Math.sin(counter*0.05);
+      this.y += 0.1;
+      this.animCount = (this.animCount+1)%ufos.length;            
+    }
+    function removeFromList(list, object) {
+      for(i in list) {
+        if (object == list[i]) {
+          list.splice(i, 1);
+          break;
+        }
+      }
+    }
+    function update() {
+      if (left) x -= speed;
+      if (right) x += speed;
+      sprite.style.left = x+"px";
+      var i, m, dlist = "";
+      for(i in missiles) {
+        m = missiles[i];
+        m.update();
+      }
+      for(i in missiles) {
+        m = missiles[i];
+        dlist += '<div style="background:#ffefc0;width:5px;height:20px;'+
+        'position:absolute;left:'+Math.round(m.x)+'px;top:'+
+        Math.round(m.y)+'px;"><\/div>';
+      }
+      for(i in enemies) {
+        m = enemies[i];
+        m.update();
+      }
+      for(i in enemies) {
+        m = enemies[i];
+        dlist += '<img src="ufo'+m.animCount+'.gif" width="85" height="54" '+
+        'style="position:absolute;left:'+Math.round(m.x)+'px;top:'+
+        Math.round(m.y)+'px;">';
+      }
+      //console.log(dlist);
+      dynamic.innerHTML = dlist;
+      counter++;
+    }
+  </script>
+  </head>
+  <body onload="start()" onkeydown="keyDown(event)"
+  onkeyup="keyUp(event)">
+    <p>Points: <span  id="textid">0</span></p>
+    <div id="dynamicid"></div>
+    <img id="spriteid" style="position:absolute;left=200px;top:400px"
+    src="ship2.gif" width="64" height="64">
+  </body>
+</html>

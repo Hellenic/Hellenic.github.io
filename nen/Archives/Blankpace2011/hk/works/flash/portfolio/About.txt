@@ -1,0 +1,10 @@
+Abouttxt=Name: Hannu Kärkkäinen
+Phone: %2B358 40 507 6991
+Email: <font color='#0F0FCE'><u><a href="mailto:hannu.karkkainen@gmail.com">hannu.karkkainen@gmail.com</a></u></font>
+Birth date: 26.06.1987
+
+Currently I'm studying media technology at HAMK University of Applied Sciences in Riihimäki. I like programming a lot and that's what I currently study too. Especially I'm interested on game development.
+I'm always up for new challenges! If you have a job that could use the skills I have feel free to contact me. I'm especially interested about summer / evening / weekend jobs.
+You can find more about me from <font color='#0F0FCE'><u><a href='http://www.blankpace.net/hk/'>http://blankpace.net/hk/</a></u></font>
+
+Tip: You can also use the mouse to drag the content.

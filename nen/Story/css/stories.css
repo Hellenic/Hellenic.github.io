@@ -1,0 +1,42 @@
+.light-switch
+{
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.light-on {
+	background-image: url("../img/lightbulb.png");
+	transition: background-image 1000ms linear;
+}
+.light-off {
+	background-image: url("../img/lightbulb-off.png");
+	transition: background-image 1000ms linear;
+}
+.light {
+	background-color: white;
+	transition: background-color 1000ms linear;
+}
+.dark {
+	background-color: black;
+	transition: background-color 1000ms linear;
+}
+
+.page-switch
+{
+	bottom: 0px;
+	width: 150px;
+	height: 150px;
+	position: fixed;
+}
+.previous {
+	background-image: url("../img/arrow-left.png");
+	left: 0px;
+	float: left;
+}
+.next {
+	right: 0px;
+	background-image: url("../img/arrow-right.png");
+	float: right;
+}

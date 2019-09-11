@@ -1,0 +1,144 @@
+{
+  "category": {
+    "name": "@string/quiz_fish_name",
+    "description": "@string/quiz_fish_description",
+    "image": "fish.jpg",
+    "link": "@string/quiz_fish_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_fish_perch_name",
+          "hint": "@string/quiz_fish_perch_hint",
+          "description": "@string/quiz_fish_perch_description",
+          "answers": "@array/quiz_fish_perch_answers",
+          "image": "perch.jpg",
+          "link": "@string/quiz_fish_perch_link",
+          "facts": "@array/quiz_fish_perch_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_fish_pike_name",
+          "hint": "@string/quiz_fish_pike_hint",
+          "description": "@string/quiz_fish_pike_description",
+          "answers": "@array/quiz_fish_pike_answers",
+          "image": "pike.jpg",
+          "link": "@string/quiz_fish_pike_link",
+          "facts": "@array/quiz_fish_pike_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_fish_pikeperch_name",
+          "hint": "@string/quiz_fish_pikeperch_hint",
+          "description": "@string/quiz_fish_pikeperch_description",
+          "answers": "@array/quiz_fish_pikeperch_answers",
+          "image": "pike-perch.jpg",
+          "link": "@string/quiz_fish_pikeperch_link",
+          "facts": "@array/quiz_fish_pikeperch_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_fish_salmon_name",
+          "hint": "@string/quiz_fish_salmon_hint",
+          "description": "@string/quiz_fish_salmon_description",
+          "answers": "@array/quiz_fish_salmon_answers",
+          "image": "salmon.jpg",
+          "link": "@string/quiz_fish_salmon_link",
+          "facts": "@array/quiz_fish_salmon_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_fish_trout_name",
+          "hint": "@string/quiz_fish_trout_hint",
+          "description": "@string/quiz_fish_trout_description",
+          "answers": "@array/quiz_fish_trout_answers",
+          "image": "rainbow-trout.jpg",
+          "link": "@string/quiz_fish_trout_link",
+          "facts": "@array/quiz_fish_trout_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_fish_burbot_name",
+          "hint": "@string/quiz_fish_burbot_hint",
+          "description": "@string/quiz_fish_burbot_description",
+          "answers": "@array/quiz_fish_burbot_answers",
+          "image": "burbot.jpg",
+          "link": "@string/quiz_fish_burbot_link",
+          "facts": "@array/quiz_fish_burbot_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_fish_bream_name",
+          "hint": "@string/quiz_fish_bream_hint",
+          "description": "@string/quiz_fish_bream_description",
+          "answers": "@array/quiz_fish_bream_answers",
+          "image": "bream.jpg",
+          "link": "@string/quiz_fish_bream_link",
+          "facts": "@array/quiz_fish_bream_facts"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_fish_roach_name",
+          "hint": "@string/quiz_fish_roach_hint",
+          "description": "@string/quiz_fish_roach_description",
+          "answers": "@array/quiz_fish_roach_answers",
+          "image": "common-roach.jpg",
+          "link": "@string/quiz_fish_roach_link",
+          "facts": "@array/quiz_fish_roach_facts"
+        },
+        {
+          "id": "9",
+          "name": "@string/quiz_fish_whitefish_name",
+          "hint": "@string/quiz_fish_whitefish_hint",
+          "description": "@string/quiz_fish_whitefish_description",
+          "answers": "@array/quiz_fish_whitefish_answers",
+          "image": "whitefish.jpg",
+          "link": "@string/quiz_fish_whitefish_link",
+          "facts": "@array/quiz_fish_whitefish_facts"
+        },
+        {
+          "id": "10",
+          "name": "@string/quiz_fish_herring_name",
+          "hint": "@string/quiz_fish_herring_hint",
+          "description": "@string/quiz_fish_herring_description",
+          "answers": "@array/quiz_fish_herring_answers",
+          "image": "herring.jpg",
+          "link": "@string/quiz_fish_herring_link",
+          "facts": "@array/quiz_fish_herring_facts"
+        },
+        {
+          "id": "11",
+          "name": "@string/quiz_fish_crab_name",
+          "hint": "@string/quiz_fish_crab_hint",
+          "description": "@string/quiz_fish_crab_description",
+          "answers": "@array/quiz_fish_crab_answers",
+          "image": "crab.jpg",
+          "link": "@string/quiz_fish_crab_link",
+          "facts": "@array/quiz_fish_crab_facts"
+        },
+        {
+          "id": "12",
+          "name": "@string/quiz_fish_crayfish_name",
+          "hint": "@string/quiz_fish_crayfish_hint",
+          "description": "@string/quiz_fish_crayfish_description",
+          "answers": "@array/quiz_fish_crayfish_answers",
+          "image": "crayfish.jpg",
+          "link": "@string/quiz_fish_crayfish_link",
+          "facts": "@array/quiz_fish_crayfish_facts"
+        },
+        {
+          "id": "13",
+          "name": "@string/quiz_fish_lobster_name",
+          "hint": "@string/quiz_fish_lobster_hint",
+          "description": "@string/quiz_fish_lobster_description",
+          "answers": "@array/quiz_fish_lobster_answers",
+          "image": "lobster.jpg",
+          "link": "@string/quiz_fish_lobster_link",
+          "facts": "@array/quiz_fish_lobster_facts"
+        }
+      ]
+    }
+  }
+}

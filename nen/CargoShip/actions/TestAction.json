@@ -1,0 +1,18 @@
+[{
+    "text": {
+        "title": null,
+        "timeout": 5000,
+        "content": "You just stepped on something..."
+    },
+    "triggerTimes": 3,
+    "event": "areaEnter"
+},
+{
+    "angularForce": {
+        "x": 0.0,
+        "y": 10.0,
+        "z": 0.0
+    },
+    "targetModel": "Debug Shader box",
+    "event": "areaEnter"
+}]

@@ -1,0 +1,39 @@
+{
+    "tanks":
+    {
+        "1": "Elye",
+        "2": "Muonamestari",
+        "3": "Rytmiliieri",
+        "4": "Jenkkis"
+    },
+
+    "dps":
+    {
+        "1": "Xanabless",
+        "2": "Loreina",
+        "3": "Munalukko",
+        "4": "Merome",
+        "5": "Pålkka",
+        "6": "Vaarala",
+        "7": "Morkkeli",
+        "8": "Vatipää",
+        "9": "Juopox",
+        "10": "Rofloller",
+        "11": "Jeazy"
+    },
+
+    "healers":
+    {
+        "1": "Maitoparta",
+        "2": "Tiwwue",
+        "3": "Kilrain",
+        "4": "Tawi",
+        "5": "Belvain"
+    },
+
+    "groups":
+    {
+        "1": "Group 1",
+        "2": "Group 2"
+    }
+}

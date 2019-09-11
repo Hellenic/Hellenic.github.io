@@ -1,0 +1,76 @@
+body {
+	background-color: #ffffff;
+}
+
+#main {
+
+	text-align: center;
+	width: 472px;
+	height: 549px;
+
+	color: red;
+	background-color: #ffffff;
+	background-image: url('bpmcounter.png');
+	background-repeat: no-repeat;
+}
+
+#count {
+    position: relative;
+    top: 100px;
+}
+
+#bpmcount {
+    position: relative;
+    top: 70px;
+}
+
+#bpmtarget {
+    position: relative;
+    top: 125px;
+}
+
+#bpmtime {
+    position:relative;
+    top: 140px;
+}
+
+#button-container {
+  position:relative;
+	height: 60px;
+	top: 142px;
+	text-align: center;
+}
+
+#countbutton {
+  position: relative;
+  left: 40px;
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+#resetbutton {
+  position: relative;
+  right: 40px;
+  width: 60px;
+	height: 60px;
+	float: right;
+}
+
+
+#meterid
+{
+  position: relative;
+  background-color: Lime;
+	margin-left: 0.4em;
+	width: 0px;
+  left: 1.8em;
+  top: 10px;
+}
+
+#meterbox
+{
+  position: relative;
+  top: 70px;
+  text-align: left;
+}

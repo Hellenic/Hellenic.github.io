@@ -1,0 +1,265 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Hedelmät",
+        "name": "quiz_fruits_name"
+      },
+      {
+        "_": "Testaa kuinka hyvin tunnet suosituimmat hedelmät!",
+        "name": "quiz_fruits_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Hedelmät",
+        "name": "quiz_fruits_link"
+      },
+      {
+        "_": "Omena",
+        "name": "quiz_fruits_apple_name"
+      },
+      {
+        "name": "quiz_fruits_apple_hint"
+      },
+      {
+        "_": "Omena on tarhaomenapuun hedelmä. Tarhaomenapuu on yksi maailman viljellyimmistä hedelmäpuista. Omena on valkeamaltoinen, syötävä hedelmä, joka on yleensä halkaisijaltaan 5–10 senttimetriä ja pyöreähkö. Omenalajikkeita on tuhansia, ja niiden väri, happamuus, koko ja muoto vaihtelevat. Lajikkeet voidaan jakaa kolmeen luokkaan käyttötarkoituksen mukaan: siiderin valmistukseen käytettävät omenat, ruoanlaittoon tarkoitetut talousomenat ja sellaisenaan syötävät jälkiruokaomenat.",
+        "name": "quiz_fruits_apple_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Omena",
+        "name": "quiz_fruits_apple_link"
+      },
+      {
+        "_": "Appelsiini",
+        "name": "quiz_fruits_orange_name"
+      },
+      {
+        "name": "quiz_fruits_orange_hint"
+      },
+      {
+        "_": "Appelsiini (Citrus sinensis) on sitruspuihin (Citrus) kuuluva ainavihreä pieni puu. Samaa nimeä käytetään sen mehukkaasta hedelmästä. Appelsiini lienee pomelon (Citrus maxima) ja mandariinin (Citrus reticulata) risteymä. Appelsiinit ovat peräisin Kaakkois-Aasiasta.\n\nKasvitieteessä appelsiinin hedelmä määritellään marjaksi, koska se on pehmeäkuorinen, mehevä hedelmä. Hedelmä on pyöreä, ja muiden sitrushedelmien tavoin se on jakautunut useampaan lohkoon. Kypsät appelsiinit ovat hyviä C-vitamiinin lähteitä. Useimmat appelsiinit ovat oranssin värisiä. Muutamat lajikkeet ovat kuitenkin sisältä punaisia, ja niitä sanotaan veriappelsiineiksi.",
+        "name": "quiz_fruits_orange_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Appelsiini",
+        "name": "quiz_fruits_orange_link"
+      },
+      {
+        "_": "Sitruuna",
+        "name": "quiz_fruits_lemon_name"
+      },
+      {
+        "name": "quiz_fruits_lemon_hint"
+      },
+      {
+        "_": "Sitruuna (Citrus limon) on ruutakasveihin (Rutaceae) kuuluva sitruspuu. Sen hedelmää kutsutaan myös samalla nimellä. Sitruunan hedelmästä tavallisimmin käytetään siitä puristettu mehu, mutta myös hedelmälihaa ja kuoria käytetään mm. ruoanlaitossa ja juomasekoituksissa. Sitruunaa syödään harvoin sellaisenaan, sillä sen kirpeä maku ei miellytä kovin monia. Sitruunamehusta on noin 5 % sitruunahappoa, joka antaa sille kirpeän maun. Sitruunan itäminen siemenestä hedelmää tuottavaksi puuksi kestää noin 15 vuotta.",
+        "name": "quiz_fruits_lemon_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Sitruuna",
+        "name": "quiz_fruits_lemon_link"
+      },
+      {
+        "_": "Banaani",
+        "name": "quiz_fruits_banana_name"
+      },
+      {
+        "name": "quiz_fruits_banana_hint"
+      },
+      {
+        "_": "Banaani (Musa sapientum) on banaanien (Musa) sukuun kuuluva jalostettu hyötykasvi. Sen hedelmä on kasvitieteessä luokiteltu marjaksi, tarkemmin sanoen pohjushedelmä ja tunnetaan yleensä \"tavallisena\" tai \"kaupallisena\" banaanina. Se on ruohokasvi, joka tuottaa satoa seitsemäntenä vuonna istutuksestaan.",
+        "name": "quiz_fruits_banana_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Banaani",
+        "name": "quiz_fruits_banana_link"
+      },
+      {
+        "_": "Kirsikka",
+        "name": "quiz_fruits_cherry_name"
+      },
+      {
+        "name": "quiz_fruits_cherry_hint"
+      },
+      {
+        "_": "Kirsikkapuun hedelmiä ovat kirsikat. Sana kirsikka viittaa sekä kirsikkapuuhun että sen hedelmään. Kirsikka on kivihedelmä eli luumarja, joten hedelmät sisältävät kiven, jonka halkaisija on tyypillisesti 0,5–1 cm ja joka puolestaan sisältää puun siemenen. Hedelmien väri vaihtelee vaaleanpunaisesta tummanpunaiseen, myös mustia tai keltaisia tunnetaan.",
+        "name": "quiz_fruits_cherry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kirsikka",
+        "name": "quiz_fruits_cherry_link"
+      },
+      {
+        "_": "Persikka",
+        "name": "quiz_fruits_peach_name"
+      },
+      {
+        "name": "quiz_fruits_peach_hint"
+      },
+      {
+        "_": "Persikka (Prunus persica) on luumunsukuinen hedelmäpuu, ja sen samanniminen hedelmä. Persikka on alun perin kotoisin Kiinasta. Tämä lehtipuu kasvaa 5–10 m korkeaksi, siinä on puikeat 7–15 cm pitkät lehdet ja hennon vaaleanpunaiset kukat. Nukkapintainen, punakeltainen hedelmä on makea, mehukas ja omenankokoinen sekä -muotoinen. Se on tyypillinen luumarja, ja sen sisällä on yksi kovan puisen kiven suojaama siemen.",
+        "name": "quiz_fruits_peach_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Persikka",
+        "name": "quiz_fruits_peach_link"
+      },
+      {
+        "_": "Ananas",
+        "name": "quiz_fruits_pineapple_name"
+      },
+      {
+        "name": "quiz_fruits_pineapple_hint"
+      },
+      {
+        "_": "Ananas eli hedelmäananas (Ananas comosus) on tropiikissa kasvava yksisirkkainen kasvi. Myös sen mehukasta, käpymäistä latvakukintoa eli epähedelmää kutsutaan ananakseksi. Kasvin ruusukkeiset lehdet ovat jäykät ja okalaitaiset ja ne muodostavat erikoisen vedenkeräysaltaan kasvin juurelle. Kukat ovat sinipunaiset ja kasvavat tähkämäisenä ryhmänä lyhyen varren yläosassa pienen latvaruusukkeen alapuolella. Kasvi kasvaa noin metrin mittaiseksi.",
+        "name": "quiz_fruits_pineapple_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Ananas",
+        "name": "quiz_fruits_pineapple_link"
+      },
+      {
+        "_": "Päärynä",
+        "name": "quiz_fruits_pear_name"
+      },
+      {
+        "name": "quiz_fruits_pear_hint"
+      },
+      {
+        "_": "Päärynä (Pyrus communis) on hedelmäpuuna viljelty ruusukasvien (Rosaceae) heimoon kuuluva puu, joka on läheistä sukua omenapuille (Malus). Päärynäpuu eroaa omenapuista suippokärkisten lehtien, huiskilokukinnon, valkoisten kukkien, kokonaan erillisten vartaloiden ja latvapuoleltaan tyvipuolta turpeamman hedelmän kautta.",
+        "name": "quiz_fruits_pear_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Päärynä",
+        "name": "quiz_fruits_pear_link"
+      },
+      {
+        "_": "Luumu",
+        "name": "quiz_fruits_plum_name"
+      },
+      {
+        "name": "quiz_fruits_plum_hint"
+      },
+      {
+        "_": "Luumu eli luumupuu (Prunus domestica) on Prunus-sukuun kuuluva puu, joka on läheistä sukua aprikoosille, persikalle, kirsikoille ja tuomelle. Sen hedelmä on luumarja. Luumupuu kasvaa 12 metriä korkeaksi ja 10 m leveäksi. Kukat ovat valkoiset. Hedelmät voivat olla sinisiä, punaisia, keltaisia, sinipunaisia tai vihreitä.",
+        "name": "quiz_fruits_plum_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Luumu",
+        "name": "quiz_fruits_plum_link"
+      },
+      {
+        "_": "Greippi",
+        "name": "quiz_fruits_grapefruit_name"
+      },
+      {
+        "name": "quiz_fruits_grapefruit_hint"
+      },
+      {
+        "_": "Greippi (Citrus × paradisi) on sitruspuiden (Citrus) sukuun kuuluva kasvi ja sen tuottama hedelmä. Se on syntynyt luonnollisesti risteytyneistä pomelosta (Citrus maxima) ja makeasta appelsiinista (Citrus sinensis). Geneettisesti se on kuitenkin paljon lähempänä pomeloa kuin appelsiinia.",
+        "name": "quiz_fruits_grapefruit_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Greippi",
+        "name": "quiz_fruits_grapefruit_link"
+      },
+      {
+        "_": "Vesimeloni",
+        "name": "quiz_fruits_watermelon_name"
+      },
+      {
+        "name": "quiz_fruits_watermelon_hint"
+      },
+      {
+        "_": "Vesimeloni (Citrullus lanatus, joskus myös C. vulgaris) on Citrullus-sukuun kuuluva viljelyskasvi ja sen marja. Alun perin vesimeloni on kotoisin eteläisestä Afrikasta. Vesimelonilla on paksu vihreä kuori ja mehukas, makea, yleensä punainen sisus. Suurin osa (jopa 93–95 %) hedelmästä on vettä.",
+        "name": "quiz_fruits_watermelon_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Vesimeloni",
+        "name": "quiz_fruits_watermelon_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_fruits_apple_answers",
+        "item": "omena"
+      },
+      {
+        "name": "quiz_fruits_apple_facts"
+      },
+      {
+        "name": "quiz_fruits_orange_answers",
+        "item": "appelsiini"
+      },
+      {
+        "name": "quiz_fruits_orange_facts"
+      },
+      {
+        "name": "quiz_fruits_lemon_answers",
+        "item": "sitruuna"
+      },
+      {
+        "name": "quiz_fruits_lemon_facts"
+      },
+      {
+        "name": "quiz_fruits_banana_answers",
+        "item": "banaani"
+      },
+      {
+        "name": "quiz_fruits_banana_facts"
+      },
+      {
+        "name": "quiz_fruits_cherry_answers",
+        "item": "kirsikka"
+      },
+      {
+        "name": "quiz_fruits_cherry_facts"
+      },
+      {
+        "name": "quiz_fruits_peach_answers",
+        "item": "persikka"
+      },
+      {
+        "name": "quiz_fruits_peach_facts"
+      },
+      {
+        "name": "quiz_fruits_pineapple_answers",
+        "item": "ananas"
+      },
+      {
+        "name": "quiz_fruits_pineapple_facts"
+      },
+      {
+        "name": "quiz_fruits_pear_answers",
+        "item": "päärynä"
+      },
+      {
+        "name": "quiz_fruits_pear_facts"
+      },
+      {
+        "name": "quiz_fruits_plum_answers",
+        "item": "luumu"
+      },
+      {
+        "name": "quiz_fruits_plum_facts"
+      },
+      {
+        "name": "quiz_fruits_grapefruit_answers",
+        "item": "greippi"
+      },
+      {
+        "name": "quiz_fruits_grapefruit_facts"
+      },
+      {
+        "name": "quiz_fruits_watermelon_answers",
+        "item": [
+          "vesimeloni",
+          "vesimelooni"
+        ]
+      },
+      {
+        "name": "quiz_fruits_watermelon_facts"
+      }
+    ]
+  }
+}

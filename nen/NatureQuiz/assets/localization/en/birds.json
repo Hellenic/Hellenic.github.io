@@ -1,0 +1,248 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Birds",
+        "name": "quiz_commonbirds_name"
+      },
+      {
+        "_": "Test how well you know the most common smaller birds!",
+        "name": "quiz_commonbirds_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Bird",
+        "name": "quiz_commonbirds_link"
+      },
+      {
+        "_": "Swallow",
+        "name": "quiz_commonbirds_swallow_name"
+      },
+      {
+        "name": "quiz_commonbirds_swallow_hint"
+      },
+      {
+        "_": "The swallows and martins are a group of passerine birds in the family Hirundinidae which are characterised by their adaptation to aerial feeding. Swallow is used colloquially in Europe as a synonym for the barn swallow.",
+        "name": "quiz_commonbirds_swallow_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/swallow",
+        "name": "quiz_commonbirds_swallow_link"
+      },
+      {
+        "_": "Sparrow",
+        "name": "quiz_commonbirds_sparrow_name"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_hint"
+      },
+      {
+        "_": "Sparrows are a family of small passerine birds, Passeridae. They are also known as true sparrows, or Old World sparrows, names also used for a particular genus of the family, Passer. They are distinct from both the American sparrows, in the family Emberizidae, and from a few other birds sharing their name, such as the Java sparrow of the family Estrildidae. Many species nest on buildings, and the house and Eurasian tree sparrows in particular inhabit cities in large numbers, so sparrows may be the most familiar of all wild birds. They are primarily seed-eaters, though they also consume small insects. Some species scavenge for food around cities and, like gulls or rock doves, will happily eat virtually anything in small quantities.",
+        "name": "quiz_commonbirds_sparrow_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/sparrow",
+        "name": "quiz_commonbirds_sparrow_link"
+      },
+      {
+        "_": "Wagtail",
+        "name": "quiz_commonbirds_wagtail_name"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_hint"
+      },
+      {
+        "_": "The wagtails form the passerine bird genus Motacilla. They are small birds with long tails which they wag frequently. Motacilla, the root of the family and genus name, means moving tail. The forest wagtail belongs to the monotypic genus Dendronanthus which is closely related to Motacilla and sometimes included herein.",
+        "name": "quiz_commonbirds_wagtail_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/wagtail",
+        "name": "quiz_commonbirds_wagtail_link"
+      },
+      {
+        "_": "Great tit",
+        "name": "quiz_commonbirds_greattit_name"
+      },
+      {
+        "name": "quiz_commonbirds_greattit_hint"
+      },
+      {
+        "_": "The great tit is a distinctive bird, with a black head and neck, prominent white cheeks, olive upperparts and yellow underparts, with some variation amongst the numerous subspecies. It is predominantly insectivorous in the summer, but will consume a wider range of food items in the winter months, including small hibernating bats. Like all tits it is a cavity nester, usually nesting in a hole in a tree. The female lays around 12 eggs and incubates them alone, although both parents raise the chicks. In most years the pair will raise two broods.",
+        "name": "quiz_commonbirds_greattit_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Great_tit",
+        "name": "quiz_commonbirds_greattit_link"
+      },
+      {
+        "_": "thrush",
+        "name": "quiz_commonbirds_thrush_name"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_hint"
+      },
+      {
+        "_": "Thrushes are plump, soft-plumaged, small to medium-sized birds, inhabiting wooded areas, and often feed on the ground. The smallest thrush may be the forest rock thrush, at 21 g (0.74 oz) and 14.5 cm (5.7 in). However, the shortwings, which have ambiguous alliances with both thrushes and Old World flycatchers, can be even smaller. The lesser shortwing averages 12 cm (4.7 in). The largest thrush is the blue whistling thrush, at 178 g (6.3 oz) and 33 cm (13 in). The great thrush is similar in length, but less heavily built. Most species are grey or brown in colour, often with speckled underparts.",
+        "name": "quiz_commonbirds_thrush_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Thrush_(bird)",
+        "name": "quiz_commonbirds_thrush_link"
+      },
+      {
+        "_": "Seagull",
+        "name": "quiz_commonbirds_seagull_name"
+      },
+      {
+        "name": "quiz_commonbirds_seagull_hint"
+      },
+      {
+        "_": "Gulls are typically medium to large seabirds, usually grey or white, often with black markings on the head or wings. They typically have harsh wailing or squawking calls, stout, longish bills, and webbed feet. Most gulls, particularly Larus species, are ground-nesting carnivores, which will take live food or scavenge opportunistically. Live food often includes crabs and small fish. Gulls have unhinging jaws which allow them to consume large prey.",
+        "name": "quiz_commonbirds_seagull_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/seagull",
+        "name": "quiz_commonbirds_seagull_link"
+      },
+      {
+        "_": "Raven",
+        "name": "quiz_commonbirds_raven_name"
+      },
+      {
+        "name": "quiz_commonbirds_raven_hint"
+      },
+      {
+        "_": "A raven is one of several larger-bodied members of the genus Corvus. Most have black plumage and large beaks but their plumage can differ slightly in some species. Most species have dark brown irises but a few in Australia have white irises. The largest raven species are the Common raven and the Thick-billed raven. The smallest species are the Little raven, Fan-tailed raven and Chihuahuan raven. There are 4 larger species, 5 smaller species, 2 extinct species and 1 known extinct subspecies.",
+        "name": "quiz_commonbirds_raven_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/raven",
+        "name": "quiz_commonbirds_raven_link"
+      },
+      {
+        "_": "Magpie",
+        "name": "quiz_commonbirds_magpie_name"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_hint"
+      },
+      {
+        "_": "Magpies are birds of the Corvidae (crow) family, including the black and white Eurasian magpie, which is one of the few animal species known to be able to recognize itself in a mirror test. In addition to other members of the genus Pica, corvids considered as magpies are in the genera Cissa, Cyanopica and Urocissa.",
+        "name": "quiz_commonbirds_magpie_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/magpie",
+        "name": "quiz_commonbirds_magpie_link"
+      },
+      {
+        "_": "Crow",
+        "name": "quiz_commonbirds_crow_name"
+      },
+      {
+        "name": "quiz_commonbirds_crow_hint"
+      },
+      {
+        "_": "Corvus is a widely distributed genus of birds in the family Corvidae. Ranging in size from the relatively small pigeon-size jackdaws (Eurasian and Daurian) to the common raven of the Holarctic region and thick-billed raven of the highlands of Ethiopia, the 40 or so members of this genus occur on all temperate continents except South America, and several islands. In Europe, the word \"crow\" is used to refer to the carrion crow or the hooded crow, while in North America it is used for the American crow or the northwestern crow.",
+        "name": "quiz_commonbirds_crow_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/crow",
+        "name": "quiz_commonbirds_crow_link"
+      },
+      {
+        "_": "Pigeon",
+        "name": "quiz_commonbirds_pigeon_name"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_hint"
+      },
+      {
+        "_": "Pigeons and doves constitute the bird clade Columbidae, that includes about 310 species. Pigeons are stout-bodied birds with short necks, and short, slender bills with fleshy ceres. They feed on seeds, fruits, and plants. This family occurs worldwide, but the greatest variety is in the Indomalaya and Australasia ecozones.",
+        "name": "quiz_commonbirds_pigeon_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/pigeon",
+        "name": "quiz_commonbirds_pigeon_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_commonbirds_swallow_answers",
+        "item": "swallow"
+      },
+      {
+        "name": "quiz_commonbirds_swallow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_answers",
+        "item": "sparrow"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_answers",
+        "item": "wagtail"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_facts"
+      },
+      {
+        "name": "quiz_commonbirds_greattit_answers",
+        "item": [
+          "tit",
+          "great tit"
+        ]
+      },
+      {
+        "name": "quiz_commonbirds_greattit_facts"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_answers",
+        "item": "thrush"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_facts"
+      },
+      {
+        "name": "quiz_commonbirds_seagull_answers",
+        "item": [
+          "seagull",
+          "gull"
+        ]
+      },
+      {
+        "name": "quiz_commonbirds_seagull_facts",
+        "item": "Seen especially near the shoreline"
+      },
+      {
+        "name": "quiz_commonbirds_raven_answers",
+        "item": "raven"
+      },
+      {
+        "name": "quiz_commonbirds_raven_facts"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_answers",
+        "item": "magpie"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_facts"
+      },
+      {
+        "name": "quiz_commonbirds_crow_answers",
+        "item": "crow"
+      },
+      {
+        "name": "quiz_commonbirds_crow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_answers",
+        "item": "pigeon"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_facts",
+        "item": "Seen especially at the cities"
+      }
+    ]
+  }
+}

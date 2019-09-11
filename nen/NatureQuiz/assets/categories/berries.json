@@ -1,0 +1,134 @@
+{
+  "category": {
+    "name": "@string/quiz_berries_name",
+    "description": "@string/quiz_berries_description",
+    "image": "berries.jpg",
+    "link": "@string/quiz_berries_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_berries_strawberry_name",
+          "hint": "@string/quiz_berries_strawberry_hint",
+          "description": "@string/quiz_berries_strawberry_description",
+          "answers": "@array/quiz_berries_strawberry_answers",
+          "image": "strawberries.jpg",
+          "link": "@string/quiz_berries_strawberry_link",
+          "facts": "@array/quiz_berries_strawberry_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_berries_gooseberry_name",
+          "hint": "@string/quiz_berries_gooseberry_hint",
+          "description": "@string/quiz_berries_gooseberry_description",
+          "answers": "@array/quiz_berries_gooseberry_answers",
+          "image": "gooseberry.jpg",
+          "link": "@string/quiz_berries_gooseberry_link",
+          "facts": "@array/quiz_berries_gooseberry_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_berries_redcurrant_name",
+          "hint": "@string/quiz_berries_redcurrant_hint",
+          "description": "@string/quiz_berries_redcurrant_description",
+          "answers": "@array/quiz_berries_redcurrant_answers",
+          "image": "redcurrant.jpg",
+          "link": "@string/quiz_berries_redcurrant_link",
+          "facts": "@array/quiz_berries_redcurrant_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_berries_blackcurrant_name",
+          "hint": "@string/quiz_berries_blackcurrant_hint",
+          "description": "@string/quiz_berries_blackcurrant_description",
+          "answers": "@array/quiz_berries_blackcurrant_answers",
+          "image": "blackcurrant.jpg",
+          "link": "@string/quiz_berries_blackcurrant_link",
+          "facts": "@array/quiz_berries_blackcurrant_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_berries_blueberry_name",
+          "hint": "@string/quiz_berries_blueberry_hint",
+          "description": "@string/quiz_berries_blueberry_description",
+          "answers": "@array/quiz_berries_blueberry_answers",
+          "image": "blueberry.jpg",
+          "link": "@string/quiz_berries_blueberry_link",
+          "facts": "@array/quiz_berries_blueberry_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_berries_lingonberry_name",
+          "hint": "@string/quiz_berries_lingonberry_hint",
+          "description": "@string/quiz_berries_lingonberry_description",
+          "answers": "@array/quiz_berries_lingonberry_answers",
+          "image": "lingonberries.jpg",
+          "link": "@string/quiz_berries_lingonberry_link",
+          "facts": "@array/quiz_berries_lingonberry_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_berries_raspberry_name",
+          "hint": "@string/quiz_berries_raspberry_hint",
+          "description": "@string/quiz_berries_raspberry_description",
+          "answers": "@array/quiz_berries_raspberry_answers",
+          "image": "raspberry.jpg",
+          "link": "@string/quiz_berries_raspberry_link",
+          "facts": "@array/quiz_berries_raspberry_facts"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_berries_cranberry_name",
+          "hint": "@string/quiz_berries_cranberry_hint",
+          "description": "@string/quiz_berries_cranberry_description",
+          "answers": "@array/quiz_berries_cranberry_answers",
+          "image": "cranberry.jpg",
+          "link": "@string/quiz_berries_cranberry_link",
+          "facts": "@array/quiz_berries_cranberry_facts"
+        },
+        {
+          "id": "9",
+          "name": "@string/quiz_berries_cloudberry_name",
+          "hint": "@string/quiz_berries_cloudberry_hint",
+          "description": "@string/quiz_berries_cloudberry_description",
+          "answers": "@array/quiz_berries_cloudberry_answers",
+          "image": "cloudberry.jpg",
+          "link": "@string/quiz_berries_cloudberry_link",
+          "facts": "@array/quiz_berries_cloudberry_facts"
+        },
+        {
+          "id": "10",
+          "name": "@string/quiz_berries_crowberry_name",
+          "hint": "@string/quiz_berries_crowberry_hint",
+          "description": "@string/quiz_berries_crowberry_description",
+          "answers": "@array/quiz_berries_crowberry_answers",
+          "image": "crowberry.jpg",
+          "link": "@string/quiz_berries_crowberry_link",
+          "facts": "@array/quiz_berries_crowberry_facts"
+        },
+        {
+          "id": "11",
+          "name": "@string/quiz_berries_buckthorn_name",
+          "hint": "@string/quiz_berries_buckthorn_hint",
+          "description": "@string/quiz_berries_buckthorn_description",
+          "answers": "@array/quiz_berries_buckthorn_answers",
+          "image": "buckthorn.jpg",
+          "link": "@string/quiz_berries_buckthorn_link",
+          "facts": "@array/quiz_berries_buckthorn_facts"
+        },
+        {
+          "id": "12",
+          "name": "@string/quiz_berries_bilberry_name",
+          "hint": "@string/quiz_berries_bilberry_hint",
+          "description": "@string/quiz_berries_bilberry_description",
+          "answers": "@array/quiz_berries_bilberry_answers",
+          "image": "bilberry.jpg",
+          "link": "@string/quiz_berries_bilberry_link",
+          "facts": "@array/quiz_berries_bilberry_facts"
+        }
+      ]
+    }
+  }
+}

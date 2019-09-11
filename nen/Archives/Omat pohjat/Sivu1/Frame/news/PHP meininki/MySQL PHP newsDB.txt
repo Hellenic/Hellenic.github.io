@@ -1,0 +1,47 @@
+MySQL:
+
+   1.
+      CREATE TABLE news_posts (
+   2.
+      id INT(11) NOT NULL AUTO_INCREMENT,
+   3.
+      title VARCHAR(70) NOT NULL,
+   4.
+      author VARCHAR(50) NOT NULL,
+   5.
+      post TEXT NOT NULL,
+   6.
+      DATE DATETIME NOT NULL,
+   7.
+      PRIMARY KEY (id)
+   8.
+      );
+
+
+
+
+
+MySQL:
+
+   1.
+      CREATE TABLE comments (
+   2.
+      id INT(11) NOT NULL AUTO_INCREMENT,
+   3.
+      nid INT(11) NOT NULL,
+   4.
+      title VARCHAR(70) NOT NULL,
+   5.
+      author VARCHAR(50) NOT NULL,
+   6.
+      comment TEXT NOT NULL,
+   7.
+      DATE DATETIME NOT NULL,
+   8.
+      PRIMARY KEY (id)
+   9.
+      );
+
+
+
+

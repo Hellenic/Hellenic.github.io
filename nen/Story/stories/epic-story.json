@@ -1,0 +1,7 @@
+{
+    	"id": "epic-story",
+    	"name": "Epic story",
+    	"description": "Short but epic example story.",
+	"image": "Book.jpg",
+	"pageCount": "5"
+}

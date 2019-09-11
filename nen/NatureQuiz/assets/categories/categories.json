@@ -1,0 +1,98 @@
+[
+  {
+    "id": "animals",
+    "name": "@string/quiz_animals_name",
+    "description": "@string/quiz_animals_description",
+    "link": "@string/quiz_animals_link",
+    "image": "animals.jpg",
+    "levelCount": 12
+  },
+  {
+    "id": "berries",
+    "name": "@string/quiz_berries_name",
+    "description": "@string/quiz_berries_description",
+    "link": "@string/quiz_berries_link",
+    "image": "berries.jpg",
+    "levelCount": 12
+  },
+  {
+    "id": "bigbirds",
+    "name": "@string/quiz_bigbirds_name",
+    "description": "@string/quiz_bigbirds_description",
+    "link": "@string/quiz_bigbirds_link",
+    "image": "bigbirds.jpg",
+    "levelCount": 12
+  },
+  {
+    "id": "birds",
+    "name": "@string/quiz_commonbirds_name",
+    "description": "@string/quiz_commonbirds_description",
+    "link": "@string/quiz_commonbirds_link",
+    "image": "birds.jpg",
+    "levelCount": 10
+  },
+  {
+    "id": "fish",
+    "name": "@string/quiz_fish_name",
+    "description": "@string/quiz_fish_description",
+    "link": "@string/quiz_fish_link",
+    "image": "fish.jpg",
+    "levelCount": 13
+  },
+  {
+    "id": "flowers",
+    "name": "@string/quiz_flowers_name",
+    "description": "@string/quiz_flowers_description",
+    "link": "@string/quiz_flowers_link",
+    "image": "flowers.jpg",
+    "levelCount": 10
+  },
+  {
+    "id": "fruits",
+    "name": "@string/quiz_fruits_name",
+    "description": "@string/quiz_fruits_description",
+    "link": "@string/quiz_fruits_link",
+    "image": "fruits.jpg",
+    "levelCount": 11
+  },
+  {
+    "id": "insects",
+    "name": "@string/quiz_insects_name",
+    "description": "@string/quiz_insects_description",
+    "link": "@string/quiz_insects_link",
+    "image": "insects.jpg",
+    "levelCount": 12
+  },
+  {
+    "id": "mushrooms",
+    "name": "@string/quiz_mushrooms_name",
+    "description": "@string/quiz_mushrooms_description",
+    "link": "@string/quiz_mushrooms_link",
+    "image": "mushrooms.jpg",
+    "levelCount": 7
+  },
+  {
+    "id": "plants",
+    "name": "@string/quiz_plants_name",
+    "description": "@string/quiz_plants_description",
+    "link": "@string/quiz_plants_link",
+    "image": "plants.jpg",
+    "levelCount": 7
+  },
+  {
+    "id": "trees",
+    "name": "@string/quiz_trees_name",
+    "description": "@string/quiz_trees_description",
+    "link": "@string/quiz_trees_link",
+    "image": "trees.jpg",
+    "levelCount": 8
+  },
+  {
+    "id": "vegetables",
+    "name": "@string/quiz_vegetables_name",
+    "description": "@string/quiz_vegetables_description",
+    "link": "@string/quiz_vegetables_link",
+    "image": "vegetables.jpg",
+    "levelCount": 15
+  }
+]

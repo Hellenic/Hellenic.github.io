@@ -1,0 +1,95 @@
+{
+  "category": {
+    "name": "@string/quiz_trees_name",
+    "description": "@string/quiz_trees_description",
+    "image": "trees.jpg",
+    "link": "@string/quiz_trees_link",
+    "completedText": "@string/quiz_trees_completedText",
+    "progressText": "@string/quiz_trees_progressText",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_trees_birch_name",
+          "hint": "@string/quiz_trees_birch_hint",
+          "description": "@string/quiz_trees_birch_description",
+          "answers": "@array/quiz_trees_birch_answers",
+          "answerText": "@string/quiz_trees_birch_answerText",
+          "image": "birch.jpg",
+          "link": "@string/quiz_trees_birch_link",
+          "facts": "@array/quiz_trees_birch_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_trees_pine_name",
+          "hint": "@string/quiz_trees_pine_hint",
+          "description": "@string/quiz_trees_pine_description",
+          "answers": "@array/quiz_trees_pine_answers",
+          "image": "pine.jpg",
+          "link": "@string/quiz_trees_pine_link",
+          "facts": "@array/quiz_trees_pine_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_trees_spruce_name",
+          "hint": "@string/quiz_trees_spruce_hint",
+          "description": "@string/quiz_trees_spruce_description",
+          "answers": "@array/quiz_trees_spruce_answers",
+          "image": "spruce.jpg",
+          "link": "@string/quiz_trees_spruce_link",
+          "facts": "@array/quiz_trees_spruce_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_trees_oak_name",
+          "hint": "@string/quiz_trees_oak_hint",
+          "description": "@string/quiz_trees_oak_description",
+          "answers": "@array/quiz_trees_oak_answers",
+          "image": "oak.jpg",
+          "link": "@string/quiz_trees_oak_link",
+          "facts": "@array/quiz_trees_oak_answers"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_trees_alder_name",
+          "hint": "@string/quiz_trees_alder_hint",
+          "description": "@string/quiz_trees_alder_description",
+          "answers": "@array/quiz_trees_alder_answers",
+          "image": "alder.jpg",
+          "link": "@string/quiz_trees_alder_link",
+          "facts": "@array/quiz_trees_alder_answers"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_trees_aspen_name",
+          "hint": "@string/quiz_trees_aspen_hint",
+          "description": "@string/quiz_trees_aspen_description",
+          "answers": "@array/quiz_trees_aspen_answers",
+          "image": "aspen.jpg",
+          "link": "@string/quiz_trees_aspen_link",
+          "facts": "@array/quiz_trees_aspen_answers"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_trees_willow_name",
+          "hint": "@string/quiz_trees_willow_hint",
+          "description": "@string/quiz_trees_willow_description",
+          "answers": "@array/quiz_trees_willow_answers",
+          "image": "willow.jpg",
+          "link": "@string/quiz_trees_willow_link",
+          "facts": "@array/quiz_trees_willow_answers"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_trees_rowan_name",
+          "hint": "@string/quiz_trees_rowan_hint",
+          "description": "@string/quiz_trees_rowan_description",
+          "answers": "@array/quiz_trees_rowan_answers",
+          "image": "rowan.jpg",
+          "link": "@string/quiz_trees_rowan_link",
+          "facts": "@array/quiz_trees_rowan_answers"
+        }
+      ]
+    }
+  }
+}

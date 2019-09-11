@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta http-equiv="content-language" content="fi">
+    <meta name="robots" content="all">
+    <meta name="author" content="Hannu Kärkkäinen, Tero Aitta-aho">
+    <meta name="description" content="BPM calculator">
+    <meta name="keywords" content="bpm, calculator">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>BPM Calc</title>
+  
+    <script language="javascript" type="text/javascript">
+	
+        var count = 0;
+        var target = 0;
+        var targetFocus = false;
+        var diff = 0;
+        var msFirst = 0;
+        var msPrevious = 0;
+        var bpmAvg = 0;
+        
+        var overtime = 0;
+        var overBpm = 0;
+        var timer = false;
+        //var keyDown = new Array();
+        
+        function resetCount()
+        {
+            count = 0;
+            target = 0;
+            targetFocus = false;
+            diff = 0;
+            msFirst = 0;
+            msPrevious = 0;
+            bpmAvg = 0;
+            overtime = 0;
+            overBpm = 0;
+            timer = false;
+            document.bpm.target.value = "";
+            document.bpm.target.blur();
+            document.bpm.difference.value = "";
+            document.bpm.average.value = "";
+            document.bpm.count.value = "";
+            document.bpm.overTime.value = document.bpm.overTime.options[0].text;
+            document.bpm.overBpm.value = "";
+            document.bpm.overDiff.value = "";
+            meter = document.getElementById("meterid");
+            meter.style.width = 0;
+            //update();
+        }
+        
+        function countBPM(e)
+        {
+            if (targetFocus == false)
+            {
+                changeImg('countButtonImg','button.png')
+                target = document.bpm.target.value;
+                
+                timeSeconds = new Date();
+                msecs = timeSeconds.getTime();
+            
+                if (count == 0)
+                {
+                    document.bpm.average.value = "First Beat";
+                    document.bpm.count.value = "First Beat";
+                    var selectIndex = document.bpm.overTime.selectedIndex;
+                    if(selectIndex > 0)
+                    {
+                        overTime = parseInt(document.bpm.overTime.options[selectIndex].text);
+                        timer = true;
+                        document.bpm.overBpm.value = overTime;
+                    }
+                    else document.bpm.overBpm.value = 0;
+                    
+                    msFirst = msecs;
+                    count++;
+                }
+                else
+                {
+                    bpmAvg = 60*1000 * count / (msecs - msFirst);
+                    if(bpmAvg > 400)
+                      bpmAvg = 400;
+                    document.bpm.average.value = bpmAvg.toFixed(2);
+                    count++;
+                    document.bpm.count.value = count;
+                }
+                msPrevious = msecs;
+                
+                meter = document.getElementById("meterid");
+                meter.style.width = bpmAvg;
+
+                
+                if (target != 0)
+                {
+                    if (target > bpmAvg)
+                    {
+                        diff = ((target - bpmAvg) / target) * 100;
+                    }
+                    else
+                    {
+                        diff = ((bpmAvg - target) / target) * 100;
+                    }
+                    document.bpm.difference.value = diff.toFixed(2);
+                }
+            }
+        }
+        
+        function update()
+        {
+            if (timer)
+            {
+                if (overTime == 0)
+                {
+                    timer = false;
+                    count--;
+                    countBPM();                    
+                    overBpm = bpmAvg.toFixed(2);
+                    document.bpm.overDiff.value = diff.toFixed(2);
+                }
+                else
+                {
+                    timer = true;
+                    overBpm = overTime;
+                }
+                
+                overTime--;
+                
+                document.bpm.overBpm.value = overBpm;
+                
+                updateTimer = new Date();
+                msecs = updateTimer.getTime();
+                if (msecs > msPrevious+2000 && count > 0)
+                {
+                    count--;
+                    countBPM();
+                }
+            }
+            setTimeout("update()", 1000);
+        }
+        
+        function changeImg(img_name,img_src)
+        {
+            document[img_name].src=img_src;
+        }
+        
+        function KeyDown()
+        {
+            changeImg('countButtonImg','countbutton_press.png');
+        }
+        
+        function MouseUp()
+        {
+            changeImg('countButtonImg','button.png');
+            changeImg('resetButtonImg','button.png');
+        }
+        
+        function cancelEvent(e)
+        {
+            if(e.preventDefault()) e.preventDefault();
+        }
+        
+    document.onmouseup = MouseUp;            
+    document.onkeydown = KeyDown;
+    document.onkeyup = countBPM;
+    document.onmousedown = cancelEvent; 
+
+    </script>
+</head>
+
+<body onload="{resetCount(), update()}">
+
+    <noscript>
+        <p>Javascript must be enabled!</p>
+    </noscript>
+    
+<div id="main">
+    <form name="bpm" method="get" action="">
+        <div id="count">
+            <div id="bpmcount">
+                Current BPM: <input name="average" type="text" size="12" readonly="readonly"><br />
+                Tap count: <input name="count" type="text" size="12" readonly="readonly"><br />
+                </div>
+                <div id="meterbox">
+                    <hr id="meterid" size="20" align="left" />
+                </div>
+    
+            <div id="bpmtarget">
+                Insert target BPM: <input name="target" type="text" size="12" onfocus="targetFocus=true" onblur="targetFocus=false"> (optional)
+                <br />
+                Difference to target: <input name="difference" type="text" size="9" readonly="readonly"> %<br />
+            </div>
+            
+            <div id="bpmtime">
+                Time:
+                <select name="overTime">
+                    <option>&nbsp;</option>
+                    <option>10</option>
+                    <option>20</option>
+                    <option>30</option>
+                    <option>40</option>
+                    <option>50</option>
+                    <option>60</option>
+                </select> seconds (optional)
+                <br />
+                BPM over time: <input name="overBpm" type="text" size="12" readonly="readonly"><br />
+                Difference to target: <input name="overDiff" type="text" size="9" readonly="readonly"> %<br />
+            </div>
+    
+            
+            <div id="button-container">
+                <div id="countbutton">
+                    <img src="button.png" width="60" height="60" alt="" onclick="countBPM()" name='countButtonImg' 
+                    onmousedown="changeImg('countButtonImg','countbutton_press.png')">
+                </div>
+                
+                <div id="resetbutton">
+                    <img src="button.png" width="60" height="60" alt="" onclick="resetCount()" name='resetButtonImg' 
+                    onmousedown="changeImg('resetButtonImg','resetbutton_press.png')">
+                </div>  
+            </div>
+        </div>        
+    </form>
+
+</div>
+</body>
+</html>

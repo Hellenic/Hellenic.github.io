@@ -1,0 +1,245 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Птицы",
+        "name": "quiz_commonbirds_name"
+      },
+      {
+        "_": "Проверь, знаешь ли ты птиц?",
+        "name": "quiz_commonbirds_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Птицы",
+        "name": "quiz_commonbirds_link"
+      },
+      {
+        "_": "Ласточка",
+        "name": "quiz_commonbirds_swallow_name"
+      },
+      {
+        "name": "quiz_commonbirds_swallow_hint"
+      },
+      {
+        "_": "Ла́сточковые (лат. Hirundinidae) — богатое видами семейство воробьинообразных. Для ласточковых характерна способность добывать пищу в воздухе, они в состоянии ловить насекомых на лету. У ласточковых стройное, обтекаемое телостроение и длинные узкие крылья. Клюв короткий и открывается довольно широко. Лапки весьма маленькие, у большинства видов длинные хвосты. Семейство насчитывает 75 видов (наибольшейшее количество видов обитает в Африке), на территории России — 10 видов. Ласточки являются перелётными птицами.",
+        "name": "quiz_commonbirds_swallow_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Ласточковые",
+        "name": "quiz_commonbirds_swallow_link"
+      },
+      {
+        "_": "Воробей",
+        "name": "quiz_commonbirds_sparrow_name"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_hint"
+      },
+      {
+        "_": "Воробьи́ные (лат. Passeridae) — семейство небольших оседлых, реже кочевых, птиц из отряда воробьинообразных. Представители семейства имеют короткие ноги, многие виды по земле передвигаются прыжками.",
+        "name": "quiz_commonbirds_sparrow_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Воробьиные",
+        "name": "quiz_commonbirds_sparrow_link"
+      },
+      {
+        "_": "Трясогузка",
+        "name": "quiz_commonbirds_wagtail_name"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_hint"
+      },
+      {
+        "_": "Трясогузки (новолат. Motacilla, от лат. motacilla «трясогузка») — род певчих птиц семейства трясогузковых.Трясогузки — перелётные птицы. Большинство трясогузок держится возле воды отдельными семьями или небольшими стайками; гнездятся трясогузки на земле или в дуплах. В отличие от большинства мелких птиц по земле передвигается не прыжками, а бегом.",
+        "name": "quiz_commonbirds_wagtail_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Трясогузки",
+        "name": "quiz_commonbirds_wagtail_link"
+      },
+      {
+        "_": "Большая синица",
+        "name": "quiz_commonbirds_greattit_name"
+      },
+      {
+        "name": "quiz_commonbirds_greattit_hint"
+      },
+      {
+        "_": "Больша́я сини́ца, или больша́к (лат. Parus major), — распространённая птица из семейства синицевых, отряда воробьинообразных. Обитает на всей территории Европы, Ближнего Востока, Центральной и Северной Азии, в некоторых районах Северной Африки. В дикой природе встречается в разнообразных лесах, обычно на открытых участках, опушках, по берегам водоёмов. Это, как правило, неперелётные птицы, и большинство больших синиц не мигрирует, кроме очень суровых зим. Обычно в этот вид включается множество подвидов. Большая синица остаётся самым крупным и наиболее многочисленным из всех встречающихся видов рода синицы, в частности в России.",
+        "name": "quiz_commonbirds_greattit_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Большая_синица",
+        "name": "quiz_commonbirds_greattit_link"
+      },
+      {
+        "_": "Дрозд",
+        "name": "quiz_commonbirds_thrush_name"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_hint"
+      },
+      {
+        "_": "Настоящие дрозды, или дрозды (лат. Turdus) — род птиц семейства дроздовых отряда воробьинообразных. 62 вида. Длина тела 20—25 см. По земле передвигаются прыжками, приседая при этом. Распространены в Европе, Азии и Америке; завезены в Новую Зеландию. На зиму северные виды улетают на юг, собираясь большими стаями. Гнездятся одиночками или небольшими колониями на деревьях, кустах или на земле; гнёзда массивные, часто с землёй или глиной в стенках. За лето дают 1—2 кладки, в каждой от 3 до 7 яиц. Питаются насекомыми, пауками, червями, моллюсками, ягодами, часто кормятся на земле.",
+        "name": "quiz_commonbirds_thrush_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Дрозды",
+        "name": "quiz_commonbirds_thrush_link"
+      },
+      {
+        "_": "Чайка",
+        "name": "quiz_commonbirds_seagull_name"
+      },
+      {
+        "name": "quiz_commonbirds_seagull_hint"
+      },
+      {
+        "_": "Ча́йковые (лат. Laridae) — семейство птиц отряда ржанкообразных, обитающих на морских просторах либо внутренних водоёмах, а также в пределах населённых пунктов. Включает в себя около 60 видов птиц, подавляющее большинство из которых относится к роду настоящих чаек, которых в узком смысле также обычно именуют чайками.",
+        "name": "quiz_commonbirds_seagull_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Чайковые",
+        "name": "quiz_commonbirds_seagull_link"
+      },
+      {
+        "_": "Ворон",
+        "name": "quiz_commonbirds_raven_name"
+      },
+      {
+        "name": "quiz_commonbirds_raven_hint"
+      },
+      {
+        "_": "Во́рон (лат. Corvus corax) — вид птиц из рода воронов.Один из крупнейших представителей отряда Воробьинообразные. Длина тела 60—65 см. Самцы крупнее самок, в остальном половой диморфизм не выражен. Длина крыла самцов 410—473, самок 385—460, в среднем 441,2 и 432,3 мм. Масса самцов 1100—1560, самок 798—1315, в среднем 1383 и 1085 г. Размах крыльев достигает 1,40—1,50 м.",
+        "name": "quiz_commonbirds_raven_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Ворон",
+        "name": "quiz_commonbirds_raven_link"
+      },
+      {
+        "_": "Сорока",
+        "name": "quiz_commonbirds_magpie_name"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_hint"
+      },
+      {
+        "_": "Соро́ка, или европейская сорока, или обыкновенная сорока,(лат. Pica pica) — птица семейства врановых из рода сорок.Сороки населяют всю Европу от Нордкапа в Скандинавии до южных оконечностей Испании и Греции. Она отсутствует только на нескольких островах Средиземного моря. Также населяет части прибрежных областей Марокко, Алжира, Туниса на севере Африки. Сорока — это оседлая птица, но в Скандинавии также и перелётная.",
+        "name": "quiz_commonbirds_magpie_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Сорока",
+        "name": "quiz_commonbirds_magpie_link"
+      },
+      {
+        "_": "Ворона",
+        "name": "quiz_commonbirds_crow_name"
+      },
+      {
+        "name": "quiz_commonbirds_crow_hint"
+      },
+      {
+        "_": "Се́рая воро́на (лат. Corvus cornix) — вид птиц из рода во́ронов. Иногда чёрную и серую ворону рассматривают как подвиды одного вида — в этом случае чёрную ворону называют Corvus corone corone, а серую — Corvus corone cornix. Воро́ны — всеядные птицы, питаются насекомыми, птенцами и яйцами, грызунами и ящерицами, лягушками, рыбой; растительной пищей — семенами различных растений, как и самими растениями, а также пищевыми отбросами. Также общеизвестны сообразительность ворон и их умение использовать предметы окружающей обстановки; например, если городской вороне попадается орех в скорлупе, она может бросить его на дорогу и подождать, когда автомобиль его раздавит, после чего спокойно съедает. В 70-80 годы двадцатого века, когда в магазинах продавалось молоко в полулитровых картонных пирамидках-тетраэдрах, вороны часто воровали эти пакеты, уносили в укромное место, пробивали клювом в картоне дыру и пили молоко. Чтобы пакет не выскальзывал в полете из клюва, ворона заранее клювом перегибала один из углов пакета.",
+        "name": "quiz_commonbirds_crow_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Серая_ворона",
+        "name": "quiz_commonbirds_crow_link"
+      },
+      {
+        "_": "Голубь",
+        "name": "quiz_commonbirds_pigeon_name"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_hint"
+      },
+      {
+        "_": "Го́луби, или настоя́щие го́луби (лат. Columba) — род птиц из семейства голубиных. Длина крыла 20—27 см, масса 200—650 г. Населяют Евразию, Африку и Австралию. Наиболее распространённый вид из этого рода — сизый голубь, интродуцирован на все континенты.",
+        "name": "quiz_commonbirds_pigeon_description"
+      },
+      {
+        "_": "http://ru.m.wikipedia.org/wiki/Голуби",
+        "name": "quiz_commonbirds_pigeon_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_commonbirds_swallow_answers",
+        "item": "ласточка"
+      },
+      {
+        "name": "quiz_commonbirds_swallow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_answers",
+        "item": "воробей"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_answers",
+        "item": "трясогузка"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_facts"
+      },
+      {
+        "name": "quiz_commonbirds_greattit_answers",
+        "item": [
+          "синица",
+          "большая синица"
+        ]
+      },
+      {
+        "name": "quiz_commonbirds_greattit_facts"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_answers",
+        "item": "дрозд"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_facts"
+      },
+      {
+        "name": "quiz_commonbirds_seagull_answers",
+        "item": "чайка"
+      },
+      {
+        "name": "quiz_commonbirds_seagull_facts",
+        "item": "Наиболее часто их можно увидеть на берегу моря."
+      },
+      {
+        "name": "quiz_commonbirds_raven_answers",
+        "item": "ворон"
+      },
+      {
+        "name": "quiz_commonbirds_raven_facts"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_answers",
+        "item": "сорока"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_facts"
+      },
+      {
+        "name": "quiz_commonbirds_crow_answers",
+        "item": "ворона"
+      },
+      {
+        "name": "quiz_commonbirds_crow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_answers",
+        "item": "голубь"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_facts",
+        "item": "Городские птицы"
+      }
+    ]
+  }
+}

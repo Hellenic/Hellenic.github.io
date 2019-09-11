@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="application-name" content="XI Demo" />
+        <meta name="description" content="XI Demo" />
+        <meta name="keywords" content="demo, blankpace, hk, cardeon" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <base href="" />
+
+        <title>.Scene #9</title>
+
+        <!-- GOOGLE FONTS -->
+        <link href="http://fonts.googleapis.com/css?family=Fondamento" rel="stylesheet" type="text/css" />
+
+        <link rel="stylesheet" type="text/css" href="css/demos.css" media="screen" />
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../common/js/threejs/three.min-r65.js"></script>
+    </head>
+    <body>
+
+
+<script id="fragmentshader" type="x-shader/x-fragment">
+// same name and type as VS
+varying vec3 vNormal;
+
+void main() {
+
+    // calc the dot product and clamp
+    // 0 -> 1 rather than -1 -> 1
+    vec3 light = vec3(0.5,0.2,1.0);
+
+    // ensure it's normalized
+    light = normalize(light);
+
+    // calculate the dot product of
+    // the light to the vertex normal
+    float dProd = max(0.0, dot(vNormal, light));
+
+    // feed into our frag colour
+    gl_FragColor = vec4(dProd, dProd, dProd, 1.0);
+
+}
+</script>
+<script id="vertexshader" type="x-shader/x-vertex">
+
+uniform float amplitude;
+attribute float displacement;
+varying vec3 vNormal;
+
+void main() {
+
+    vNormal = normal;
+
+    // multiply our displacement by the
+    // amplitude. The amp will get animated
+    // so we'll have animated displacement
+    vec3 newPosition = position +
+                       normal *
+                       vec3(displacement *
+                            amplitude);
+
+    gl_Position = projectionMatrix *
+                  modelViewMatrix *
+                  vec4(newPosition,1.0);
+}
+</script>
+
+		<div id="container"></div>
+
+		<script type="text/javascript" src="js/Scenes/Scene9.js"></script>
+
+    </body>
+</html>

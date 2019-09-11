@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" ng-app="story">
+<head>
+	<meta charset="utf-8">
+	<title>Interactive story</title>
+	
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+	
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+	
+	<link rel="stylesheet" href="css/stories.css">
+	<link rel="stylesheet" href="css/animations.css">
+	
+	<script type="text/javascript" src="//code.angularjs.org/1.2.11/angular.min.js"></script>
+	<script type="text/javascript" src="//code.angularjs.org/1.2.11/angular-route.min.js"></script>
+	<script type="text/javascript" src="//code.angularjs.org/1.2.11/angular-resource.min.js"></script>
+ 	<script type="text/javascript" src="//code.angularjs.org/1.2.11/angular-animate.min.js"></script>
+ 	<script type="text/javascript" src="//code.angularjs.org/1.2.11/angular-sanitize.min.js"></script>
+	 
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+	 
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="js/storyteller.js"></script>
+	<script type="text/javascript" src="js/controllers/storyListControllers.js"></script>
+	<script type="text/javascript" src="js/controllers/storyController.js"></script>
+	<script type="text/javascript" src="js/services/storyService.js"></script>
+	<script type="text/javascript" src="js/animations/general.js"></script>
+</head>
+<body class="light">
+	<figure class="light-switch light-on"></figure>
+	
+	<div class="container view-container">
+		<div ng-view class="view-frame"></div>
+	</div>
+</body>
+</html>

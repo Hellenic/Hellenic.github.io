@@ -1,0 +1,52 @@
+body
+{
+background-image: url(naruto.jpg);
+background-attachment: fixed;
+background-repeat: repeat;
+background-position: center;
+cursor: crosshair;
+}
+
+h1
+{
+border-bottom: ridge Blue;
+border-top: ridge Blue;
+border-right: double Blue;
+border-left: double Blue;
+margin-left: 150px;
+margin-right: 150px;
+text-align: center;
+}
+
+h2
+{
+border-style: dotted;
+text-align: center;
+color: #FF00FF;
+}
+
+h3
+{
+border-style: dashed;
+background-color: #00BFFF;
+margin-right: 250px;
+}
+
+p
+{
+text-align: center;
+border-style: outset;
+color: #B22222;
+margin-right: 350px;
+margin-left: 80px;
+}
+
+
+a.link:link {color: #00BFFF}
+a.link:visited {color: #0000FF}
+a.link:hover {font-style: italic}
+
+table
+{
+background-color: #87CEEB;
+}

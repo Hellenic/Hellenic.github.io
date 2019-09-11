@@ -1,0 +1,84 @@
+{
+  "category": {
+    "name": "@string/quiz_plants_name",
+    "description": "@string/quiz_plants_description",
+    "image": "plants.jpg",
+    "link": "@string/quiz_plants_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_plants_thistle_name",
+          "hint": "@string/quiz_plants_thistle_hint",
+          "description": "@string/quiz_plants_thistle_description",
+          "answers": "@array/quiz_plants_thistle_answers",
+          "image": "thistle.jpg",
+          "link": "@string/quiz_plants_thistle_link",
+          "facts": "@array/quiz_plants_thistle_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_plants_mugwort_name",
+          "hint": "@string/quiz_plants_mugwort_hint",
+          "description": "@string/quiz_plants_mugwort_description",
+          "answers": "@array/quiz_plants_mugwort_answers",
+          "image": "mugwort.jpg",
+          "link": "@string/quiz_plants_mugwort_link",
+          "facts": "@array/quiz_plants_mugwort_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_plants_juniper_name",
+          "hint": "@string/quiz_plants_juniper_hint",
+          "description": "@string/quiz_plants_juniper_description",
+          "answers": "@array/quiz_plants_juniper_answers",
+          "image": "juniper.jpg",
+          "link": "@string/quiz_plants_juniper_link",
+          "facts": "@array/quiz_plants_juniper_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_plants_willowherb_name",
+          "hint": "@string/quiz_plants_willowherb_hint",
+          "description": "@string/quiz_plants_willowherb_description",
+          "answers": "@array/quiz_plants_willowherb_answers",
+          "image": "willowherb.jpg",
+          "link": "@string/quiz_plants_willowherb_link",
+          "facts": "@array/quiz_plants_willowherb_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_plants_nettle_name",
+          "hint": "@string/quiz_plants_nettle_hint",
+          "description": "@string/quiz_plants_nettle_description",
+          "answers": "@array/quiz_plants_nettle_answers",
+          "image": "nettle.jpg",
+          "link": "@string/quiz_plants_nettle_link",
+          "facts": "@array/quiz_plants_nettle_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_plants_milfoil_name",
+          "hint": "@string/quiz_plants_milfoil_hint",
+          "description": "@string/quiz_plants_milfoil_description",
+          "answers": "@array/quiz_plants_milfoil_answers",
+          "image": "milfoil.jpg",
+          "link": "@string/quiz_plants_milfoil_link",
+          "facts": "@array/quiz_plants_milfoil_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_plants_burdock_name",
+          "hint": "@string/quiz_plants_burdock_hint",
+          "description": "@string/quiz_plants_burdock_description",
+          "answers": "@array/quiz_plants_burdock_answers",
+          "image": "burdock.jpg",
+          "link": "@string/quiz_plants_burdock_link",
+          "facts": "@array/quiz_plants_burdock_facts"
+        }
+      ]
+    }
+  }
+}

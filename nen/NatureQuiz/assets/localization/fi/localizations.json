@@ -1,0 +1,47 @@
+{
+
+    "app_header": "NatureQuiz",
+    "quiz_description": "Web-versio suositusta Android-pelistä!",
+    "quiz_development_note": "[FI] Note! This version is currently being developed and does not have all the functions the Android game has. For the Android game check <a href=\"https://play.google.com/store/apps/details?id=net.blankpace.naturequiz\">Google Play</a>.",
+    "nav_toggle": "[FI] Toggle navigation",
+    "nav_home": "Etusivu",
+    "nav_help": "Ohjeet",
+    "play_button": "Pelaa",
+    "footer_version": "NatureQuiz v0.1.2",
+
+    "settings_text": "Asetukset",
+    "settings_general": "Yleiset",
+    "settings_language": "Kieli",
+    "settings_locale_fi": "Suomi",
+    "settings_locale_en": "Englanti (English)",
+    "settings_locale_ru": "Venäjä (Русский)",
+    "help_title": "Ohjeet pelin pelaamiseen",
+    "help_description": "<p>Nature Quiz näyttää sinulle erilaisia kuvia ja sinun tulee tietää kuvassa olevan asian nimi. Esimerkiksi; jos kuvassa on karhu niin sinun tulee kirjoittaa vastaukseen 'karhu'. Sinun ei tarvitse tietää minkälainen karhu on kyseessä, joten pelkkä karhu riittää.</p><p>Aloittaaksesi pelin, valitse alkuvalikosta haluamasi kategoria ja klikkaa 'Pelaa'. Seuraavaksi peli näyttää sinulle kuvia, joihin sinun tulee tietää vastaus. Mikäli tiedät vastauksen, kirjoita se kuvan alla olevaan kenttään. Jos et tiedä vastausta tai haluat yrittää eri kuvaa, voit vaihdella kuvien välillä vapaasti. Etenemisesi tallennetaan automaattisesti joten voit palata peliin koska vain!</p><p>Tiedot Wikipediasta. Kuvista kiitos kuuluu: <ul><li>http://pixabay.com/</li><li>http://commons.wikimedia.org/wiki/</li></ul></p>",
+
+    "title_activity_play": "Quiz",
+    "title_activity_final": "Completed",
+    "title_activity_category": "Categories",
+    "quiz_read_more": "Lue lisää Wikipediasta",
+    "quiz_facts": "Hauskoja faktoja:",
+    "quiz_picture_description": "Quiz picture",
+    "quiz_answer_placeholder": "Write the answer here",
+    "quiz_answer_button": "Done",
+    "quiz_next_button": "Okay",
+    "quiz_complete_game": "Complete",
+    "quiz_category_text": "Category",
+    "quiz_dialog_reset_category": "Reset the category progress?",
+    "quiz_dialog_yes": "Yes",
+    "quiz_dialog_no": "Cancel",
+
+    "game_action_back_fast": "Skip backwards",
+    "game_action_back": "Back",
+    "game_action_forward": "Forward",
+    "game_action_forward_fast": "Skip forward",
+
+    "quiz_default_hint": "Default hint text placeholder",
+    "quiz_default_answer_text": "Se on oikein!",
+    "quiz_default_synonym_answer_text": "Close enough, we'll give you this one!",
+    "quiz_default_incorrect_answer_text": "Try again!",
+    "quiz_default_category_completed": "Congratulations! You've completed all the levels of the category. See if you can do the other categories!",
+    "quiz_default_category_progress": "Good attempt. However, there is still some unanswered questions. Try to get those too!"
+}

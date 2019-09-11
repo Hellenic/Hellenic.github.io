@@ -1,0 +1,174 @@
+body
+{
+ 		margin: 0;
+ 		padding: 0;
+		background-color: #1a3b64;
+		background-repeat: repeat-x;
+		font-family: Verdana,Arial,sans-serif;
+}
+
+p
+{
+		padding-left: 20px;
+		padding-right: 15px;
+}
+
+h1
+{
+ 		margin: 0;
+		font-size: 2em;
+}
+
+h2
+{
+		font-size: 1.4em;
+}
+
+h3
+{
+		padding-left: 5px;
+}
+
+a:link {color: #00BFFF}
+a:visited {color: #99CCFF}
+a:hover {color: #FFFFFF; text-decoration: underline}
+
+span
+{
+		text-decoration: line-through;
+}
+
+img
+{
+ 	 	border: 0px;
+}
+
+
+/*     ----====**** ID ****====----   */
+
+
+#header
+{
+		height: 100px; 
+		width: 100%; 
+		padding-top: 10px;
+ 		border-bottom: 2px solid #000000;
+		text-align: center;
+		margin: 0;
+		background: #0e223b;
+		color: #CDCDCD;
+}
+
+#main 
+{
+		width: 100%;
+		height: 100%;
+}
+
+#mid
+{
+		position: relative;
+		margin: 0 142px 0 142px;
+		border-width: 0px 2px 2px 2px;
+		border-color: #000000;
+		border-style: solid;
+		padding-left: 5px;
+		background: #b5c9f4;
+}
+
+#mid a
+{
+ 		color: #0050FF;
+}
+
+#left
+{
+		position: absolute;
+		border-width: 0px;
+		border-color: #000000;
+		border-style: solid;
+		color: #DDDDDD;
+		padding-left: 10px;
+		top: 112px;
+		left: 0;
+		width: 140px;
+
+}
+
+#right
+{
+		position: absolute;
+		border-width: 0px;
+		border-color: #000000;
+		border-style: solid;
+		top: 112px;
+		right: 0;
+		width: 140px;
+}
+
+#footer
+{
+		width: 100%;
+		height: 35px;
+		color: #C0C0C0;
+		text-align: center;
+		font-size: 0.7em;
+		margin: 0;
+}
+
+
+/*     ----====**** Class ****====----   */
+
+
+.members
+{
+ 		border-collapse: collapse;
+ 		width: 100%;
+}
+
+.members td
+{
+ 		border: 1px solid #000000;
+}
+
+.linkit
+{
+ 		border: 2px solid #1a3b64; 
+ 		width: 120px;
+}
+
+.linkit td
+{
+ 		padding-left: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;	
+ 		background: #365495;
+}
+
+.event
+{
+ 		border-collapse: collapse;
+ 		float: right;
+ 		width: 20%;
+}
+
+.event td
+{
+ 		border: 2px solid #000000;
+}
+
+
+
+/*     ----====**** Media ****====----   */
+
+
+@media print
+{
+body {background: none;}
+a {color: #000000;}
+#header {display: none;}
+#mid {border: 0; background: none;}
+#left {display: none;}
+#footer {display: none;}
+}
+

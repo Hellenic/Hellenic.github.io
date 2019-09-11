@@ -1,0 +1,245 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Linnut",
+        "name": "quiz_commonbirds_name"
+      },
+      {
+        "_": "Miten hyvin tunnet pienempiä lintuja?",
+        "name": "quiz_commonbirds_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Linnut",
+        "name": "quiz_commonbirds_link"
+      },
+      {
+        "_": "Pääsky",
+        "name": "quiz_commonbirds_swallow_name"
+      },
+      {
+        "name": "quiz_commonbirds_swallow_hint"
+      },
+      {
+        "_": "Pääskyt (Hirundinidae) on laajalle levinnyt varpuslintuheimo, johon kuuluu noin 75 lajia. Pääskyt eivät nimestään ja ulkonäöstään huolimatta ole läheistä sukua tervapääskylle ja muille kiitäjille.Pääskyt ovat hyvin sirorakenteisia ja lyhytjalkaisia lintuja, joille on ominaista erittäin hyvä lentotaito. Niillä on kapeat, pitkät ja teräväkärkiset siivet. Ruumis on sukkulamainen ja pyrstö pitkä ja usein haarautunut. Nokka on lyhyt ja leveä ja siinä on suuri kita. Jalat ovat hyvin hennot, lyhyet ja pienikyntiset, eikä niillä pysty kunnolla kävelemään. Käsi- ja kyynärsulkia on kumpiakin yhdeksän, laitimmaiset sulat ovat muita selvästi pidempiä. Höyhenet ovat lyhyet ja vartalonmyötäiset. Ne ovat selkäpuolelta yleensä metallinkiiltoiset. Molemmat sukupuolet ovat samanvärisiä. Pääskyjen lentotaito on erittäin hyvä ja ne pystyvät tekemään pitkiäkin ruuanhaku- tai muuttomatkoja.",
+        "name": "quiz_commonbirds_swallow_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/pääskyt",
+        "name": "quiz_commonbirds_swallow_link"
+      },
+      {
+        "_": "Varpunen",
+        "name": "quiz_commonbirds_sparrow_name"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_hint"
+      },
+      {
+        "_": "Varpunen (Passer domesticus) on yleinen lintulaji suuressa osassa Eurooppaa ja Aasiaa. Carolus Linnaeus antoi varpuselle aluksi nimen Fringilla domestica. Varpunen on 14–17 cm pitkä ja se painaa 30–33 g. Koiras on hieman kookkaampi. Varpusella on tukeva ruumis, suhteellisen suuri pää ja voimakas nokka. Sillä on tuuhea höyhenys, ja sen höyhenpuku on usein takkuisen ja hoitamattoman näköinen. Varpusen selkä on ruskeansävyinen ja voimakkaasti mustaviiruinen.",
+        "name": "quiz_commonbirds_sparrow_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/varpunen",
+        "name": "quiz_commonbirds_sparrow_link"
+      },
+      {
+        "_": "Västäräkki",
+        "name": "quiz_commonbirds_wagtail_name"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_hint"
+      },
+      {
+        "_": "Västäräkki (Motacilla alba) on västäräkkien heimoon kuuluva pitkäpyrstöinen varpuslintulaji. Ulkonäkö: Harmaa selkä ja valkea vatsapuoli, pään etuosa valkoinen ja päälaki musta, samoin kaula. Vanhan koiraan naamassa on enemmän valkoista ja päälaella enemmän mustaa kuin naaraalla ja nuorilla linnuilla. Pyrstö on pitkä ja se heiluu lajille tyypillisesti kävelyn aikana. Pituus: 18–20 cm, paino: noin 20 g, koiras on hiukan kookkaampi. Ääni: Västäräkin ääni on lyhyt kaksitavuinen ”tsi-tsit” ja se ääntelee liikkuessaan jatkuvasti. Laulu on hiljaista rupattelevaa lavertelua, jota koiras esittää tavallisesti kivellä tai talon katolla, hieman muuta ympäristöä korkeammalla. Pedon tai ihmisen tullessa poikaspesän lähelle emot varoittelevat sydäntä särkevästi tsilputtaen.",
+        "name": "quiz_commonbirds_wagtail_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/västäräkki",
+        "name": "quiz_commonbirds_wagtail_link"
+      },
+      {
+        "_": "Talitiainen",
+        "name": "quiz_commonbirds_greattit_name"
+      },
+      {
+        "name": "quiz_commonbirds_greattit_hint"
+      },
+      {
+        "_": "Talitiainen (Parus major) on Euroopassa ja Aasiassa laajalle levinnyt tiainen. Sitä tavataan yleisenä ihmisten asuinpiirien lähellä, talvella siemeniä ja jyviä sisältävien lintulautojen tai ruokintapaikkojen ansiosta, kesällä linnunpönttöjen. Talitiaisen kansanomaisempi kutsumanimi on talitintti.",
+        "name": "quiz_commonbirds_greattit_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Talitiainen",
+        "name": "quiz_commonbirds_greattit_link"
+      },
+      {
+        "_": "Rastas",
+        "name": "quiz_commonbirds_thrush_name"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_hint"
+      },
+      {
+        "_": "Rastaat (Turdus) on rastaiden (Turdidae) heimoon kuuluva lintusuku. Sukuun kuuluu BirdLife Suomen mukaan kuusikymmentäviisi lajia.",
+        "name": "quiz_commonbirds_thrush_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Rastaat_(suku)",
+        "name": "quiz_commonbirds_thrush_link"
+      },
+      {
+        "_": "Lokki",
+        "name": "quiz_commonbirds_seagull_name"
+      },
+      {
+        "name": "quiz_commonbirds_seagull_hint"
+      },
+      {
+        "_": "Lokit (Laridae) on rantalintujen lahkoon kuuluva heimo, johon kuuluu 15 sukua. Varsinaisten lokkien (alaheimo Larinae) täysikasvuisten yksilöiden höyhenpeitettä hallitsevat tyypillisesti musta ja valkoinen väri sekä harmaan eri sävyt. Nuoret ja talvipukuiset linnut ovat hyvin erivärisiä, usein ruskeankirjavia. Saksinokat (suku Rynchops) luettiin aiemmin erilliseen saksinokkien heimoon Rynchopidae, mutta nykyisin nekin kuuluvat lokkeihin. Myös tiiroja on toisinaan pidetty omana heimonaan.",
+        "name": "quiz_commonbirds_seagull_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/lokit",
+        "name": "quiz_commonbirds_seagull_link"
+      },
+      {
+        "_": "Korppi",
+        "name": "quiz_commonbirds_raven_name"
+      },
+      {
+        "name": "quiz_commonbirds_raven_hint"
+      },
+      {
+        "_": "Korppi eli kaarne (Corvus corax) on suurikokoinen musta varisten heimoon kuuluva lintu. Täysikasvuisina ne ovat 55–70 cm:n kokoisia, levitettyinä siivet voivat olla kaksi kertaa tätä pidemmät. Korppi on Suomen suurin varisten heimoon kuuluva laji ja samalla kookkain Suomessa elävä varpuslintu, noin hiirihaukan kokoinen. Sen pituus pyrstöstä nokankärkeen voi olla jopa yli 70 cm. Korppi painaa 700 grammasta 1 600 grammaan,ja keskimäärin 1,2 kg. Sukupuolet ovat suunnilleen samankokoiset ja -näköiset, tosin koiras on keskimäärin hieman naarasta suurempi. Korpin höyhenpeite on täysin musta. Lennossa korpin erottaa muista variksista pitkästä kiilamaisesta pyrstöstä. Äänivalikoima on laaja. Tavallisesti kuulee lentoäänen ”korp-korp” tai hauskan kulauksen ”klong”. Pesällään korppi varoittaa kiihkeällä, karhealla rääkynällä. ",
+        "name": "quiz_commonbirds_raven_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/korppi",
+        "name": "quiz_commonbirds_raven_link"
+      },
+      {
+        "_": "Harakka",
+        "name": "quiz_commonbirds_magpie_name"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_hint"
+      },
+      {
+        "_": "Harakka (Pica pica) on harakoiden sukuun kuuluva varislaji.Harakka on 40–51 cm pitkä, josta pyrstön osuus on 20–30 cm. Väritykseltään harakka on mustavalkoinen lintu, jolla on vihreähohtoinen pyrstö. Koiraan pyrstö on yleensä naaraan pyrstöä pitempi. Pohjois-Afrikkalaisella mauretanica -alalajilla on silmän takana paljas sininen alue.",
+        "name": "quiz_commonbirds_magpie_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/harakka",
+        "name": "quiz_commonbirds_magpie_link"
+      },
+      {
+        "_": "Varis",
+        "name": "quiz_commonbirds_crow_name"
+      },
+      {
+        "name": "quiz_commonbirds_crow_hint"
+      },
+      {
+        "_": "Varis (alalajiksi tulkittuna Corvus corone cornix) on ihmisasutuksen lähellä viihtyvä helposti havaittava lintu. Siitä, onko nokivaris (alalajiksi tulkittuna Corvus corone corone) variksen musta muoto eli alalaji vai oma laji, on kahdenlaista näkemystä. Suomen lintujen lajiluettelossa ei kuitenkaan toistaiseksi ole nokivarista.",
+        "name": "quiz_commonbirds_crow_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/varis",
+        "name": "quiz_commonbirds_crow_link"
+      },
+      {
+        "_": "Kyyhky",
+        "name": "quiz_commonbirds_pigeon_name"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_hint"
+      },
+      {
+        "_": "Kyyhkyt eli Kyyhkyset (Columbidae) on kyyhkylintujen lahkon (Columbiformes) ainoa heimo. Kyyhkyjen heimo jaetaan kolmeen alaheimoon. Häkkilintuina pidettävät kyyhkylajit kuuluvat kaikki varsinaisiin kyyhkyihin (Columbinae). Kyyhkyjä on maapallolla kaikkiaan n. 300 lajia.",
+        "name": "quiz_commonbirds_pigeon_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/kyyhkyt",
+        "name": "quiz_commonbirds_pigeon_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_commonbirds_swallow_answers",
+        "item": "pääsky"
+      },
+      {
+        "name": "quiz_commonbirds_swallow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_answers",
+        "item": "varpunen"
+      },
+      {
+        "name": "quiz_commonbirds_sparrow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_answers",
+        "item": "västäräkki"
+      },
+      {
+        "name": "quiz_commonbirds_wagtail_facts"
+      },
+      {
+        "name": "quiz_commonbirds_greattit_answers",
+        "item": "talitiainen"
+      },
+      {
+        "name": "quiz_commonbirds_greattit_facts"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_answers",
+        "item": "rastas"
+      },
+      {
+        "name": "quiz_commonbirds_thrush_facts"
+      },
+      {
+        "name": "quiz_commonbirds_seagull_answers",
+        "item": [
+          "merilokki",
+          "lokki"
+        ]
+      },
+      {
+        "name": "quiz_commonbirds_seagull_facts",
+        "item": "Näkyy erityisesti merenrannalla."
+      },
+      {
+        "name": "quiz_commonbirds_raven_answers",
+        "item": "korppi"
+      },
+      {
+        "name": "quiz_commonbirds_raven_facts"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_answers",
+        "item": "harakka"
+      },
+      {
+        "name": "quiz_commonbirds_magpie_facts"
+      },
+      {
+        "name": "quiz_commonbirds_crow_answers",
+        "item": "varis"
+      },
+      {
+        "name": "quiz_commonbirds_crow_facts"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_answers",
+        "item": "kyyhky"
+      },
+      {
+        "name": "quiz_commonbirds_pigeon_facts",
+        "item": "Näkyy erityisesti kaupungeissa"
+      }
+    ]
+  }
+}

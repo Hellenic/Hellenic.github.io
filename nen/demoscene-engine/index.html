@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demoscene Engine</title>
+
+    <meta name="description" content="Demoscene engine is a framework to build your own WebGL demos or games">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700italic">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/demoscene-engine/css/main.min.css">
+</head>
+<body>
+
+    <!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <a href="https://github.com/Hellenic/demoscene-engine"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1100;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li  class="active" >
+                        <a href="/">Home</a>
+                    </li>
+                    <li >
+                        <a href="getting-started">Getting started</a>
+                    </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Demoscene engine</h1>
+            <p class="lead">Use this engine and example to get quickly started with your WebGL demos – or even games!</p>
+            <p><small>2015-09-26 &nbsp; | &nbsp; v0.1.0 - Hannu Kärkkäinen</small></p>
+            <p>
+                <a href="http://karkk.ai/demoscene-engine/">Running demo</a> -
+                <a href="https://github.com/Hellenic/demoscene-engine">Github</a>
+            </p>
+        </div>
+    </div><!-- /.container -->
+
+
+    <!-- Demoscene Engine demonstrative content begins here -->
+
+        <!-- Module demonstration -->
+        <div class="container demo-wrapper">
+            <h2>Simple example of the Demoscene engine in action</h2>
+
+            <!-- [Built-in] Notifications if browser doesn't support required features -->
+            <div id="support">
+                <p data-api="webgl">Your browser doesn't seem to support WebGL.</p>
+                <p data-api="pointerlock">Your browser doesn't seem to support Pointer Lock API.</p>
+
+                <noscript>
+                    You will need to enable your JavaScript in order to experience this.
+                    For further help you can visit: <a href="http://www.enable-javascript.com/">http://www.enable-javascript.com/</a>
+                </noscript>
+            </div>
+
+            <!-- [Built-in] Notifications sent by triggers and such -->
+            <div id="notification" class="float-content">
+                <h2></h2>
+                <p></p>
+            </div>
+
+            <!-- [Module: progress] Progress bar -->
+            <div id="progress">
+                <div id="progressbar">
+                    <div class="progress-file"></div>
+                    <div class="progress-percent">0</div>
+                    <div class="progress-width">&nbsp;</div>
+                </div>
+                <div data-state="before">Preparing to load...</div>
+                <div data-state="loading">Loading... Please wait.</div>
+                <div data-state="done" data-show="#instructions">Done loading.</div>
+            </div>
+
+            <!-- Actual Demoscene canvas container -->
+            <div id="demoscreen">
+            </div>
+        </div>
+
+        <!-- Demoscene Engine depends on jQuery and Three.JS -->
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js"></script>
+
+        <!-- Demo specific configuration and scene setup -->
+        <script src="/demoscene-engine/js/main.min.js"></script>
+
+    <!-- End of demo content -->
+
+
+    <div class="container">
+        <h1>Demoscene engine</h1>
+<p>JavaScript engine to build demos or games for the browser. This project is
+for the engine development and comes with an example demo to get your own
+project started quickly.</p>
+<h2>Engine features</h2>
+<ul>
+<li>✓ Dynamic loading</li>
+<li>✓ Progress bar</li>
+<li>✓ Pointerlock</li>
+<li>✓ Audio player</li>
+<li>✓ Browser checks and fallbacks</li>
+<li>✓ Interactions, events &amp; actions</li>
+<li>✓ Notifications</li>
+<li>✓ Support for physics (Physijs)</li>
+</ul>
+<h2>Project features</h2>
+<ul>
+<li>✓ Next generation JavaScript via <a href="http://babeljs.io/">Babel</a></li>
+<li>✓ Publish to <a href="https://www.npmjs.com/">NPM</a> as ES5, ES6+ and UMD</li>
+<li>✓ <a href="http://browserify.org/">Browserify</a></li>
+<li>✓ <a href="http://www.browsersync.io/">BrowserSync</a></li>
+<li>✓ Pre-configured tests with <a href="http://mochajs.org/">Mocha</a>, <a href="http://chaijs.com/">Chai</a> and <a href="http://sinonjs.org/">Sinon</a></li>
+<li>✓ Cross-platform, minimum dependencies</li>
+<li>✓ Based on (<a href="http://www.kriasoft.com/babel-starter-kit/">Babel starter kit</a>)</li>
+</ul>
+<h2>About the example demo</h2>
+<p>Example demo is located in docs/ folder, so it acts as an documentation and as
+an example demo. Demo consists of only one scene, which renders only one
+spinning model. Example is still work in progress.</p>
+<p>Whole demo is started from js/main.js, which will import the DemoScene and
+configure it. DemoScene will load all of it's internal dependencies dynamically
+and also all the scene-related files you configured for it. Engine comes with a
+built-in progress bar, if you choose to use it.</p>
+<p>Configuration also adds a scene to it. Scene consists of the scene file itself,
+models, shaders and possible some other libraries what are needed to make the
+scene run. Scene can be configured as initial, which will make the engine
+load only the mandatory files first, then start your scene, and then continue
+with the loading of rest of files or scenes. Once a scene comes to an end,
+engine will automatically clean up and change to next registered scene, if there
+is more scenes available.</p>
+<h2>Read more</h2>
+<p>Demo of this project running on <a href="http://karkk.ai/demoscene-engine/">karkk.ai/demoscene-engine/</a>.
+Read more about the engine on my blog, <a href="http://blog.karkk.ai/search/label/demoscene">blog.karkk.ai</a>.</p>
+<h3>Notes and TODOs</h3>
+<ul>
+<li>Refactor and remove jQuery events, they're not good for the architecture</li>
+<li>Refactor classes to ES6</li>
+</ul>
+
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+</body>
+</html>

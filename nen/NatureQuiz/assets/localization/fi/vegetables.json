@@ -1,0 +1,358 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Kasvikset",
+        "name": "quiz_vegetables_name"
+      },
+      {
+        "_": "Testaa kuinka hyvin tunnet yleisimmät kasvikset!",
+        "name": "quiz_vegetables_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kasvikset",
+        "name": "quiz_vegetables_link"
+      },
+      {
+        "_": "Peruna",
+        "name": "quiz_vegetables_potato_name"
+      },
+      {
+        "name": "quiz_vegetables_potato_hint"
+      },
+      {
+        "_": "Peruna (Solanum tuberosum) on koisokasvien (Solanaceae) heimoon kuuluva kasvi, jonka mukulaa käytetään ravintona. Peruna on yksi eniten käytetyistä ravintokasveista Euroopassa ja Etelä- sekä Pohjois-Amerikassa. Peruna kuuluu niiden yhdeksän viljelykasvin joukkoon, joiden avulla tuotetaan 75 prosenttia ihmisravinnosta.\n        \n        Perunakasvi on kooltaan pieni mutta suurilehtinen. Perunan mukulat kasvavat maan alla. Useimmiten perunan kuori on ruskea tai keltainen, mutta se voi olla myös violetti, punainen tai vaaleanpunainen. Sisältä peruna on usein vaalea, mutta on mahdollista, että se on sisältäkin kuoren värinen.",
+        "name": "quiz_vegetables_potato_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Peruna",
+        "name": "quiz_vegetables_potato_link"
+      },
+      {
+        "_": "Porkkana",
+        "name": "quiz_vegetables_carrot_name"
+      },
+      {
+        "name": "quiz_vegetables_carrot_hint"
+      },
+      {
+        "_": "Porkkana (Daucus carota) on juureksena viljelty sarjakukkaiskasvi. Sen paksuuntunut pääjuuri on väriltään tavallisesti oranssi, ja siinä on puunkuorta muistuttava ohut kuori. Juuri sisältää runsaasti A-vitamiinin esiastetta beta-karoteenia, joka antaa sille oranssin värin. Porkkana on perunan jälkeen Suomen suosituin juures; sitä syödään jopa yhdeksän kiloa henkeä kohden vuodessa.\n        \n        Porkkana on kaksivuotinen kasvi, jonka varsi kasvaa 30–80 senttimetriä korkeaksi. Alalajeista ruokaporkkanan pääjuuri on mehevä ja väriltään useimmin oranssi. Villinä kasvavien porkkanoiden juuri on ohut ja valkoinen. Kukintona on pienikukkainen sarjakukinto. Porkkanan hedelmä on 2–4 millimetriä pitkä piikkinen tai koukkukarvainen lohkohedelmä.",
+        "name": "quiz_vegetables_carrot_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Porkkana",
+        "name": "quiz_vegetables_carrot_link"
+      },
+      {
+        "_": "Herne",
+        "name": "quiz_vegetables_pea_name"
+      },
+      {
+        "name": "quiz_vegetables_pea_hint"
+      },
+      {
+        "_": "Herne (Pisum sativum) on herne­kasvien heimoon kuuluva iki­vanha viljelyskasvi. Sitä viljellään sekä ihmis­ravinnoksi että rehuksi. Siitä käytetään ravinnoksi yleensä siemenet, mutta joidenkin lajikkeiden palotkin ovat syötäviä. ",
+        "name": "quiz_vegetables_pea_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Herne",
+        "name": "quiz_vegetables_pea_link"
+      },
+      {
+        "_": "Kaali",
+        "name": "quiz_vegetables_cabbage_name"
+      },
+      {
+        "name": "quiz_vegetables_cabbage_hint"
+      },
+      {
+        "_": "Kaali (Brassica oleracea) on ristikukkaisten heimoon kuuluva kasvilaji, jota viljellään vihanneksena. Sen luonnonvarainen kantamuoto kasvaa Pohjois-Afrikan ja Etelä- ja Länsi-Euroopan rannikoilla. Kaalia on viljelty useita tuhansia vuosia, ja siitä on jalostettu koko joukko toisistaan suuresti eroavia viljelymuotoja. Kaali on kaksivuotinen, mutta syötäväksi viljeltäessä sitä viljellään yksivuotisena. Siemenviljelys on kaksivuotinen. Kaali menestyy kosteahkolla savensekaisella maalla. Aarille istutetaan 400–450 tainta, ja sato on 350–500 kg.",
+        "name": "quiz_vegetables_cabbage_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kaali",
+        "name": "quiz_vegetables_cabbage_link"
+      },
+      {
+        "_": "Kurkku",
+        "name": "quiz_vegetables_cucumber_name"
+      },
+      {
+        "name": "quiz_vegetables_cucumber_hint"
+      },
+      {
+        "_": "Kurkku (Cucumis sativus) on kurkkujen (Cucumis) sukuun kuuluva yleisesti viljelty yksivuotinen ruohovartinen vihanneskasvi. Sen juuret viihtyvät lähellä maanpintaa ja leviävät laajalle. Kasvutapa on köynnösmäinen ja lehtihangoista kasvaa kärhiä, joiden avulla kasvi pystyy kiipeämään. Siitä käytetään hyväksi sen hedelmä, joka kasvitieteellisesti on pohjusmarja.",
+        "name": "quiz_vegetables_cucumber_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kurkku",
+        "name": "quiz_vegetables_cucumber_link"
+      },
+      {
+        "_": "Sipuli",
+        "name": "quiz_vegetables_onion_name"
+      },
+      {
+        "name": "quiz_vegetables_onion_hint"
+      },
+      {
+        "_": "Keltasipuli (Allium cepa), eli kepasipuli tai tavallinen sipuli on tunnetuin ja yleisimmin käytetty Allium-suvun syötävä kasvi. Koko Allium-sukua kutsutaan sipuleiksi, ja tämäntyyppistä turvonnutta lehtityveä, johon kasvi (esimerkiksi tulppaanit) varastoi ravintoa seuraavalle vuodelle, sanotaan myös sipuliksi. Sipulissa on raakana voimakas haju ja terävä maku, joka katoaa jos sipuli kypsennetään.",
+        "name": "quiz_vegetables_onion_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Keltasipuli",
+        "name": "quiz_vegetables_onion_link"
+      },
+      {
+        "_": "Tomaatti",
+        "name": "quiz_vegetables_tomato_name"
+      },
+      {
+        "name": "quiz_vegetables_tomato_hint"
+      },
+      {
+        "_": "Tomaatti (Solanum lycopersicum) on koisokasvien (Solanaceae) heimoon kuuluva kasvi, joka on lähtöisin Perusta ja Chilestä. Nimitystä tomaatti käytetään sekä koko kasvista että sen syötävästä, voimakasvärisestä (useimmiten punaisesta) hedelmästä, joka kasvitieteellisesti on marja. Kasvin nimi on peräisin meksikolaisesta nahuatlin kielestä.",
+        "name": "quiz_vegetables_tomato_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Tomaatti",
+        "name": "quiz_vegetables_tomato_link"
+      },
+      {
+        "_": "Raparperi",
+        "name": "quiz_vegetables_rhubarb_name"
+      },
+      {
+        "name": "quiz_vegetables_rhubarb_hint"
+      },
+      {
+        "_": "Raparperi eli tarharaparperi (Rheum rhabarbarum) on tatarkasveihin kuuluva erittäin hapan vihannes, jonka meheviä lehtiruoteja käytetään ravinnoksi. Raparperi voidaan käyttää esimerkiksi piirakoissa, makeissa keitoissa ja hilloissa.\n\nRaparperi luultavasti tunnettiin keskiajalla, mutta sitä ei koskaan käytetty elintarvikkeena, vaan se luokiteltiin pikemminkin myrkylliseksi tai syötäväksi kelpaamattomaksi kasviksi. Vuonna 1612 raparperin lääkinnällisistä ominaisuuksista julkaistiin teos ”De Rhapontico”. Vielä 1700-luvulla kasvia pidettiin puhtaasti lääketieteellisenä yrttinä eikä sitä käytetty elintarvikkeeksi.",
+        "name": "quiz_vegetables_rhubarb_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Raparperi",
+        "name": "quiz_vegetables_rhubarb_link"
+      },
+      {
+        "_": "Retiisi",
+        "name": "quiz_vegetables_redish_name"
+      },
+      {
+        "name": "quiz_vegetables_redish_hint"
+      },
+      {
+        "_": "Retiisi (Raphanus sativus var. sativus) ja retikka (Raphanus sativus var. niger) ovat ristikukkaiskasvien heimoon kuuluvia juureksia. Ne ovat peltoretikan läheisiä sukulaisia ja mahdollisesti siitä kehittyneitä. Retikka on muodoista huomattavasti vanhempi.",
+        "name": "quiz_vegetables_redish_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Retiisi",
+        "name": "quiz_vegetables_redish_link"
+      },
+      {
+        "_": "Papu",
+        "name": "quiz_vegetables_bean_name"
+      },
+      {
+        "name": "quiz_vegetables_bean_hint"
+      },
+      {
+        "_": "Pavut (Phaseolus) on hernekasvisuku, johon kuuluu noin 80 köynnöstävää ruohovartista lajia, jotka kasvavat luonnonvaraisena Keski- ja Etelä-Amerikassa. Lehdet ovat kolmisormiset, kärhettömät ja kukinto isokukkainen terttu.\n\nEurooppaan amerikkalaisia papuja tuotiin jo 1500-luvulla. Suomeen niitä tuotiin hiukan myöhemmin, 1600-luvulla, puna- tai valkoteriöinen tarhapapu (Phaseolus vulgaris), jolla on sileä vihreä, keltainen tai violetti, 8–16 cm pitkä palko. Sen viljelysmuotoja ovat muun muassa pensasmaisesti kasvava pensaspapu ja salkomainen salkopapu, joista kummastakin on olemassa useita lajikkeita. Pyöreäpalkoisista tarhapavuista käytetään nimeä taitepapu ja litteäpalkoisista leikkopapu. Pavut ovat yleensä pensaspapujen siemeniä, niitä on valkoisia, punaisia ja ruskeita. Punakukkainen, 3–4 metriä korkea ruusupapu on Suomessa yleinen koristekasvi, jonka pavut ovat myös syötäviä. Ulkomailla tunnetaan myös borlotto-, liman- ja adsukipapu.",
+        "name": "quiz_vegetables_bean_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Papu",
+        "name": "quiz_vegetables_bean_link"
+      },
+      {
+        "_": "Paprika",
+        "name": "quiz_vegetables_pepper_name"
+      },
+      {
+        "name": "quiz_vegetables_pepper_hint"
+      },
+      {
+        "_": "Paprika (Capsicum annuum), myös ruokapaprika tai vihannespaprika on yleisimmin viljelty Capsicum-suvun kasvilajeista. Tieteellisestä nimestään (annuum, ”yksivuotinen”) huolimatta laji on monivuotinen, joskin viljelyssä usein yksivuotisena kasvatettava. Vihannespaprikan tulisuus on chilien tulisuuden mittauksessa käytettävän Scovillen asteikon nollapiste.",
+        "name": "quiz_vegetables_pepper_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Paprika",
+        "name": "quiz_vegetables_pepper_link"
+      },
+      {
+        "_": "Kurpitsa",
+        "name": "quiz_vegetables_pumpkin_name"
+      },
+      {
+        "name": "quiz_vegetables_pumpkin_hint"
+      },
+      {
+        "_": "Kurpitsa (Cucurbita pepo) on kurpitsoihin (Cucurbita) kuuluva köynnöskasvi, joka on kotoisin Keski-Amerikasta. Kasvin hedelmää käytetään ruoka-aineena ympäri maailman. Siemenistä voidaan puristaa ruokaöljyä tai ne syödään sellaisenaan. Nykyään kurpitsaa viljellään maailmanlaajuisesti. Kurpitsan päätuottajamaat ovat Venäjä, Turkki, Balkanin maat, Kiina ja Meksiko.",
+        "name": "quiz_vegetables_pumpkin_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kurpitsa",
+        "name": "quiz_vegetables_pumpkin_link"
+      },
+      {
+        "_": "Valkosipuli",
+        "name": "quiz_vegetables_garlic_name"
+      },
+      {
+        "name": "quiz_vegetables_garlic_hint"
+      },
+      {
+        "_": "Valkosipuli (Allium sativum) eli kynsilaukka on monivuotinen narsissikasvien (Amaryllidaceae) heimoon kuuluva viljelyskasvi, jonka sipulia käytetään mausteena tuoreeltaan tai kuivattuna. Valkosipulin alkuperästä ei ole varmaa tietoa, mutta säilyneiden dokumenttien perusteella ainakin jo muinaiset egyptiläiset pitivät sitä tärkeänä ravintokasvina. Pohjolassakin valkosipulia on viljelty jo viikinkiaikana, mutta 1800-luvulla sen viljely ja käyttö jostakin syystä ehtyi. Nykyään valkosipulia kuitenkin käytetään yhä enemmän suomalaisessakin keittiössä.",
+        "name": "quiz_vegetables_garlic_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Valkosipuli",
+        "name": "quiz_vegetables_garlic_link"
+      },
+      {
+        "_": "Punajuuri",
+        "name": "quiz_vegetables_beetroot_name"
+      },
+      {
+        "name": "quiz_vegetables_beetroot_hint"
+      },
+      {
+        "_": "Punajuurikas eli punajuuri (Beta vulgaris subsp. Vulgaris var. conditiva) on juurikkaan (Beta vulgaris) muunnos. Punajuurikas muodostaa mehevän mukulan, joka voi olla pyöreä, litteänpyöreä, munanmuotoinen tai pitkänomainen lajikkeesta riippuen. Hyvä punajuurikas on tasainen, voimakkaan tummanpunainen ja pinnaltaan sileä. Suomessa viljellään myös valko-, kelta- ja raitajuurikasta, joka on sisältä punavalkoraidallinen. Punajuuren punaisen värin aiheuttavat betalaiinit betaniini, betanidiini ja isobetaniini, mutta mukana on myös keltajuurikkaan värin aiheuttavia betaksantiineja.",
+        "name": "quiz_vegetables_beetroot_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Punajuuri",
+        "name": "quiz_vegetables_beetroot_link"
+      },
+      {
+        "_": "Kesäkurpitsa",
+        "name": "quiz_vegetables_marrow_name"
+      },
+      {
+        "name": "quiz_vegetables_marrow_hint"
+      },
+      {
+        "_": "Kesäkurpitsa on ryhmä kurpitsan (Cucurbita pepo) lajikkeita. Kesäkurpitsa on vihannes ja ulkonäöltään hyvin samankaltainen kuin kurkku: vihreä tai joskus keltainen, pitkulainen, joskus pyöreähkö. Kesäkurpitsa tuli Suomeen 1600–luvulla Välimeren alueelta. Suomessa kesäkurpitsaa syödään noin puoli kiloa henkeä kohti vuodessa. Hedelmän lisäksi myös kesäkurpitsan kukat ovat syötäviä. Taimet pitää esikasvattaa, mikä onnistuu kotioloissa. Siemenet kylvetään halkaisijaltaan 6–10 cm ruukkuihin. Esikasvatuksessa käytetään peruslannoitettua ja kalkittua kasvuturvetta. Taimet istutetaan ulos ilmojen lämmettyä siten, ettei lämpötilan pitäisi laskea alle 10°c asteen. Istutettaessa riittää, että taimissa on yksi kasvulehti.",
+        "name": "quiz_vegetables_marrow_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kesäkurpitsa",
+        "name": "quiz_vegetables_marrow_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_vegetables_potato_answers",
+        "item": "peruna"
+      },
+      {
+        "name": "quiz_vegetables_potato_facts"
+      },
+      {
+        "name": "quiz_vegetables_carrot_answers",
+        "item": "porkkana"
+      },
+      {
+        "name": "quiz_vegetables_carrot_facts",
+        "item": "Oranssi"
+      },
+      {
+        "name": "quiz_vegetables_pea_answers",
+        "item": "herne"
+      },
+      {
+        "name": "quiz_vegetables_pea_facts",
+        "item": "Vihreä"
+      },
+      {
+        "name": "quiz_vegetables_cabbage_answers",
+        "item": "kaali"
+      },
+      {
+        "name": "quiz_vegetables_cabbage_facts",
+        "item": "Vihreä"
+      },
+      {
+        "name": "quiz_vegetables_cucumber_answers",
+        "item": "kurkku"
+      },
+      {
+        "name": "quiz_vegetables_cucumber_facts",
+        "item": "Vihreä"
+      },
+      {
+        "name": "quiz_vegetables_onion_answers",
+        "item": [
+          "sipuli",
+          "keltasipuli"
+        ]
+      },
+      {
+        "name": "quiz_vegetables_onion_facts"
+      },
+      {
+        "name": "quiz_vegetables_tomato_answers",
+        "item": "tomaatti"
+      },
+      {
+        "name": "quiz_vegetables_tomato_facts",
+        "item": "Punainen"
+      },
+      {
+        "name": "quiz_vegetables_rhubarb_answers",
+        "item": "raparperi"
+      },
+      {
+        "name": "quiz_vegetables_rhubarb_facts"
+      },
+      {
+        "name": "quiz_vegetables_redish_answers",
+        "item": "retiisi"
+      },
+      {
+        "name": "quiz_vegetables_redish_facts"
+      },
+      {
+        "name": "quiz_vegetables_bean_answers",
+        "item": "papu"
+      },
+      {
+        "name": "quiz_vegetables_bean_facts"
+      },
+      {
+        "name": "quiz_vegetables_pepper_answers",
+        "item": "paprika"
+      },
+      {
+        "name": "quiz_vegetables_pepper_facts"
+      },
+      {
+        "name": "quiz_vegetables_pumpkin_answers",
+        "item": "kurpitsa"
+      },
+      {
+        "name": "quiz_vegetables_pumpkin_facts"
+      },
+      {
+        "name": "quiz_vegetables_garlic_answers",
+        "item": "valkosipuli"
+      },
+      {
+        "name": "quiz_vegetables_garlic_facts"
+      },
+      {
+        "name": "quiz_vegetables_beetroot_answers",
+        "item": "punajuuri"
+      },
+      {
+        "name": "quiz_vegetables_beetroot_facts"
+      },
+      {
+        "name": "quiz_vegetables_marrow_answers",
+        "item": "kesäkurpitsa"
+      },
+      {
+        "name": "quiz_vegetables_marrow_facts"
+      }
+    ]
+  }
+}

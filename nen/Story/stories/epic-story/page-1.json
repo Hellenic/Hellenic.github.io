@@ -1,0 +1,17 @@
+{
+	"file": "page-1.html",
+	"inputs": {
+		"inputs": [
+			{
+				"name": "name",
+				"text": "Input your name, please.",
+				"type": "text"
+			},
+			{
+				"name": "age",
+				"text": "Input your secret age, please.",
+				"type": "password"
+			}
+		]
+	}
+}

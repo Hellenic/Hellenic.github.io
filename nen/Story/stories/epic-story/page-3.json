@@ -1,0 +1,27 @@
+{
+	"file": "page-3.html",
+	"allowPrevious": true,
+	"allowNext": false,
+	"inputs": {
+		"inputs": [
+			{
+				"name": "quiz",
+				"text": "The meaning of life is...",
+				"type": "text",
+				"answer": "42",
+				"required": true,
+				"revealActions": true
+			}
+		]
+	},
+	"actions": {
+		"visible": false,
+		"actions": [
+			{
+				"name": "Move ahead",
+				"description": "Congrats. You knew the answer!",
+				"page": 4
+			}
+		]
+	}
+}

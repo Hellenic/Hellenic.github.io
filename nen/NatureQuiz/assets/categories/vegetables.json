@@ -1,0 +1,164 @@
+{
+  "category": {
+    "name": "@string/quiz_vegetables_name",
+    "description": "@string/quiz_vegetables_description",
+    "image": "vegetables.jpg",
+    "link": "@string/quiz_vegetables_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_vegetables_potato_name",
+          "hint": "@string/quiz_vegetables_potato_hint",
+          "description": "@string/quiz_vegetables_potato_description",
+          "answers": "@array/quiz_vegetables_potato_answers",
+          "image": "potato.jpg",
+          "link": "@string/quiz_vegetables_potato_link",
+          "facts": "@array/quiz_vegetables_potato_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_vegetables_carrot_name",
+          "hint": "@string/quiz_vegetables_carrot_hint",
+          "description": "@string/quiz_vegetables_carrot_description",
+          "answers": "@array/quiz_vegetables_carrot_answers",
+          "image": "carrots.jpg",
+          "link": "@string/quiz_vegetables_carrot_link",
+          "facts": "@array/quiz_vegetables_carrot_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_vegetables_pea_name",
+          "hint": "@string/quiz_vegetables_pea_hint",
+          "description": "@string/quiz_vegetables_pea_description",
+          "answers": "@array/quiz_vegetables_pea_answers",
+          "image": "pea.jpg",
+          "link": "@string/quiz_vegetables_pea_link",
+          "facts": "@array/quiz_vegetables_pea_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_vegetables_cabbage_name",
+          "hint": "@string/quiz_vegetables_cabbage_hint",
+          "description": "@string/quiz_vegetables_cabbage_description",
+          "answers": "@array/quiz_vegetables_cabbage_answers",
+          "image": "cabbage.jpg",
+          "link": "@string/quiz_vegetables_cabbage_link",
+          "facts": "@array/quiz_vegetables_cabbage_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_vegetables_cucumber_name",
+          "hint": "@string/quiz_vegetables_cucumber_hint",
+          "description": "@string/quiz_vegetables_cucumber_description",
+          "answers": "@array/quiz_vegetables_cucumber_answers",
+          "image": "cucumber.jpg",
+          "link": "@string/quiz_vegetables_cucumber_link",
+          "facts": "@array/quiz_vegetables_cucumber_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_vegetables_onion_name",
+          "hint": "@string/quiz_vegetables_onion_hint",
+          "description": "@string/quiz_vegetables_onion_description",
+          "answers": "@array/quiz_vegetables_onion_answers",
+          "image": "onion.jpg",
+          "link": "@string/quiz_vegetables_onion_link",
+          "facts": "@array/quiz_vegetables_onion_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_vegetables_tomato_name",
+          "hint": "@string/quiz_vegetables_tomato_hint",
+          "description": "@string/quiz_vegetables_tomato_description",
+          "answers": "@array/quiz_vegetables_tomato_answers",
+          "image": "tomato.jpg",
+          "link": "@string/quiz_vegetables_tomato_link",
+          "facts": "@array/quiz_vegetables_tomato_facts"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_vegetables_rhubarb_name",
+          "hint": "@string/quiz_vegetables_rhubarb_hint",
+          "description": "@string/quiz_vegetables_rhubarb_description",
+          "answers": "@array/quiz_vegetables_rhubarb_answers",
+          "image": "rhubarb.jpg",
+          "link": "@string/quiz_vegetables_rhubarb_link",
+          "facts": "@array/quiz_vegetables_rhubarb_facts"
+        },
+        {
+          "id": "9",
+          "name": "@string/quiz_vegetables_redish_name",
+          "hint": "@string/quiz_vegetables_redish_hint",
+          "description": "@string/quiz_vegetables_redish_description",
+          "answers": "@array/quiz_vegetables_redish_answers",
+          "image": "redish.jpg",
+          "link": "@string/quiz_vegetables_redish_link",
+          "facts": "@array/quiz_vegetables_redish_facts"
+        },
+        {
+          "id": "10",
+          "name": "@string/quiz_vegetables_bean_name",
+          "hint": "@string/quiz_vegetables_bean_hint",
+          "description": "@string/quiz_vegetables_bean_description",
+          "answers": "@array/quiz_vegetables_bean_answers",
+          "image": "beans.jpg",
+          "link": "@string/quiz_vegetables_bean_link",
+          "facts": "@array/quiz_vegetables_bean_facts"
+        },
+        {
+          "id": "11",
+          "name": "@string/quiz_vegetables_pepper_name",
+          "hint": "@string/quiz_vegetables_pepper_hint",
+          "description": "@string/quiz_vegetables_pepper_description",
+          "answers": "@array/quiz_vegetables_pepper_answers",
+          "image": "pepper.jpg",
+          "link": "@string/quiz_vegetables_pepper_link",
+          "facts": "@array/quiz_vegetables_pepper_facts"
+        },
+        {
+          "id": "12",
+          "name": "@string/quiz_vegetables_pumpkin_name",
+          "hint": "@string/quiz_vegetables_pumpkin_hint",
+          "description": "@string/quiz_vegetables_pumpkin_description",
+          "answers": "@array/quiz_vegetables_pumpkin_answers",
+          "image": "pumpkin.jpg",
+          "link": "@string/quiz_vegetables_pumpkin_link",
+          "facts": "@array/quiz_vegetables_pumpkin_facts"
+        },
+        {
+          "id": "13",
+          "name": "@string/quiz_vegetables_garlic_name",
+          "hint": "@string/quiz_vegetables_garlic_hint",
+          "description": "@string/quiz_vegetables_garlic_description",
+          "answers": "@array/quiz_vegetables_garlic_answers",
+          "image": "garlic.jpg",
+          "link": "@string/quiz_vegetables_garlic_link",
+          "facts": "@array/quiz_vegetables_garlic_facts"
+        },
+        {
+          "id": "14",
+          "name": "@string/quiz_vegetables_beetroot_name",
+          "hint": "@string/quiz_vegetables_beetroot_hint",
+          "description": "@string/quiz_vegetables_beetroot_description",
+          "answers": "@array/quiz_vegetables_beetroot_answers",
+          "image": "beetroot.jpg",
+          "link": "@string/quiz_vegetables_beetroot_link",
+          "facts": "@array/quiz_vegetables_beetroot_facts"
+        },
+        {
+          "id": "15",
+          "name": "@string/quiz_vegetables_marrow_name",
+          "hint": "@string/quiz_vegetables_marrow_hint",
+          "description": "@string/quiz_vegetables_marrow_description",
+          "answers": "@array/quiz_vegetables_marrow_answers",
+          "image": "zucchini.jpg",
+          "link": "@string/quiz_vegetables_marrow_link",
+          "facts": "@array/quiz_vegetables_marrow_facts"
+        }
+      ]
+    }
+  }
+}

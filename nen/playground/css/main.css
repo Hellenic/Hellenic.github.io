@@ -1,0 +1,254 @@
+/*
+    Document   : base
+    Created on : 03.10.2015, 17:56:42
+    Author     : Hellenic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #060B14;
+
+    font-family: "Helvetica Neue", "Open Sans";
+    font-weight: 100;
+}
+
+a {
+    color: #4bc2f1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    perspective: 50px;
+    -webkit-perspective: 50px;
+    -moz-perspective: 50px;
+    -ms-perspective: 50px;
+
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+
+    opacity: 0.55;
+    z-index: -1;
+}
+
+#welcome {
+    position: fixed;
+    width: 22rem;
+    left: 50%;
+    top: 15%;
+    margin-top: -1rem;
+    margin-left: -11rem;
+
+    font-weight: 200;
+    color: #FFF;
+    opacity: 0.85;
+    text-align: center;
+    font-size: 3.0rem;
+}
+#welcome small {
+    font-size: 1.0rem;
+}
+
+#content {
+    display: none;
+    float: right;
+    overflow: auto;
+
+    width: 30%;
+    text-align: right;
+
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+
+    color: #FFF;
+    opacity: 0.85;
+    font-size: 2.0rem;
+}
+@media (max-width: 1024px) {
+    #content {
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    #content {
+        width: 80%;
+    }
+}
+
+.menu-priority {
+
+}
+
+.menu-secondary {
+    display: none;
+}
+
+.color-red {
+    color: #d74580;
+}
+.color-blue {
+    color: #2E607F;
+}
+
+/**
+ * Menu DL / DT
+**/
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+dt,dd {
+
+}
+dt {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+dd {
+    font-size: 1.4rem;
+}
+
+/**
+Green Hexagon
+*/
+.hexagon {
+    position: fixed;
+    width: 80px;
+    height: 46.19px;
+
+    background-color: #2EACA6;
+    margin: 23.09px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 23.09px solid #2EACA6;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 23.09px solid #2EACA6;
+}
+
+/**
+Blue Hexagon
+*/
+.hexagon-blue {
+    position: fixed;
+    width: 80px;
+    height: 46.19px;
+
+    background-color: #377499;
+    margin: 23.09px 0;
+}
+
+.hexagon-blue:before,
+.hexagon-blue:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+.hexagon-blue:before {
+    bottom: 100%;
+    border-bottom: 23.09px solid #377499;
+}
+
+.hexagon-blue:after {
+    top: 100%;
+    width: 0;
+    border-top: 23.09px solid #377499;
+}
+
+
+/**
+Blue Hexagon borders
+*/
+.hexagon-empty {
+    position: fixed;
+    width: 80px;
+    height: 46.19px;
+
+    background-color: transparent;
+    margin: 23.09px 0;
+    border-left: solid 3px #2E607F;
+    border-right: solid 3px #2E607F;
+}
+.hexagon-empty:before,
+.hexagon-empty:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 56.57px;
+    height: 56.57px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 8.7157px;
+}
+.hexagon-empty:before {
+    top: -28.2843px;
+    border-top: solid 4.2426px #2E607F;
+    border-right: solid 4.2426px #2E607F;
+}
+.hexagon-empty:after {
+    bottom: -28.2843px;
+    border-bottom: solid 4.2426px #2E607F;
+    border-left: solid 4.2426px #2E607F;
+}
+
+
+/**
+ * CSS Chevron
+ *
+ */
+.chevron::after {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.25em;
+    left: 0.25em;
+    position: relative;
+    top: 0.55em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.25em;
+}
+.chevron.right:after {
+    left: 0;
+    transform: rotate(45deg);
+}
+.chevron.bottom:after {
+    top: 1.0rem;
+    transform: rotate(135deg);
+}
+.chevron.left:after {
+    left: 0.25em;
+    transform: rotate(-135deg);
+}

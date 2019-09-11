@@ -1,0 +1,253 @@
+/* 
+    Document   : style
+    Created on : 28.1.2012, 17:25:27
+    Author     : Hellenic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    /*
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    */
+}
+
+.bg-container
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 1000px;
+    float: left;
+    z-index: -9000;
+    position: fixed;
+    background-image: url("../img/Haze.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hack
+{
+    line-height: 10px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * 
+        ASIDE
+* * * * * * * * * * * * * * * * * * * * * * * * */
+aside
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    min-height: 100%;
+    height: 1000px;
+}
+
+aside header
+{
+    width: 220px;
+    z-index: 5;
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+    font-size: 2.0em;
+}
+
+aside nav
+{
+    width: 200px;
+    z-index: 5;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    
+    text-align: right;
+    font-size: 1.4em;
+}
+aside nav ul
+{
+}
+aside nav li
+{
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+aside footer
+{
+    width: 220px;
+    z-index: 1;
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    position: fixed;
+    bottom: 0;
+}
+
+.ajax-loader
+{
+    position: fixed;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    display: none;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * 
+        SECTION
+* * * * * * * * * * * * * * * * * * * * * * * * */
+section.main
+{
+    /*
+    min-height: 100%;
+    height: 100%;
+    */
+}
+
+section.main section
+{
+}
+
+section.full
+{
+    position: fixed;
+    left: 225px;
+}
+
+section.content
+{
+    width: 700px;
+    z-index: 2;
+    padding: 50px 20px 50px 20px;
+}
+
+section.content header
+{
+    font-size: 2.0em;
+    padding-bottom: 30px;
+}
+
+section.content h1
+{
+    margin-top: 10px;
+    width: 300px;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+section.content article
+{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+section.content article figure
+{
+}
+
+section.content article h1:hover
+{
+    cursor: default;
+    border-bottom-style: dashed;
+}
+
+section.content .cv div
+{
+    margin-bottom: 30px;
+}
+
+section.content .cv div figure
+{
+    clear: both;
+}
+
+section.content article figure figcaption
+{
+    width: 150px;
+    float: left;
+    font-weight: bold;
+}
+
+section.content article p
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+section.content article img
+{
+    max-width: 500px;
+}
+
+section.content article.gallery img
+{
+    padding: 5px;
+}
+
+section.content footer
+{
+    margin-top: 50px;
+}
+
+
+
+/**************************
+        SLIDER
+**************************/
+section.slider
+{
+    width: 800px;
+    z-index: 3;
+    position: fixed;
+    bottom: -500px;
+    right: 35%;
+    padding: 50px 20px 150px 20px;
+    display: none;
+    max-height: 600px;
+    overflow: auto;
+}
+
+section.slider article
+{
+    
+}
+
+section.gallery
+{
+    width: 1000px;
+    z-index: 4;
+    position: fixed;
+    top: 10%;
+    right: 0;
+    padding: 50px 100px 50px 20px;
+    display: none;
+    height: 600px;
+    max-height: 600px;
+    overflow: auto;
+}
+
+section.gallery header
+{
+    padding-bottom: 20px;
+}
+
+section.gallery img
+{
+    padding: 0 5px 10px 5px;
+    max-height: 200px;
+    max-width: 250px;
+}

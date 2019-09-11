@@ -1,0 +1,134 @@
+{
+  "category": {
+    "name": "@string/quiz_bigbirds_name",
+    "description": "@string/quiz_bigbirds_description",
+    "image": "bigbirds.jpg",
+    "link": "@string/quiz_bigbirds_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_bigbirds_duck_name",
+          "hint": "@string/quiz_bigbirds_duck_hint",
+          "description": "@string/quiz_bigbirds_duck_description",
+          "answers": "@array/quiz_bigbirds_duck_answers",
+          "image": "duck.jpg",
+          "link": "@string/quiz_bigbirds_duck_link",
+          "facts": "@array/quiz_bigbirds_duck_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_bigbirds_goose_name",
+          "hint": "@string/quiz_bigbirds_goose_hint",
+          "description": "@string/quiz_bigbirds_goose_description",
+          "answers": "@array/quiz_bigbirds_goose_answers",
+          "image": "goose.jpg",
+          "link": "@string/quiz_bigbirds_goose_link",
+          "facts": "@array/quiz_bigbirds_goose_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_bigbirds_swan_name",
+          "hint": "@string/quiz_bigbirds_swan_hint",
+          "description": "@string/quiz_bigbirds_swan_description",
+          "answers": "@array/quiz_bigbirds_swan_answers",
+          "image": "swan.jpg",
+          "link": "@string/quiz_bigbirds_swan_link",
+          "facts": "@array/quiz_bigbirds_swan_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_bigbirds_goldeneye_name",
+          "hint": "@string/quiz_bigbirds_goldeneye_hint",
+          "description": "@string/quiz_bigbirds_goldeneye_description",
+          "answers": "@array/quiz_bigbirds_goldeneye_answers",
+          "image": "goldeneye.jpg",
+          "link": "@string/quiz_bigbirds_goldeneye_link",
+          "facts": "@array/quiz_bigbirds_goldeneye_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_bigbirds_crane_name",
+          "hint": "@string/quiz_bigbirds_crane_hint",
+          "description": "@string/quiz_bigbirds_crane_description",
+          "answers": "@array/quiz_bigbirds_crane_answers",
+          "image": "crane.jpg",
+          "link": "@string/quiz_bigbirds_crane_link",
+          "facts": "@array/quiz_bigbirds_crane_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_bigbirds_heron_name",
+          "hint": "@string/quiz_bigbirds_heron_hint",
+          "description": "@string/quiz_bigbirds_heron_description",
+          "answers": "@array/quiz_bigbirds_heron_answers",
+          "image": "heron.jpg",
+          "link": "@string/quiz_bigbirds_heron_link",
+          "facts": "@array/quiz_bigbirds_heron_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_bigbirds_hawk_name",
+          "hint": "@string/quiz_bigbirds_hawk_hint",
+          "description": "@string/quiz_bigbirds_hawk_description",
+          "answers": "@array/quiz_bigbirds_hawk_answers",
+          "image": "hawk.jpg",
+          "link": "@string/quiz_bigbirds_hawk_link",
+          "facts": "@array/quiz_bigbirds_hawk_facts"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_bigbirds_eagle_name",
+          "hint": "@string/quiz_bigbirds_eagle_hint",
+          "description": "@string/quiz_bigbirds_eagle_description",
+          "answers": "@array/quiz_bigbirds_eagle_answers",
+          "image": "eagle.jpg",
+          "link": "@string/quiz_bigbirds_eagle_link",
+          "facts": "@array/quiz_bigbirds_eagle_facts"
+        },
+        {
+          "id": "9",
+          "name": "@string/quiz_bigbirds_owl_name",
+          "hint": "@string/quiz_bigbirds_owl_hint",
+          "description": "@string/quiz_bigbirds_owl_description",
+          "answers": "@array/quiz_bigbirds_owl_answers",
+          "image": "owl.jpg",
+          "link": "@string/quiz_bigbirds_owl_link",
+          "facts": "@array/quiz_bigbirds_owl_facts"
+        },
+        {
+          "id": "10",
+          "name": "@string/quiz_bigbirds_grouse_name",
+          "hint": "@string/quiz_bigbirds_grouse_hint",
+          "description": "@string/quiz_bigbirds_grouse_description",
+          "answers": "@array/quiz_bigbirds_grouse_answers",
+          "image": "grouse.jpg",
+          "link": "@string/quiz_bigbirds_grouse_link",
+          "facts": "@array/quiz_bigbirds_grouse_facts"
+        },
+        {
+          "id": "11",
+          "name": "@string/quiz_bigbirds_fgrouse_name",
+          "hint": "@string/quiz_bigbirds_fgrouse_hint",
+          "description": "@string/quiz_bigbirds_fgrouse_description",
+          "answers": "@array/quiz_bigbirds_fgrouse_answers",
+          "image": "fgrouse.jpg",
+          "link": "@string/quiz_bigbirds_fgrouse_link",
+          "facts": "@array/quiz_bigbirds_fgrouse_facts"
+        },
+        {
+          "id": "12",
+          "name": "@string/quiz_bigbirds_pheasant_name",
+          "hint": "@string/quiz_bigbirds_pheasant_hint",
+          "description": "@string/quiz_bigbirds_pheasant_description",
+          "answers": "@array/quiz_bigbirds_pheasant_answers",
+          "image": "pheasant.jpg",
+          "link": "@string/quiz_bigbirds_pheasant_link",
+          "facts": "@array/quiz_bigbirds_pheasant_facts"
+        }
+      ]
+    }
+  }
+}

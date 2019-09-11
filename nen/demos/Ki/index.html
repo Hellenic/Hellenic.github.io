@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="application-name" content="Ki Demo" />
+        <meta name="description" content="Ki Demo" />
+        <meta name="keywords" content="demo, blankpace, hk" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <base href="" />
+
+        <title>Ki</title>
+
+        <link rel="stylesheet" type="text/css" href="css/demos.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/Ki.css" media="screen" />
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/three.js/r65/three.min.js"></script>
+
+        <script type="text/javascript" src="../DemoSystem/r02/DemoLoader.js"></script>
+        <script>
+        	DemoLoader.addEssentialScript("../common/js/threejs/Stats.js");
+        	DemoLoader.addEssentialScript("js/KiIntro.js");
+
+	        DemoLoader.addSceneScript("js/Ki.js");
+
+	        DemoLoader.addShader("../common/shaders/vs.basic.glsl", "vertexShader");
+	        DemoLoader.addShader("../common/shaders/fs.basic.glsl", "fragmentShader");
+        </script>
+    </head>
+    <body>
+    	<!-- Insert coin or JavaScript magic here -->
+    </body>
+</html>

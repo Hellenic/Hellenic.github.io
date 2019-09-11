@@ -1,0 +1,10 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /Archives/Blankpace2011/hk/
+RewriteRule ^gally/picview/viewer/([a-z/]+)/([0-9]+)$ index\.php?p=gally/picview/viewer\&dir\=$1\&pic\=$2 [L]
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)$ index\.php?p=$1/$2/$3/$4/$5/$6 [L]
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)$ index\.php?p=$1/$2/$3/$4/$5 [L]
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)$ index\.php?p=$1/$2/$3/$4 [L]
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+)/([a-z0-9\-]+)$ index\.php?p=$1/$2/$3 [L]
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+)$ index\.php?p=$1/$2 [L]
+RewriteRule ^([a-z0-9\-]+)$ index\.php?p=$1 [L]

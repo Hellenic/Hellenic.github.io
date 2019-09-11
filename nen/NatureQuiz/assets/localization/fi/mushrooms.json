@@ -1,0 +1,193 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Sienet",
+        "name": "quiz_mushrooms_name"
+      },
+      {
+        "_": "Kuinka hyvin tunnet herkulliset sienet?",
+        "name": "quiz_mushrooms_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Sienet",
+        "name": "quiz_mushrooms_link"
+      },
+      {
+        "_": "Herkkutatti",
+        "name": "quiz_mushrooms_cep_name"
+      },
+      {
+        "name": "quiz_mushrooms_cep_hint"
+      },
+      {
+        "_": "Herkkutatti (Boletus edulis, myös kivitatti ja hepotatti) on arvostettu ruokasieni, jota tavataan lähes kaikkialla pohjoisen pallonpuoliskon havu- ja sekametsissä. Se on tanakka, kiinteä ja muodoltaan helposti tatiksi tunnistettava. Sen malto on kiinteää ja pähkinämäistä. Suurimmat herkkutatit painavat yli kilon. Herkkutatti elää symbioosissa useiden puulajien kanssa, mutta se kasvaa mieluiten metsänpohjassa, jossa ei ole aluskasvillisuutta.",
+        "name": "quiz_mushrooms_cep_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Boletus_edulis",
+        "name": "quiz_mushrooms_cep_link"
+      },
+      {
+        "_": "Korvasieni",
+        "name": "quiz_mushrooms_morel_name"
+      },
+      {
+        "name": "quiz_mushrooms_morel_hint"
+      },
+      {
+        "_": "Korvasieni (Gyromitra esculenta) on herkullisena pidetty, käsittelemättömänä erittäin myrkyllinen sienilaji. Korvasienen myrkyistä noin 90 prosenttia on gyromitriiniä, joka on hengenvaarallinen solumyrkky, mutta herkästi haihtuva ja vesiliukoinen. Korvasienen lakki on suklaan- tai mustanruskea ja poimuttunut aivojen tavoin. Lakin reuna on usein laidoilta jalkaa vasten sisäänpäin kääntynyt. Sen koko vaihtelee muutamasta sentistä aina noin 15 senttiin asti, tukevan jalan paksuus on yleensä noin puolet lakista. Malto on vaaleaa, vahamaista, haurasta ja hyvin ohutta. Tuoreen korvasienen pähkinäinen haju ja maku ovat myrkyllisyydestä huolimatta mietoja.",
+        "name": "quiz_mushrooms_morel_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Korvasieni",
+        "name": "quiz_mushrooms_morel_link"
+      },
+      {
+        "_": "Kanttarelli",
+        "name": "quiz_mushrooms_chanterelle_name"
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_hint"
+      },
+      {
+        "_": "Keltavahvero eli kantarelli (Cantharellus cibarius) on kantarellien heimoon kuuluva kauppasieni. Keltavahveroa on kutsuttu myös vanhoissa sieniopaskirjoissa ruskosieneksi tai keltasieneksi. Väriltään keltavahvero on munankeltainen, vanhemmiten haalistuva. Sen lakki on melko pieni, harvoin yli kymmenen senttiä leveä. Lakin tasainen pinta on kuiva ja aaltoileva. Varsi on alaosasta usein vaaleampi. Heltat ovat paksut, johteiset ja haaraiset. Malto on paksua, lähes valkoista ja miellyttävän tuoksuista. Itiöpöly on vaalean kellertävää.",
+        "name": "quiz_mushrooms_chanterelle_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kanttarelli",
+        "name": "quiz_mushrooms_chanterelle_link"
+      },
+      {
+        "_": "Kärpässieni",
+        "name": "quiz_mushrooms_flyagaric_name"
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_hint"
+      },
+      {
+        "_": "Kärpässienet (Amanita) on helttasieniin kuuluva sienisuku. Suvussa on kaikkiaan tuhatkunta lajia, joista ainakin 60 on laajalle levinneitä. Suomessa sukuun kuuluvia lajeja esiintyy 24.\n\nKärpässienille tyypillisiä piirteitä ovat irtotyviset heltat sekä nuorta sientä suojaava kalvo, joka sienen kasvaessa repeää jättäen lajista riippuen esimerkiksi laikkuja lakkiin tai renkaan jalkaan. Kärpässienten jalassa on yleensä tuppi ja niiden itiöpöly on enimmäkseen valkoista.",
+        "name": "quiz_mushrooms_flyagaric_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kärpässieni",
+        "name": "quiz_mushrooms_flyagaric_link"
+      },
+      {
+        "_": "Kivitatti",
+        "name": "quiz_mushrooms_annulatedboletus_name"
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_hint"
+      },
+      {
+        "_": "Kivitatit (Boletus) on tattien suku, johon kuuluu joukko arvostetuimpia ruokasieniä, mutta myös myrkyllisiä vaikkakin Suomessa hyvin harvinaisia sieniä. Sukuun kuuluu yhteensä yli sata lajia. Ne ovat paksujalkaisia, massiivisia sieniä, joiden malto on kiinteää ja murtuu lohkeamalla, eikä repeydy kuiduiksi. Nuorten yksilöiden lakki on kupera, vanhempien laakeampi. Niiden jalassa ei ole pieniä tupsuja tai nyppylöitä, toisin kuin muilla tattisuvuilla.",
+        "name": "quiz_mushrooms_annulatedboletus_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Boletus",
+        "name": "quiz_mushrooms_annulatedboletus_link"
+      },
+      {
+        "_": "Hapero",
+        "name": "quiz_mushrooms_russula_name"
+      },
+      {
+        "name": "quiz_mushrooms_russula_hint"
+      },
+      {
+        "_": "Haperot (Russula) on laaja helttasienisuku. Ne muistuttavat ulkoisesti paljon lähisukulaisiaan, samaan Russulaceae-heimoon kuuluvia rouskuja, mutta eroavat niistä siinä, ettei haavoitetusta haperosta valu maitiaisnestettä rouskun tapaan. Haperojen lakki on usein kirkkaan värinen, mutta harmaantuu yksilön vanhetessa. Paras haperokausi on heinä-syyskuussa. Monet haperot ovat erinomaisia ruokasieniä, eikä myrkyllisiä haperolajeja tiedetä löytyvän Suomesta. Haperon tunnistaa helposti siitä, että jalkaa taitettaessa se \"hapertuu\" eli murtuu pieniksi pesusienimäisiksi paloiksi. Esimerkiksi seitikkien jalan voi puolestaan repiä koko jalan mittaisiksi suikaleiksi. Haperoksi tunnistamisen jälkeen sienestä voi maistaa palan (se on sylkäistävä kuitenkin pois). Maultaan miedot haperot kelpaavat käytettäviksi ryöppäämättä, voimakkaan makuiset voi kiehauttaa, jotta väkevän maun saa pois.",
+        "name": "quiz_mushrooms_russula_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/russula",
+        "name": "quiz_mushrooms_russula_link"
+      },
+      {
+        "_": "Herkkusieni",
+        "name": "quiz_mushrooms_champignon_name"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_hint"
+      },
+      {
+        "_": "Herkkusieni (Agaricus bisporus) on maailman viljellyin sieni, jota on viljelty Ranskassa jo 1700-luvulta saakka. Suomessa viljely aloitettiin 1940-luvulla. Villinä herkkusieni kasvaa Etelä-Euroopassa. Herkkusieni on tuoreena kiinteä ja sen malto on vaaleaa. Vanhetessaan herkkusienen heltat aukeavat ja niiden väri tummuu. Eri herkkusienilajien määritys on usein vaikeaa. Maultaan herkkusieni on mieto ja hieman pähkinämäinen. Herkkusieni sopii monenlaiseen ruoanlaittoon.",
+        "name": "quiz_mushrooms_champignon_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Herkkusieni",
+        "name": "quiz_mushrooms_champignon_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_mushrooms_cep_answers",
+        "item": "herkkutatti"
+      },
+      {
+        "name": "quiz_mushrooms_cep_facts",
+        "item": "Syömäkelpoinen"
+      },
+      {
+        "name": "quiz_mushrooms_morel_answers",
+        "item": [
+          "korvasieni",
+          "gyromitra esculenta"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_morel_facts",
+        "item": "Syömäkelpoinen käsiteltynä"
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_answers",
+        "item": [
+          "kantarelli",
+          "keltavahvero"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_facts",
+        "item": "Syömäkelpoinen"
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_answers",
+        "item": [
+          "kärpässieni",
+          "amanita"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_facts",
+        "item": "Myrkyllinen"
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_answers",
+        "item": [
+          "boletus",
+          "kivitatti"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_facts",
+        "item": "Syömäkelpoinen käsiteltynä"
+      },
+      {
+        "name": "quiz_mushrooms_russula_answers",
+        "item": "hapero"
+      },
+      {
+        "name": "quiz_mushrooms_russula_facts",
+        "item": "Syömäkelpoinen"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_answers",
+        "item": "herkkusieni"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_facts",
+        "item": "Syömäkelpoinen"
+      }
+    ]
+  }
+}

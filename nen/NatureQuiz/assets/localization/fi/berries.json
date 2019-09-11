@@ -1,0 +1,302 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Marjat",
+        "name": "quiz_berries_name"
+      },
+      {
+        "_": "Miten hyvin tunnet marjoja?",
+        "name": "quiz_berries_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Marja",
+        "name": "quiz_berries_link"
+      },
+      {
+        "_": "Mansikka",
+        "name": "quiz_berries_strawberry_name"
+      },
+      {
+        "name": "quiz_berries_strawberry_hint"
+      },
+      {
+        "_": "Punainen ja maukas kesämarja.",
+        "name": "quiz_berries_strawberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Mansikat",
+        "name": "quiz_berries_strawberry_link"
+      },
+      {
+        "_": "Karviainen",
+        "name": "quiz_berries_gooseberry_name"
+      },
+      {
+        "name": "quiz_berries_gooseberry_hint"
+      },
+      {
+        "_": "Karviainen (Ribes uva-crispa) on herukoiden sukuun kuuluva marjapensas, jonka alkuperäinen esiintymisalue on Euroopassa ja Aasian länsiosissa. Pohjoismaissa karviaista tavataan viljelyjäänteenä ja viljelykarkulaisena. Karviainen on vakinainen uustulokas Suomen, Ruotsin ja Norjan keskiosiin asti ja satunnainen pohjoisempanakin.",
+        "name": "quiz_berries_gooseberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/karviainen",
+        "name": "quiz_berries_gooseberry_link"
+      },
+      {
+        "_": "Punaherukka",
+        "name": "quiz_berries_redcurrant_name"
+      },
+      {
+        "name": "quiz_berries_redcurrant_hint"
+      },
+      {
+        "_": "Punaherukka eli lännenpunaherukka (Ribes rubrum), jota kutsutaan usein myös punaviinimarjaksi, on herukkapensaslaji. Punaherukasta tunnetaan useita alalajeja. Suomessa pensasta esiintyy viljeltynä. Suomen suosituin viljelylajike on Punainen hollantilainen. Punaviinimarja kestää kylmää paremmin kuin mustaherukka, joten sitä voidaan kasvattaa jopa Lapissa. Punaherukkaa kasvaa koko maassa luonnonvaraisena. Luonnonvarainen punaherukka on otettu viljelyyn jo varhain. Luonnonvaraisen muodon marjat ovat happamammat ja pienemmät kuin nykyisin viljellyllä lajikkeilla.",
+        "name": "quiz_berries_redcurrant_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/punaherukka",
+        "name": "quiz_berries_redcurrant_link"
+      },
+      {
+        "_": "Mustaherukka",
+        "name": "quiz_berries_blackcurrant_name"
+      },
+      {
+        "name": "quiz_berries_blackcurrant_hint"
+      },
+      {
+        "_": "Mustaherukka (Ribes nigrum) eli musta viinimarja on herukoiden sukuun kuuluva yksikotinen pensas, joka kasvaa suurimmassa osassa Eurooppaa sekä villinä että viljeltynä. Mustaherukka on 1–1,5 metriä korkea pensas. Lehtilapa on 6–10 cm leveä ja 3–5-liuskainen. Lehti on päältä kalju ja alta karvainen. Lehtien liuskat ovat suippoja. Mustaherukan kukinto on nuokkuva monikukkainen terttu.",
+        "name": "quiz_berries_blackcurrant_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/mustaherukka",
+        "name": "quiz_berries_blackcurrant_link"
+      },
+      {
+        "_": "Mustikka",
+        "name": "quiz_berries_blueberry_name"
+      },
+      {
+        "name": "quiz_berries_blueberry_hint"
+      },
+      {
+        "_": "Mustikka (Vaccinium myrtillus) on puolukoiden (Vaccinium) sukuun kuuluva kanervakasvi (Ericaceae), joka tuottaa syötäviä marjoja. Mustikka kasvaa tuoreissa kangasmetsissä ja muissa kosteissa metsissä Euroopan, Aasian ja Pohjois-Amerikan pohjoisosissa. Mustikka kukkii toukokuusta heinäkuuhun, ja marjat kypsyvät heinäkuusta alkaen. Suomessa mustikka on toiseksi tärkein kaupallinen luonnonmarja.",
+        "name": "quiz_berries_blueberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/mustikka",
+        "name": "quiz_berries_blueberry_link"
+      },
+      {
+        "_": "Puolukka",
+        "name": "quiz_berries_lingonberry_name"
+      },
+      {
+        "name": "quiz_berries_lingonberry_hint"
+      },
+      {
+        "_": "Puolukka (Vaccinium vitis-idaea) on puolukoiden sukuun (Vaccinium) ja kanervakasvien heimoon kuuluva, 10–40 senttimetriä korkea ainavihanta varpu, joka kasvaa laajalla alueella pohjoisella pallonpuoliskolla. Puolukalla on vihreät ja suipot lehdet, jotka ovat 10–25 millimetriä pitkät. Puolukka kukkii touko-kesäkuussa ja punainen syötävä pohjusmarja on kypsä syyskuussa. Puolukka viihtyy parhaiten kuivien kangasmetsien puolukkatyypin metsissä.",
+        "name": "quiz_berries_lingonberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/puolukka",
+        "name": "quiz_berries_lingonberry_link"
+      },
+      {
+        "_": "Vadelma",
+        "name": "quiz_berries_raspberry_name"
+      },
+      {
+        "name": "quiz_berries_raspberry_hint"
+      },
+      {
+        "_": "Vadelma (Rubus idaeus) eli vaarain, vaapukka tai vattu on hyönteispölytteinen, monivuotinen vatukoihin kuuluva puolipensas. Sillä on kaksivuotiset, piikikkäät, toisena vuonna kukkivat versot. On olemassa myös viljelty syysvadelmalajike, joka tuottaa satoa ensimmäisen vuoden versoihin.",
+        "name": "quiz_berries_raspberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/vadelma",
+        "name": "quiz_berries_raspberry_link"
+      },
+      {
+        "_": "Lakka",
+        "name": "quiz_berries_cloudberry_name"
+      },
+      {
+        "name": "quiz_berries_cloudberry_hint"
+      },
+      {
+        "_": "Lakka eli hilla eli suomuurain (Rubus chamaemorus)on vatukoiden sukuun kuuluva ruohovartinen kasvi. Nimeä käytetään myös kasvin tuottamasta heleän oranssista mehukkaasta marjasta. Kasvin nimitys vaihtelee alueittain niin, että lakasta puhutaan perinteisesti Länsi-Suomessa ja hillasta Pohjois- ja Itä-Suomessa. ",
+        "name": "quiz_berries_cloudberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Lakka_(kasvi)",
+        "name": "quiz_berries_cloudberry_link"
+      },
+      {
+        "_": "Karpalo",
+        "name": "quiz_berries_cranberry_name"
+      },
+      {
+        "name": "quiz_berries_cranberry_hint"
+      },
+      {
+        "_": "Isokarpalo (Vaccinium oxycoccos) on puolukoihin (Vaccinium) kuuluva punakukkainen ja -marjainen, aina vihanta varpu. Se kasvaa sekä Euraasian että Pohjois-Amerikan pohjoisosissa. Suomessa se on lähes koko maassa varsin yleinen alkuperäiskasvi, vain Pohjois-Lapissa harvinainen. Se kasvaa runsaimmillaan ja varsinkin parhaiten marjovana erilaisilla, monesti melko märilläkin nevoilla. Vaikka se kasvaa myös rämeillä ja korvissa, marjasadot jäävät siellä paljon pienemmiksi. ",
+        "name": "quiz_berries_cranberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/karpalo",
+        "name": "quiz_berries_cranberry_link"
+      },
+      {
+        "_": "Variksenmarja",
+        "name": "quiz_berries_crowberry_name"
+      },
+      {
+        "name": "quiz_berries_crowberry_hint"
+      },
+      {
+        "_": "Variksenmarja (Empetrum nigrum) eli kaarnikka on matala ainavihanta varpukasvi, joka kuuluu kanervakasvien (Ericaceae) heimoon. Sitä käytetään ravinnoksi etenkin Pohjois-Suomessa. Variksenmarjasta on olemassa kaksi eri alalajia, joista pohjanvariksenmarja (Empetrum nigrum subsp. hermaphroditum) on yleisempi Suomen pohjoisosissa ja (etelän)variksenmarja (Empetrum nigrum subsp. nigrum) puolestaan etelämpänä.",
+        "name": "quiz_berries_crowberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/variksenmarja",
+        "name": "quiz_berries_crowberry_link"
+      },
+      {
+        "_": "Tyrni",
+        "name": "quiz_berries_buckthorn_name"
+      },
+      {
+        "name": "quiz_berries_buckthorn_hint"
+      },
+      {
+        "_": "Tyrni (Hippophaë rhamnoides) on hopeapensaskasveihin (Elaeagnaceae) kuuluva piikikäs, C-vitamiinipitoisia marjoja tuottava pensas tai puumainen pensas. Tyrni kasvaa laajalla alueella Euraasiassa.Tyrni on Satakunnan maakuntakukka.Suomen suurin tyrnin viljelyalue on Suupohja.",
+        "name": "quiz_berries_buckthorn_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Tyrni",
+        "name": "quiz_berries_buckthorn_link"
+      },
+      {
+        "_": "Pensasmustikka",
+        "name": "quiz_berries_bilberry_name"
+      },
+      {
+        "_": "Vinkki: Ei ole mustikka",
+        "name": "quiz_berries_bilberry_hint"
+      },
+      {
+        "_": "Pensasmustikka (Vaccinium corymbosum) on Pohjois-Amerikasta peräisin oleva mustikan lähisukulainen. Vaccinium-suvun kasvit kuuluvat kanervakasveihin. Pensasmustikka kasvaa jopa kaksi metriä korkeaksi. Pensasmustikka viihtyy happamassa maaperässä ja puolivarjossa tai auringossa. Se on pidettävä tuulelta suojassa, mutta kestää pakkasta melko hyvin -25 asteeseen asti.",
+        "name": "quiz_berries_bilberry_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/pensasmustikka",
+        "name": "quiz_berries_bilberry_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_berries_strawberry_answers",
+        "item": "mansikka"
+      },
+      {
+        "name": "quiz_berries_strawberry_facts",
+        "item": "Se on punainen."
+      },
+      {
+        "name": "quiz_berries_gooseberry_answers",
+        "item": "karviainen"
+      },
+      {
+        "name": "quiz_berries_gooseberry_facts"
+      },
+      {
+        "name": "quiz_berries_redcurrant_answers",
+        "item": "punaherukka"
+      },
+      {
+        "name": "quiz_berries_redcurrant_facts",
+        "item": "Se on punainen."
+      },
+      {
+        "name": "quiz_berries_blackcurrant_answers",
+        "item": "mustaherukka"
+      },
+      {
+        "name": "quiz_berries_blackcurrant_facts",
+        "item": "Se on musta."
+      },
+      {
+        "name": "quiz_berries_blueberry_answers",
+        "item": "mustikka"
+      },
+      {
+        "name": "quiz_berries_blueberry_facts",
+        "item": "Se on sininen."
+      },
+      {
+        "name": "quiz_berries_lingonberry_answers",
+        "item": "puolukka"
+      },
+      {
+        "name": "quiz_berries_lingonberry_facts",
+        "item": "Se on punainen."
+      },
+      {
+        "name": "quiz_berries_raspberry_answers",
+        "item": "vadelma"
+      },
+      {
+        "name": "quiz_berries_raspberry_facts",
+        "item": "Se on punainen."
+      },
+      {
+        "name": "quiz_berries_cloudberry_answers",
+        "item": "lakka"
+      },
+      {
+        "name": "quiz_berries_cloudberry_facts",
+        "item": "Oranssi"
+      },
+      {
+        "name": "quiz_berries_cranberry_answers",
+        "item": "karpalo"
+      },
+      {
+        "name": "quiz_berries_cranberry_facts",
+        "item": "Se on punainen."
+      },
+      {
+        "name": "quiz_berries_crowberry_answers",
+        "item": "variksenmarja"
+      },
+      {
+        "name": "quiz_berries_crowberry_facts",
+        "item": "Musta"
+      },
+      {
+        "name": "quiz_berries_buckthorn_answers",
+        "item": [
+          "tyrni",
+          "tyrni"
+        ]
+      },
+      {
+        "name": "quiz_berries_buckthorn_facts",
+        "item": [
+          "Oranssi",
+          "Super food"
+        ]
+      },
+      {
+        "name": "quiz_berries_bilberry_answers",
+        "item": "pensasmustikka"
+      },
+      {
+        "name": "quiz_berries_bilberry_facts",
+        "item": "Sininen"
+      }
+    ]
+  }
+}

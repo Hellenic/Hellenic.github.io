@@ -1,0 +1,114 @@
+{
+  "category": {
+    "name": "@string/quiz_flowers_name",
+    "description": "@string/quiz_flowers_description",
+    "image": "flowers.jpg",
+    "link": "@string/quiz_flowers_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_flowers_dandelion_name",
+          "hint": "@string/quiz_flowers_dandelion_hint",
+          "description": "@string/quiz_flowers_dandelion_description",
+          "answers": "@array/quiz_flowers_dandelion_answers",
+          "image": "dandelion.jpg",
+          "link": "@string/quiz_flowers_dandelion_link",
+          "facts": "@array/quiz_flowers_dandelion_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_flowers_coltsfoot_name",
+          "hint": "@string/quiz_flowers_coltsfoot_hint",
+          "description": "@string/quiz_flowers_coltsfoot_description",
+          "answers": "@array/quiz_flowers_coltsfoot_answers",
+          "image": "coltsfoot.jpg",
+          "link": "@string/quiz_flowers_coltsfoot_link",
+          "facts": "@array/quiz_flowers_coltsfoot_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_flowers_rose_name",
+          "hint": "@string/quiz_flowers_rose_hint",
+          "description": "@string/quiz_flowers_rose_description",
+          "answers": "@array/quiz_flowers_rose_answers",
+          "image": "rose.jpg",
+          "link": "@string/quiz_flowers_rose_link",
+          "facts": "@array/quiz_flowers_rose_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_flowers_celandine_name",
+          "hint": "@string/quiz_flowers_celandine_hint",
+          "description": "@string/quiz_flowers_celandine_description",
+          "answers": "@array/quiz_flowers_celandine_answers",
+          "image": "greater-celandine.jpg",
+          "link": "@string/quiz_flowers_celandine_link",
+          "facts": "@array/quiz_flowers_celandine_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_flowers_snowdrop_name",
+          "hint": "@string/quiz_flowers_snowdrop_hint",
+          "description": "@string/quiz_flowers_snowdrop_description",
+          "answers": "@array/quiz_flowers_snowdrop_answers",
+          "image": "snowdrop.jpg",
+          "link": "@string/quiz_flowers_snowdrop_link",
+          "facts": "@array/quiz_flowers_snowdrop_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_flowers_cornflower_name",
+          "hint": "@string/quiz_flowers_cornflower_hint",
+          "description": "@string/quiz_flowers_cornflower_description",
+          "answers": "@array/quiz_flowers_cornflower_answers",
+          "image": "cornflower.jpg",
+          "link": "@string/quiz_flowers_cornflower_link",
+          "facts": "@array/quiz_flowers_cornflower_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_flowers_carnation_name",
+          "hint": "@string/quiz_flowers_carnation_hint",
+          "description": "@string/quiz_flowers_carnation_description",
+          "answers": "@array/quiz_flowers_carnation_answers",
+          "image": "peacocks-carnation.jpg",
+          "link": "@string/quiz_flowers_carnation_link",
+          "facts": "@array/quiz_flowers_carnation_facts"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_flowers_bluebell_name",
+          "hint": "@string/quiz_flowers_bluebell_hint",
+          "description": "@string/quiz_flowers_bluebell_description",
+          "answers": "@array/quiz_flowers_bluebell_answers",
+          "image": "bluebell.jpg",
+          "link": "@string/quiz_flowers_bluebell_link",
+          "facts": "@array/quiz_flowers_bluebell_facts"
+        },
+        {
+          "id": "9",
+          "name": "@string/quiz_flowers_dahlia_name",
+          "hint": "@string/quiz_flowers_dahlia_hint",
+          "description": "@string/quiz_flowers_dahlia_description",
+          "answers": "@array/quiz_flowers_dahlia_answers",
+          "image": "dahlia.jpg",
+          "link": "@string/quiz_flowers_dahlia_link",
+          "facts": "@array/quiz_flowers_dahlia_facts"
+        },
+        {
+          "id": "10",
+          "name": "@string/quiz_flowers_marigold_name",
+          "hint": "@string/quiz_flowers_marigold_hint",
+          "description": "@string/quiz_flowers_marigold_description",
+          "answers": "@array/quiz_flowers_marigold_answers",
+          "image": "marigold.jpg",
+          "link": "@string/quiz_flowers_marigold_link",
+          "facts": "@array/quiz_flowers_marigold_facts"
+        }
+      ]
+    }
+  }
+}

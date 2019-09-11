@@ -1,0 +1,7 @@
+toolbar		Työkaluvalikon näyttö päällä / pois
+status		Tilarivin näyttö päällä / pois
+resizable	Määrittää voiko ikkunan kokoa säätää
+location	Osoitekentän näyttö päällä / pois
+menubar		Menupalkin näyttö päällä / pois
+directories	Tiedostovalikon näyttö päällä / pois
+scrollbars	Vierityspalkkien näyttö päällä / pois

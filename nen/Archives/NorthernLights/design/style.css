@@ -1,0 +1,92 @@
+
+body {
+ 		/*background-color: #44607E;*/
+ 		background: #44607E url('tausta.jpg') repeat-x;
+		font-family: Verdana,Arial,sans-serif;
+		color: #000000;
+ 		text-align: center;}
+
+p {padding-left: 20px;}
+img {border-width: 0px;}
+
+a {}
+a:hover {}
+a:visited {}
+
+dt {background-color: #D0D0D0;}
+
+/******************************HEADER***********************************/
+
+#otsikko {
+		width: 760px;
+		height: 150px;
+		border-width: 2px 2px 0px 2px;
+		border-style: solid;
+		border-color: #00306F;
+		margin: 15px auto 0px auto;
+		background-color: #000000;}
+
+/******************************NAVBAR***********************************/
+
+#navbar {
+		width: 760px;
+		height: 40px;
+		border-width: 0px 2px 0px 2px;
+		border-style: solid;
+		border-color: #00306F;
+		margin: 0px auto 0px auto;
+		background: #00306F url('back.jpg') repeat-x;
+		color: #FFFFFF;}
+
+#navbar ul {margin: 0px; padding: 5px;}
+#navbar li {display: inline;}
+#navbar a {color: #FFFFFF; padding: 10px 25px 10px 25px;}
+#navbar a:hover {background-color: #37537D;}
+
+/*****************************MAIN************************************/
+
+#main {
+		width: 760px;
+		border-width: 0px 2px 0px 2px;
+		border-style: solid;
+		border-color: #00306F;
+		margin: 0px auto 0px auto;
+		background-color: #FFFFFF;
+		text-align: left;}
+
+#sisalto {padding: 5px;}
+#ylakuva {text-align: left;}
+#alakuva {text-align: right;}
+
+/*****************************FOOTER************************************/
+
+#footer {
+		width: 760px;
+		height: 48px;
+		border-width: 2px 2px 0px 2px;
+		border-style: solid;
+		border-color: #00306F;
+		margin: 0px auto 0px auto;
+		font-size: 0.7em;
+		text-align: center;}
+
+#alavas {float: left;}
+#alaoik {float: right;}
+
+/*****************************************************************/
+
+.members {border-collapse: collapse;}
+.members td {border: 1px solid #000000;}
+
+/*****************************************************************/
+
+@media print 
+{
+		body {background: none;}
+		a {color: #000000;}
+		img {display: none;}
+		#otsikko {border: 0; display: none;}
+		#navbar {border: 0; display: none;}
+		#main {border: 0; background: none;}
+		#footer {border: 0; display: none;}
+}

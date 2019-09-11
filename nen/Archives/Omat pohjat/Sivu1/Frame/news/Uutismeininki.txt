@@ -1,0 +1,214 @@
+ews Tool By. Evolius
+Eli siis koodi jolla voi lukea/kirjoittaa/muokata/poistaa uutisia.
+Jos haluat voit tehd‰ "suojauksen" ettei kuka tahansa p‰‰se s‰‰t‰‰ uutisia.
+Vaatii MySQL tietokannan =)
+
+aluksi:
+
+CREATE TABLE news (
+  aika VARCHAR(25),
+  sender VARCHAR(150),
+  topic VARCHAR(50),
+  txt TEXT,
+  id INT(5) AUTO_INCREMENT,
+  PRIMARY KEY(id)
+);
+
+Sitten koodiin..
+
+----------[news.php]----------
+<?php
+/*
+  Uutiset sivu
+  Copyright Jouni kuusisto
+  muokkaus sallittu
+*/
+$mysql_server = ""; // MySQL Serverin osoite
+$mysql_user = ""; // MySQL tunnus
+$mysql_pass = ""; // MySQL Passu
+$mysql_db = ""; // MySQL Tietokanta
+mysql_connect($mysql_server,$mysql_user,$mysql_pass);
+mysql_selectdb($mysql_db);
+
+// Yhdistetty tietokantaan ja sitten haetaan uutiset.
+
+$query = "SELECT * FROM news ORDER BY id";
+$result = mysql_query($query);
+
+for($i = mysql_numrows($result); $i > 0; $i--) {
+  $ii = $i;
+  $ii--;
+  echo "<p><b><font class=\"f2\">";
+  echo mysql_result($result,$ii,"topic");
+  echo "</b> <i><font class=\"f1\">";
+  echo mysql_result($result,$ii,"sender");
+  echo " @ ";
+  echo mysql_result($result,$ii,"aika");
+  echo "</i><table class=\"uutisikkuna\"><tr><td>";
+  echo mysql_result($result,$ii,"txt");
+  echo "</td></tr></table>";
+}
+
+mysql_close();
+?>
+
+----------[lisays.php]----------
+<?php
+/*
+  Uutisten lis‰ys sivu
+  Copyright Jouni kuusisto
+  muokkaus sallittu
+*/
+$mysql_server = ""; // MySQL Serverin osoite
+$mysql_user = ""; // MySQL tunnus
+$mysql_pass = ""; // MySQL Passu
+$mysql_db = ""; // MySQL Tietokanta
+
+if(isset($_POST['topic'])) {
+  mysql_connect($mysql_server,$mysql_user,$mysql_pass);
+  mysql_selectdb($mysql_db);
+
+  $sender = "Evolius";
+  $lisays = "INSERT INTO news (aika, sender, topic, txt) VALUES(\"" . date("d.m.Y H:i") . "\", \"" . $sender . "\", \"" . $_POST['topic'] . "\", \"" . $_POST['txt'] . "\");";
+  mysql_query($lisays); 
+  mysql_close();
+  echo "<table><tr><td><b>";
+  echo $_POST['topic'];
+  echo "</b> <i>";
+  echo $sender . " @ " . date("d.m.Y H:i") . "</i><hr>";
+  echo $_POST['txt'];
+  echo "</td></tr></table>";
+}
+?>
+<FORM ACTION="lisays.php" METHOD="POST">
+<font class="f1">
+<b>Topic</b><br><INPUT TYPE=TEXT NAME="topic" maxlength="50"><br>
+<b>Uutinen</b><br><textarea rows=12 cols=60 NAME="txt"></textarea><br>
+
+<INPUT TYPE="SUBMIT" VALUE="L‰het‰"><br></FORM></center>
+
+----------[muokkaa.php]----------
+<?php
+/*
+  Uutisten listaus muokkaukseen
+  Copyright Jouni kuusisto
+  muokkaus sallittu
+*/
+$mysql_server = ""; // MySQL Serverin osoite
+$mysql_user = ""; // MySQL tunnus
+$mysql_pass = ""; // MySQL Passu
+$mysql_db = ""; // MySQL Tietokanta
+mysql_connect($mysql_server,$mysql_user,$mysql_pass);
+mysql_selectdb($mysql_db);
+
+$query = "SELECT * FROM news ORDER BY id";
+$result = mysql_query($query);
+
+for($i = mysql_numrows($result); $i > 0; $i--) {
+  $ii = $i;
+  $ii--;
+  echo "<p><b><font class=\"f2\">";
+  echo mysql_result($result,$ii,"topic");
+  echo "</b> <i><font class=\"f1\">";
+  echo mysql_result($result,$ii,"sender");
+  echo " @ ";
+  echo mysql_result($result,$ii,"aika");
+  echo " <b><a href=\"muokkaus.php?muokkaa=";
+  echo mysql_result($result,$ii,"id");
+  echo "\"><font class=\"fred\">MUOKKAA</font></a></b></i><table class=\"uutisikkuna\"><tr><td>";
+  echo mysql_result($result,$ii,"txt");
+  echo "</td></tr></table>";
+}
+
+mysql_close();
+?>
+
+----------[muokkaus.php]----------
+<?php
+/*
+  Uutisten muokkaus
+  Copyright Jouni kuusisto
+  muokkaus sallittu
+*/
+$mysql_server = ""; // MySQL Serverin osoite
+$mysql_user = ""; // MySQL tunnus
+$mysql_pass = ""; // MySQL Passu
+$mysql_db = ""; // MySQL Tietokanta
+
+if(isset($_GET['muokkaa'])) {
+  mysql_connect($mysql_server,$mysql_user,$mysql_pass);
+  mysql_selectdb($mysql_db);
+
+  $query = "SELECT txt FROM news WHERE id = \"" . $_GET['muokkaa'] . "\";";
+  $result = mysql_query($query);
+
+  $query2 = "SELECT topic FROM jee WHERE id = \"" . $_GET['muokkaa'] . "\";";
+  $result2 = mysql_query($query2);
+
+  $filu = fopen("uutis.id","w");
+  fwrite($filu,$_GET['muokkaa']);
+  fclose($filu);
+
+  echo "<FORM ACTION=\"muokkaus.php\" METHOD=\"POST\">
+<font class=\"f1\">
+<b>Topic</b><br><INPUT value=\"" . mysql_result($result2, "topic") . "\" TYPE=TEXT NAME=\"topic\" maxlength=\"50\" class=\"otsikko\"><br>
+<b>Uutinen</b><br><textarea rows=\"12\" cols=\"60\" NAME=\"txt\" class=\"uutinen\">";
+  echo mysql_result($result, "txt");
+  echo "</textarea><br>
+<INPUT TYPE=\"SUBMIT\" VALUE=\"Muokkaa\" class=\"nappula\"><br></FORM>";
+
+}
+if(isset($_POST['topic'])) {
+  mysql_connect($mysql_server,$mysql_user,$mysql_pass);
+  mysql_selectdb($mysql_db);
+
+  $id = file("uutis.id");
+  $lisays = "UPDATE news SET topic = \"" . $_POST['topic'] . "\", txt = \"" . $_POST['txt'] . "\" WHERE id = \"" . $id[0] . "\";";
+  mysql_query($lisays) or die("÷ˆksist‰! Tietokanta vittuilee:". mysql_error()); 
+  mysql_close();
+  echo "Muokattu (Luultavasti)";
+}
+else { echo "÷ˆ???"; }
+
+?>
+
+----------[poista.php]----------
+<?php
+/*
+  Uutisten muokkaus
+  Copyright Jouni kuusisto
+  muokkaus sallittu
+*/
+$mysql_server = ""; // MySQL Serverin osoite
+$mysql_user = ""; // MySQL tunnus
+$mysql_pass = ""; // MySQL Passu
+$mysql_db = ""; // MySQL Tietokanta
+mysql_connect($mysql_server,$mysql_user,$mysql_pass);
+mysql_selectdb($mysql_db);
+
+if(isset($_GET['poista'])) {
+  $lisays = "DELETE FROM jee WHERE id = \"" . $_GET['poista'] . "\";";
+  mysql_query($lisays) or die("÷ˆksist‰! Tietokanta vittuilee:". mysql_error());
+}
+
+$query = "SELECT * FROM jee ORDER BY id";
+$result = mysql_query($query);
+
+for($i = mysql_numrows($result); $i > 0; $i--) {
+  $ii = $i;
+  $ii--;
+  echo "<p><b><font class=\"f2\">";
+  echo mysql_result($result,$ii,"topic");
+  echo "</b> <i><font class=\"f1\">";
+  echo mysql_result($result,$ii,"sender");
+  echo " @ ";
+  echo mysql_result($result,$ii,"aika");
+  echo " <b><a href=\"poisto.php?poista=";
+  echo mysql_result($result,$ii,"id");
+  echo "\"><font class=\"fred\">POISTA</font></a></b></i><table><tr><td>";
+  echo mysql_result($result,$ii,"txt");
+  echo "</td></tr></table>";
+}
+
+mysql_close();
+?>

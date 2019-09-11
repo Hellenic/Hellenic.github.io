@@ -1,0 +1,17 @@
+{
+	"file": "page-2.html",
+	"actions": {
+		"actions": [
+			{
+				"name": "Go back",
+				"description": "You choose to go back.",
+				"page": 1
+			},
+			{
+				"name": "Move ahead",
+				"description": "You choose to skip the next page.",
+				"page": 4
+			}
+		]
+	}
+}

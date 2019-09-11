@@ -1,0 +1,291 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Hyönteiset",
+        "name": "quiz_insects_name"
+      },
+      {
+        "_": "Testaa kuinka hyvin tunnet hyönteisiä!",
+        "name": "quiz_insects_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Hyönteiset",
+        "name": "quiz_insects_link"
+      },
+      {
+        "_": "Hyttynen",
+        "name": "quiz_insects_mosquito_name"
+      },
+      {
+        "name": "quiz_insects_mosquito_hint"
+      },
+      {
+        "_": "Hyttyset (Culicidae) ovat kaksisiipisten hyönteisten heimo, johon kuuluu monia verta imeviä lajeja. Puhekielessä hyttysiä kutsutaan usein \"sääskiksi\" tai \"itikoiksi\". Tieteellisessä kielessä kaikki hyttyset ovat sääskiä mutta kaikki sääsket eivät ole hyttysiä: sääsket (Nematocera) ovat kaksisiipisten (Diptera) alalahko, jonka eräs heimo hyttyset ovat.",
+        "name": "quiz_insects_mosquito_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Hyttynen",
+        "name": "quiz_insects_mosquito_link"
+      },
+      {
+        "_": "Paarma",
+        "name": "quiz_insects_horsefly_name"
+      },
+      {
+        "name": "quiz_insects_horsefly_hint"
+      },
+      {
+        "_": "Paarmat (Tabanidae) on kärpäsiin kuuluva hyönteisheimo. Paarmoja on maailmassa noin 2 500 lajia, joista Suomessa esiintyy 37. Naaraat käyttävät ravintonaan nisäkkäistä ja linnuista imettyä verta, urokset vain kasvien mettä. Paarmat suunnistavat saaliilleen lämpösäteilyn ja hiilidioksidin avulla. Eritoten paarmoja tapaa aurinkoisina kesäpäivinä ennen ukkosta. Purressaan paarma leikkaa veitsimäisillä suuosillaan ihoon haavan ja imee siitä vuotavaa verta. Pureman ympärille tulee yleensä vain paikallinen ihoreaktio. Purema on yleensä varsin kivulias.",
+        "name": "quiz_insects_horsefly_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Paarma",
+        "name": "quiz_insects_horsefly_link"
+      },
+      {
+        "_": "Mehiläinen",
+        "name": "quiz_insects_bee_name"
+      },
+      {
+        "name": "quiz_insects_bee_hint"
+      },
+      {
+        "_": "Mehiläiset (Anthophila) ovat pistiäisten (Hymenoptera) lahkoon kuuluva ryhmä. Ne kuuluvat yläheimoon mesipistiäiset (Apoidea). Ryhmän tunnetuin laji on tarhamehiläinen (Apis mellifera). Se elää parvissa ja esiintyy Suomessa käytännössä ainoastaan tarhattuna. Yleisimmät Suomessa tarhatut rodut ovat italialainen, krainilainen ja buckfast. Useimmat mehiläislajit eivät kuitenkaan muodosta yhdyskuntaa vaan viihtyvät erakkona.",
+        "name": "quiz_insects_bee_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Mehiläinen",
+        "name": "quiz_insects_bee_link"
+      },
+      {
+        "_": "Ampiainen",
+        "name": "quiz_insects_wasp_name"
+      },
+      {
+        "name": "quiz_insects_wasp_hint"
+      },
+      {
+        "_": "Yleinen ampiainen (Vespula vulgaris) on ampiaislaji, joka esiintyy suuressa osassa pohjoista pallonpuoliskoa ja on viime aikoina levinnyt myös Australiaan ja Uuteen-Seelantiin. Se on yhdyskuntahyönteinen, joka tekee pesänsä maan alle, usein jonkin nisäkkään hylättyyn pesäkoloon. Ampiaiskuningatar voi valita pesän paikaksi myös puun tai kallion kolon taikka rakennuksen seinässä olevan reiän.",
+        "name": "quiz_insects_wasp_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Ampiainen",
+        "name": "quiz_insects_wasp_link"
+      },
+      {
+        "_": "Perhonen",
+        "name": "quiz_insects_butterfly_name"
+      },
+      {
+        "name": "quiz_insects_butterfly_hint"
+      },
+      {
+        "_": "Perhoset (Lepidoptera) ovat hyönteisten lahko. Perhoset jaetaan tavallisesti eri ryhmiin: aitoperhosiin (Ditrysia) ja muutamaan muuhun suhteellisen alkeelliseen ryhmään. Koko Lepidoptera-lahkossa on yhteensä yli 180 000 lajia, jotka jaetaan 127 heimoon. Muiden hyönteisten tapaan täysikasvuisen perhosten ruumis rakentuu kolmesta ruumiinosasta: päästä (lat. caput), keskiruumiista (lat. thorax) ja takaruumiista (lat. abdomen). Keskiruumiiseen kiinnittyy kolme paria jalkoja ja pään etuosassa ovat tuntosarvet. Näköaistimina toimivat kaksi verkkosilmää ja vaihteleva määrä pistesilmiä. Monilla perhosilla on kuuloaisti.",
+        "name": "quiz_insects_butterfly_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Perhonen",
+        "name": "quiz_insects_butterfly_link"
+      },
+      {
+        "_": "Sudenkorento",
+        "name": "quiz_insects_dragonfly_name"
+      },
+      {
+        "name": "quiz_insects_dragonfly_hint"
+      },
+      {
+        "_": "Sudenkorennot (Odonata) on hyönteisten lahko. Se on eräs vanhimmista nykyisin esiintyvistä hyönteislahkoista ja lajeja tunnetaan maailmanlaajuisesti yli 5700. Sudenkorennot ovat keskikokoisia tai kookkaita hyönteisiä. Toukat kehittyvät yleensä vedessä ja monet lajit elävät myös aikuisena yleensä sisävesistöjen äärellä. Joidenkin lajien toukkavaiheet elävät ilmeisesti pohjakarikkeessa sademetsissä. Eräiden lajien aikuiset liikkuvat pitkiä matkoja ja niitä voidaan tavata kaukana vesistöistä.",
+        "name": "quiz_insects_dragonfly_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Sudenkorento",
+        "name": "quiz_insects_dragonfly_link"
+      },
+      {
+        "_": "Kärpänen",
+        "name": "quiz_insects_fly_name"
+      },
+      {
+        "name": "quiz_insects_fly_hint"
+      },
+      {
+        "_": "Kärpäset (Brachycera) ovat kaksisiipisiä hyönteisiä. Kärpäset ovat yleensä lyhyitä ja leveitä ja niillä on lyhyemmät jalat kuin sääskillä. Suuret verkkosilmät miltei peittävät pään. Kärpäset ovat nopeita ja kestäviä lentäjiä. Huonekärpänen (Musca domestica), joka kuuluu varsinaisten eli sukaskärpästen heimoon, levittää monia tauteja. Se on n. 8 mm pitkä, mustan-ja harmaankirjava, uroksella on kellertävät laikut takaruumiissa. Muita kärpäsheimoja ovat muun muassa kukkakärpäset, juurikärpäset, petokärpäset, paarmat, mahlakärpäset, täikärpäset ja raatokärpäset.",
+        "name": "quiz_insects_fly_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kärpänen",
+        "name": "quiz_insects_fly_link"
+      },
+      {
+        "_": "Leppäkerttu",
+        "name": "quiz_insects_ladybug_name"
+      },
+      {
+        "name": "quiz_insects_ladybug_hint"
+      },
+      {
+        "_": "Leppäkertut eli leppäpirkot (Coccinellidae) on kovakuoriaisheimo. Ne ovat puolipallonmuotoisia ja hidasliikkeisiä vajaan 10 mm:n pituisia hyönteisiä. Niiden peitinsiivet ovat usein pilkulliset, ja pilkkujen määrä ja väritys vaihtelevat lajikohtaisesti. Kirkkaalla värillään ne varoittavat muita petoja pahanmakuisuudestaan. Nimi leppäkerttu viittaa hyönteisen verenpunaiseen väriin. Sana leppä merkitsi verta vanhoissa itämerensuomalaisissa kielissä.",
+        "name": "quiz_insects_ladybug_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Leppäkerttu",
+        "name": "quiz_insects_ladybug_link"
+      },
+      {
+        "_": "Muurahainen",
+        "name": "quiz_insects_ant_name"
+      },
+      {
+        "name": "quiz_insects_ant_hint"
+      },
+      {
+        "_": "Muurahaiset (Formicidae) ovat heimo yhdyskunnittain eläviä pieniä myrkkypistiäisiä, jonka yli 12 000 kuvatusta lajista Suomessa elää noin 60. Muurahaisten heimo on ollut olemassa jo yli sadan miljoonan vuoden ajan, joten ne ovat erittäin vanha eläinryhmä verrattuna esimerkiksi ihmiseen.",
+        "name": "quiz_insects_ant_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Muurahainen",
+        "name": "quiz_insects_ant_link"
+      },
+      {
+        "_": "Sisilisko",
+        "name": "quiz_insects_gecko_name"
+      },
+      {
+        "name": "quiz_insects_gecko_hint"
+      },
+      {
+        "_": "Sisilisko (Zootoca vivipara, aiemmin Lacerta vivipara) on maailman pohjoisin matelijalaji. Sisiliskot ovat Suomessa rauhoitettuja, ja siksi niitä ei saa ottaa lemmikiksi esimerkiksi terraarioon. Sisiliskot voivat elää jopa 10-vuotiaiksi. Sisiliskon pää on suippo ja pieni. Niska ja häntä ovat melko paksuja. Sisiliskon jalat ovat melko lyhyet, etu- ja takajaloissa on yhtä pitkät kynnet. Kaulus on selvästi lovireunainen, ja suomut ovat karkeita. Sisiliskon sukupuolen voi varmuudella tunnistaa kahdella tavalla: koiraan pää levenee niskan kohdalta, kun taas naaraan pää jatkuu samanlevyisenä niskasta eteenpäin ja suippenee vasta leuan alusta. Toiseksi koiraan hännän juuressa heti takajalkojen takana on ylhäältä katsottaessa molemminpuolinen pullistuma. Naarailla häntä lähtee takajalkojen takaa tasaisesti suippenevana häntänä ilman koiraan pullistumia. Tämä koiraan pullistuma on juuri ennen sitä kohtaa, josta sisilisko voi katkaista häntänsä.",
+        "name": "quiz_insects_gecko_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Sisilisko",
+        "name": "quiz_insects_gecko_link"
+      },
+      {
+        "_": "Kovakuoriainen",
+        "name": "quiz_insects_beetle_name"
+      },
+      {
+        "name": "quiz_insects_beetle_hint"
+      },
+      {
+        "_": "Kovakuoriaiset (Coleoptera) kuuluvat hyönteisten luokkaan. Kovakuoriaisia tunnetaan maapallolta noin 350 000 lajia, mikä on noin 40 prosenttia hyönteislajeista ja lähes 25 % kaikista tunnetuista eliölajeista.lähde? Lisäksi uusia lajeja löydetään jatkuvasti ja kokonaismäärän arvellaan olevan jopa 5–8 miljoonaa. Suomesta kovakuoriaisia on tavattu lähes 3700 lajia.",
+        "name": "quiz_insects_beetle_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Kovakuoriainen",
+        "name": "quiz_insects_beetle_link"
+      },
+      {
+        "_": "Hämähäkki",
+        "name": "quiz_insects_spider_name"
+      },
+      {
+        "name": "quiz_insects_spider_hint"
+      },
+      {
+        "_": "Hämähäkit (Araneae) ovat niveljalkaisiin (Arthropoda) kuuluvia hämähäkkieläimiä (Arachnida). Hämähäkkien lahkoon kuuluu kolme osalahkoa, 112 heimoa, lähes 4000 sukua ja lähes 45 000 lajia. Lajeja saattaa kuitenkin olla jopa kaksinkertainen määrä. Euroopasta on tavattu noin 4500 ja Suomesta lähes 650 hämähäkkilajia. Hämähäkit sekoitetaan usein hyönteisiin, vaikka ne kuuluvat hämähäkkieläimiin. Useimmat hämähäkit ovat ihmiselle haitattomia hyönteisten saalistajia ja biologisia torjujia. Vain hyvin harvojen hämähäkkien myrkky on vaarallista ihmiselle.",
+        "name": "quiz_insects_spider_description"
+      },
+      {
+        "_": "http://fi.m.wikipedia.org/wiki/Hämähäkki",
+        "name": "quiz_insects_spider_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_insects_mosquito_answers",
+        "item": [
+          "hyttynen",
+          "sääski",
+          "itikka"
+        ]
+      },
+      {
+        "name": "quiz_insects_mosquito_facts"
+      },
+      {
+        "name": "quiz_insects_horsefly_answers",
+        "item": "paarma"
+      },
+      {
+        "name": "quiz_insects_horsefly_facts"
+      },
+      {
+        "name": "quiz_insects_bee_answers",
+        "item": "mehiläinen"
+      },
+      {
+        "name": "quiz_insects_bee_facts"
+      },
+      {
+        "name": "quiz_insects_wasp_answers",
+        "item": "ampiainen"
+      },
+      {
+        "name": "quiz_insects_wasp_facts"
+      },
+      {
+        "name": "quiz_insects_butterfly_answers",
+        "item": "perhonen"
+      },
+      {
+        "name": "quiz_insects_butterfly_facts"
+      },
+      {
+        "name": "quiz_insects_dragonfly_answers",
+        "item": "sudenkorento"
+      },
+      {
+        "name": "quiz_insects_dragonfly_facts"
+      },
+      {
+        "name": "quiz_insects_fly_answers",
+        "item": "Kärpänen"
+      },
+      {
+        "name": "quiz_insects_fly_facts"
+      },
+      {
+        "name": "quiz_insects_ladybug_answers",
+        "item": "leppäkerttu"
+      },
+      {
+        "name": "quiz_insects_ladybug_facts"
+      },
+      {
+        "name": "quiz_insects_ant_answers",
+        "item": "muurahainen"
+      },
+      {
+        "name": "quiz_insects_ant_facts"
+      },
+      {
+        "name": "quiz_insects_gecko_answers",
+        "item": "sisilisko"
+      },
+      {
+        "name": "quiz_insects_gecko_facts"
+      },
+      {
+        "name": "quiz_insects_beetle_answers",
+        "item": [
+          "kovakuoriainen",
+          "kuoriainen"
+        ]
+      },
+      {
+        "name": "quiz_insects_beetle_facts"
+      },
+      {
+        "name": "quiz_insects_spider_answers",
+        "item": "hämähäkki"
+      },
+      {
+        "name": "quiz_insects_spider_facts"
+      }
+    ]
+  }
+}

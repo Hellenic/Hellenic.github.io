@@ -1,0 +1,243 @@
+body
+{
+	background-color: #696969;
+	background-repeat: no-repeat;
+	font-family: Verdana, Sans-serif;
+	color:#192666; 
+	padding-top: 20px;
+	overflow-y:scroll;
+}
+
+p
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+img
+{
+	border: 0px;
+}
+
+div 
+{
+
+}
+
+a {color:#192666;}
+a:visited {color:#192666;}
+a:hover {color:#4F6AD7;}
+
+
+
+/* ----------*****---------- Logo ----------*****---------- */
+
+
+.logotable
+{
+	color: #3333CC;
+	background: #080036 url(design/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 222px;
+	width: 750;
+	border: 0px;
+	border-spacing: 0px;
+	padding-left: 20px;
+}
+
+.logotable #logo
+{
+	font-size: 36px;
+}
+
+
+
+/* ----------*****---------- Navbar ----------*****---------- */
+
+
+.sisaltotable
+{
+	background-color: #080036;
+	width: 750;
+	border: 0px;
+	border-spacing: 0px;
+}
+
+.sisaltotable td.active
+{
+	width: 150px;
+	background-color: #CBCBCB;
+	-moz-border-radius: 12px 12px 0px 0px;
+	text-align: center;
+}
+
+.sisaltotable td.dark
+{
+	width: 100px;
+	background-color: #898989;
+	-moz-border-radius: 12px 12px 0px 0px;
+	text-align: center;
+}
+
+.sisaltotable td.linktop 
+{
+	width: 100px;
+	background-color: #CBCBCB;
+	-moz-border-radius: 12px 12px 0px 0px;
+	border-left: 4px solid #080036;
+	vertical-align: top;
+}
+
+.sisaltotable a.linkit
+{
+	padding-left: 10px;
+}
+
+
+
+/* ----------*****---------- Sisältö----------*****---------- */
+
+
+.sisaltotable #sisalto
+{
+	background: #CBCBCB;
+	padding-top: 10px;
+}
+
+.sisaltotable #sisalto #sisalto-otsikko
+{
+	font-size: 26px;
+	padding-left: 10px;
+}
+
+.sisaltotable #sisalto #sisalto-teksti
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sisaltotable .kuvat
+{
+	width: 540px;
+	border: 0px;
+	border-spacing: 0px;
+}
+
+/* ----------*****---------- Footer ----------*****---------- */
+
+.footertable
+{
+	background: #999999;
+	font-size: 12;
+	width: 750;
+	border: 0px;
+	border-spacing: 0px;
+}
+
+
+/* ----------*****---------- Weblog ----------*****---------- */
+
+/*-- ===***=== Weblog navbar ===***=== */
+
+.navtable
+{
+	background-color: #080036;
+	width: 750;
+	border: 0px;
+	border-spacing: 0px;
+}
+
+.navtable td.active
+{
+	width: 150px;
+	background-color: #CBCBCB;
+	-moz-border-radius: 12px 12px 0px 0px;
+	text-align: center;
+}
+
+.navtable td.dark
+{
+	width: 100px;
+	background-color: #898989;
+	-moz-border-radius: 12px 12px 0px 0px;
+	text-align: center;
+}
+
+.navtable td.empty 
+{
+	width: 107px;
+	background-color: #080036;
+}
+
+
+
+/*-- ===***=== Weblog sisältö ===***=== */
+
+.sisaltotable #reuna
+{
+	background: #CBCBCB;
+	padding-top: 10px;
+	border-left: 2px solid #080036;
+	width: 200px;
+	vertical-align: top;
+}
+
+
+
+/*-- ===***=== Weblog reuna ===***=== */
+
+#mina
+{
+	background-color: #898989;
+	text-align: center;
+}
+
+#mina-sis
+{
+	padding-left: 10px;
+}
+
+#kat
+{
+	background-color: #898989;
+	text-align: center;
+}
+
+#kat-sis
+{
+	padding-left: 10px;
+}
+
+#artik
+{
+	background-color: #898989;
+	text-align: center;
+}
+
+#artik-sis
+{
+	padding-left: 10px;
+}
+
+a.reuna-act
+{
+	padding-left: 5px;
+}
+
+/* ----------*****---------- Linktable ----------*****---------- */
+
+.linktable
+{
+	border-color: #898989;
+	border-spacing: 0px;
+}
+
+.linktable td
+{
+	padding-top: 5px;
+	vertical-align: top;
+}
+
+
+a.link {padding-left: 20px;}

@@ -1,0 +1,44 @@
+<h1>{{story.name}}</h1>
+<p class="lead">{{story.description}}</p>
+
+	<div class="well row" ng-bind-html="story.page.content">
+		Actual story and other readable content will be here.
+	</div>
+	
+	<!-- 
+		Inputs will be here. It's possible to ask user's name for example, and then use this name
+		later on in the story.
+	-->
+	<div class="well row form-group" ng-class="{hide: !story.page.inputs}">
+		<div class="row form-inline" ng-repeat="input in story.page.inputs.inputs">
+			<label class="col-md-3">{{input.text}}</label>
+			<input class="form-control" type="{{input.type}}" ng-model="story.input[input.name]" ng-change="onChange(input.name, story.input[input.name])" />
+			<span ng-class="{hide: !input.required}"> *</span>
+			<span ng-class="{hide: (!input.answer || input.answer != story.input[input.name])}"> Problem solved!</span>
+		</div>
+	</div>
+	
+	<!--
+		Possible action buttons come here.
+		With these actions it's possible to branch the story by giving user
+		the possibility to choose where the story goes next.
+	 -->
+	<div class="well row text-center" ng-class="{hide: story.page.actions.visible == false}">
+		<div class="form-inline col-md-3" ng-repeat="action in story.page.actions.actions">
+			<button class="btn btn-lg btn-primary" ng-click="gotoPage(action.page)">{{action.name}}</button>
+			<p>{{action.description}}</p>
+		</div>
+	</div>
+	
+	<p class="small">
+		Page {{story.page.number}} of {{story.pageCount}}
+	</p>
+
+<hr />
+
+<a href="#/stories">
+	&laquo; Back to stories
+</a>
+
+<figure class="page-switch previous" ng-mouseleave="gotoPage(story.page.number-1)" ng-class="{hide: !story.page.allowPrevious}"></figure>
+<figure class="page-switch next" ng-mouseleave="gotoPage(story.page.number+1)" ng-class="{hide: !story.page.allowNext}"></figure>

@@ -1,0 +1,315 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Animals",
+        "name": "quiz_animals_name"
+      },
+      {
+        "_": "Test how well you know the most common animals!",
+        "name": "quiz_animals_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Animals",
+        "name": "quiz_animals_link"
+      },
+      {
+        "_": "Bear",
+        "name": "quiz_animals_bear_name"
+      },
+      {
+        "name": "quiz_animals_bear_hint"
+      },
+      {
+        "_": "Bears are mammals of the family Ursidae. Bears are classified as caniforms, or doglike carnivorans, with the pinnipeds being their closest living relatives. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere. Bears are found on the continents of North America, South America, Europe, and Asia.",
+        "name": "quiz_animals_bear_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/bear",
+        "name": "quiz_animals_bear_link"
+      },
+      {
+        "_": "Moose",
+        "name": "quiz_animals_moose_name"
+      },
+      {
+        "name": "quiz_animals_moose_hint"
+      },
+      {
+        "_": "The moose (North America) or elk (Eurasia), Alces alces, is the largest extant species in the deer family. Moose are distinguished by the palmate antlers of the males; other members of the family have antlers with a dendritic (\"twig-like\") configuration. Moose typically inhabit boreal and mixed deciduous forests of the Northern Hemisphere in temperate to subarctic climates. Moose used to have a much wider range but hunting and other human activities greatly reduced it over the years. Moose have been reintroduced to some of their former habitats. Currently, most moose are found in Canada, Alaska, Scandinavia and Russia.",
+        "name": "quiz_animals_moose_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/moose",
+        "name": "quiz_animals_moose_link"
+      },
+      {
+        "_": "Deer",
+        "name": "quiz_animals_deer_name"
+      },
+      {
+        "name": "quiz_animals_deer_hint"
+      },
+      {
+        "_": "Deer (singular and plural) are the ruminant mammals forming the family Cervidae. Species in the family include white-tailed deer, mule deer such as black-tailed deer, elk, moose, red deer, reindeer (caribou), fallow deer, roe deer, pudú and chital. Male deer of all species (except the Chinese water deer) and female reindeer grow and shed new antlers each year. In this they differ from permanently horned animals such as antelope, which are in the same order as deer and may bear a superficial resemblance to them.",
+        "name": "quiz_animals_deer_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/deer",
+        "name": "quiz_animals_deer_link"
+      },
+      {
+        "_": "Fox",
+        "name": "quiz_animals_fox_name"
+      },
+      {
+        "name": "quiz_animals_fox_hint"
+      },
+      {
+        "_": "Foxes are small-to-medium-sized, omnivorous mammals belonging to several genera of the Canidae family. Foxes are slightly smaller than a medium-size domestic dog, with a flattened skull, upright triangular ears, a pointed, slightly upturned snout, and a long bushy tail (or brush).",
+        "name": "quiz_animals_fox_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/fox",
+        "name": "quiz_animals_fox_link"
+      },
+      {
+        "_": "Frog",
+        "name": "quiz_animals_frog_name"
+      },
+      {
+        "name": "quiz_animals_frog_hint"
+      },
+      {
+        "_": "Frogs are a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (Ancient Greek an-, without + oura, tail). The oldest fossil \"proto-frog\" appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago. Frogs are widely distributed, ranging from the tropics to subarctic regions, but the greatest concentration of species diversity is found in tropical rainforests.",
+        "name": "quiz_animals_frog_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/frog",
+        "name": "quiz_animals_frog_link"
+      },
+      {
+        "_": "Snake",
+        "name": "quiz_animals_snake_name"
+      },
+      {
+        "name": "quiz_animals_snake_hint"
+      },
+      {
+        "_": "Snakes are elongated, legless, carnivorous reptiles of the suborder Serpentes that can be distinguished from legless lizards by their lack of eyelids and external ears. Like all squamates, snakes are ectothermic, amniote vertebrates covered in overlapping scales. Many species of snakes have skulls with several more joints than their lizard ancestors, enabling them to swallow prey much larger than their heads with their highly mobile jaws.",
+        "name": "quiz_animals_snake_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/snake",
+        "name": "quiz_animals_snake_link"
+      },
+      {
+        "_": "Wolf",
+        "name": "quiz_animals_wolf_name"
+      },
+      {
+        "name": "quiz_animals_wolf_hint"
+      },
+      {
+        "_": "The gray wolf or grey wolf (Canis lupus) also known as the timber wolf, or western wolf, is a canid native to the wilderness and remote areas of North America, Eurasia, and northern, eastern and western Africa. It is the largest extant member of its family, with males averaging 43–45 kg (95–99 lb), and females 36–38.5 kg (79–85 lb). Like the red wolf, it is distinguished from other Canis species by its larger size and less pointed features, particularly on the ears and muzzle. Its winter fur is long and bushy, and predominantly a mottled gray in color, although nearly pure white, red, or brown to black also occur.",
+        "name": "quiz_animals_wolf_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/wolf",
+        "name": "quiz_animals_wolf_link"
+      },
+      {
+        "_": "Squirrel",
+        "name": "quiz_animals_squirrel_name"
+      },
+      {
+        "name": "quiz_animals_squirrel_hint"
+      },
+      {
+        "_": "Squirrels are members of the family Sciuridae, consisting of small or medium-size rodents. The family includes tree squirrels, ground squirrels, chipmunks, marmots (including woodchucks), flying squirrels, and prairie dogs. Squirrels are indigenous to the Americas, Eurasia, and Africa, and have been introduced to Australia. The earliest known squirrels date from the Eocene and are most closely related to the mountain beaver and to the dormouse among living rodent families.",
+        "name": "quiz_animals_squirrel_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/squirrel",
+        "name": "quiz_animals_squirrel_link"
+      },
+      {
+        "_": "Hedgehog",
+        "name": "quiz_animals_hedgehog_name"
+      },
+      {
+        "name": "quiz_animals_hedgehog_hint"
+      },
+      {
+        "_": "A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, which is in the order Erinaceomorpha. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, Africa and New Zealand (by introduction). There are no hedgehogs native to Australia, and no living species native to the Americas.",
+        "name": "quiz_animals_hedgehog_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/hedgehog",
+        "name": "quiz_animals_hedgehog_link"
+      },
+      {
+        "_": "Mouse",
+        "name": "quiz_animals_mouse_name"
+      },
+      {
+        "name": "quiz_animals_mouse_hint"
+      },
+      {
+        "_": "A mouse (plural: mice) is a small mammal belonging to the order of rodents, characteristically having a pointed snout, small rounded ears, a body-length scaly tail and a high breeding rate. The best known mouse species is the common house mouse (Mus musculus). It is also a popular pet. In some places, certain kinds of field mice are also common. They are known to invade homes for food and occasionally shelter.",
+        "name": "quiz_animals_mouse_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/mouse",
+        "name": "quiz_animals_mouse_link"
+      },
+      {
+        "_": "Rat",
+        "name": "quiz_animals_rat_name"
+      },
+      {
+        "name": "quiz_animals_rat_hint"
+      },
+      {
+        "_": "Rats are various medium-sized, long-tailed rodents of the superfamily Muroidea. \"True rats\" are members of the genus Rattus, the most important of which to humans are the black rat, Rattus rattus, and the brown rat, Rattus norvegicus. Many members of other rodent genera and families are also referred to as rats, and share many characteristics with true rats.",
+        "name": "quiz_animals_rat_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/rat",
+        "name": "quiz_animals_rat_link"
+      },
+      {
+        "_": "Rabbit",
+        "name": "quiz_animals_rabbit_name"
+      },
+      {
+        "name": "quiz_animals_rabbit_hint"
+      },
+      {
+        "_": "Rabbits are small mammals in the family Leporidae of the order Lagomorpha, found in several parts of the world. There are eight different genera in the family classified as rabbits, including the European rabbit (Oryctolagus cuniculus), cottontail rabbits (genus Sylvilagus; 13 species), and the Amami rabbit (Pentalagus furnessi, an endangered species on Amami Ōshima, Japan). There are many other species of rabbit, and these, along with pikas and hares, make up the order Lagomorpha. The male is called a buck and the female is a doe; a young rabbit is a kitten or kit.",
+        "name": "quiz_animals_rabbit_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/rabbit",
+        "name": "quiz_animals_rabbit_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_animals_bear_answers",
+        "item": "bear"
+      },
+      {
+        "name": "quiz_animals_bear_facts",
+        "item": [
+          "Brown",
+          "Furry"
+        ]
+      },
+      {
+        "name": "quiz_animals_moose_answers",
+        "item": "moose"
+      },
+      {
+        "name": "quiz_animals_moose_facts",
+        "item": [
+          "Brown",
+          "Furry"
+        ]
+      },
+      {
+        "name": "quiz_animals_deer_answers",
+        "item": "deer"
+      },
+      {
+        "name": "quiz_animals_deer_facts",
+        "item": [
+          "Brown",
+          "Furry"
+        ]
+      },
+      {
+        "name": "quiz_animals_fox_answers",
+        "item": "fox"
+      },
+      {
+        "name": "quiz_animals_fox_facts",
+        "item": [
+          "Reddish/orange",
+          "Furry"
+        ]
+      },
+      {
+        "name": "quiz_animals_frog_answers",
+        "item": "frog"
+      },
+      {
+        "name": "quiz_animals_frog_facts",
+        "item": "Various colors"
+      },
+      {
+        "name": "quiz_animals_snake_answers",
+        "item": "snake"
+      },
+      {
+        "name": "quiz_animals_snake_facts",
+        "item": "Various colors"
+      },
+      {
+        "name": "quiz_animals_wolf_answers",
+        "item": "wolf"
+      },
+      {
+        "name": "quiz_animals_wolf_facts",
+        "item": [
+          "Greyish",
+          "Furry"
+        ]
+      },
+      {
+        "name": "quiz_animals_squirrel_answers",
+        "item": "squirrel"
+      },
+      {
+        "name": "quiz_animals_squirrel_facts",
+        "item": [
+          "Reddish/brown",
+          "Furry"
+        ]
+      },
+      {
+        "name": "quiz_animals_hedgehog_answers",
+        "item": "hedgehog"
+      },
+      {
+        "name": "quiz_animals_hedgehog_facts",
+        "item": "Spiky"
+      },
+      {
+        "name": "quiz_animals_mouse_answers",
+        "item": "mouse"
+      },
+      {
+        "name": "quiz_animals_mouse_facts"
+      },
+      {
+        "name": "quiz_animals_rat_answers",
+        "item": "rat"
+      },
+      {
+        "name": "quiz_animals_rat_facts"
+      },
+      {
+        "name": "quiz_animals_rabbit_answers",
+        "item": "rabbit"
+      },
+      {
+        "name": "quiz_animals_rabbit_facts",
+        "item": [
+          "Furry",
+          "Cute"
+        ]
+      }
+    ]
+  }
+}

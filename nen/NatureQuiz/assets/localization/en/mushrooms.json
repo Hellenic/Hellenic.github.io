@@ -1,0 +1,190 @@
+{
+  "resources": {
+    "string": [
+      {
+        "_": "Mushrooms",
+        "name": "quiz_mushrooms_name"
+      },
+      {
+        "_": "Test how well you know the most common delicious mushrooms!",
+        "name": "quiz_mushrooms_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Mushrooms",
+        "name": "quiz_mushrooms_link"
+      },
+      {
+        "_": "Cep",
+        "name": "quiz_mushrooms_cep_name"
+      },
+      {
+        "name": "quiz_mushrooms_cep_hint"
+      },
+      {
+        "_": "Boletus edulis (English: cep, penny bun, porcino, or king bolete, usually called porcini) is a basidiomycete fungus, and the type species of the genus Boletus. Widely distributed in the Northern Hemisphere across Europe, Asia, and North America, it does not occur naturally in the Southern Hemisphere, although it has been introduced to southern Africa, Australia, and New Zealand. Several closely related European mushrooms formerly thought to be varieties or forms of B. edulis have been shown using molecular phylogenetic analysis to be distinct species, and others previously classed as separate species are conspecific with this species. The western North American species commonly known as the California king bolete (Boletus edulis var. grandedulis) is a large, darker-colored variant first formally identified in 2007.",
+        "name": "quiz_mushrooms_cep_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Boletus_edulis",
+        "name": "quiz_mushrooms_cep_link"
+      },
+      {
+        "_": "Gyromitra esculenta",
+        "name": "quiz_mushrooms_morel_name"
+      },
+      {
+        "name": "quiz_mushrooms_morel_hint"
+      },
+      {
+        "_": "Gyromitra esculenta /ˌdʒaɪrɵˈmaɪtrə ˌɛskjʉˈlɛntə/, is an ascomycete fungus from the genus Gyromitra, widely distributed across Europe and North America. It normally sprouts in sandy soils under coniferous trees in spring and early summer. The fruiting body, or mushroom, is an irregular brain-shaped cap dark brown in colour which can reach 10 cm (4 in) high and 15 cm (6 in) wide, perched on a stout white stipe up to 6 cm (2.4 in) high. Although potentially fatal if eaten raw, Gyromitra esculenta is a popular delicacy in Scandinavia, Eastern Europe, and the upper Great Lakes region of North America. Although popular in some districts of the eastern Pyrenees, it is prohibited from sale to the public in Spain. It may be sold fresh in Finland, but it must be accompanied by warnings and instructions on correct preparation. Although it is still commonly parboiled before preparation, recent evidence suggests that even this procedure may not make the fungus entirely safe,[1] thus raising concerns of risk even when prepared properly.",
+        "name": "quiz_mushrooms_morel_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Gyromitra_esculenta",
+        "name": "quiz_mushrooms_morel_link"
+      },
+      {
+        "_": "Chanterelle",
+        "name": "quiz_mushrooms_chanterelle_name"
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_hint"
+      },
+      {
+        "_": "Cantharellus cibarius, commonly known as the chanterelle, golden chanterelle or girolle, is a fungus. It is probably the best known species of the genus Cantharellus, if not the entire family of Cantharellaceae. It is orange or yellow, meaty and funnel-shaped. On the lower surface, underneath the smooth cap, it has gill-like ridges that run almost all the way down its stipe, which tapers down seamlessly from the cap. It emits a fruity aroma, reminiscent of apricots and a mildly peppery taste (hence its German name, Pfifferling) and is considered an excellent edible mushroom.",
+        "name": "quiz_mushrooms_chanterelle_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/chanterelle",
+        "name": "quiz_mushrooms_chanterelle_link"
+      },
+      {
+        "_": "Fly agaric",
+        "name": "quiz_mushrooms_flyagaric_name"
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_hint"
+      },
+      {
+        "_": "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a mushroom and psychoactive basidiomycete fungus, one of many in the genus Amanita. Native throughout the temperate and boreal regions of the Northern Hemisphere, Amanita muscaria has been unintentionally introduced to many countries in the Southern Hemisphere, generally as a symbiont with pine and birch plantations, and is now a true cosmopolitan species. It associates with various deciduous and coniferous trees.",
+        "name": "quiz_mushrooms_flyagaric_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Amanita_muscaria",
+        "name": "quiz_mushrooms_flyagaric_link"
+      },
+      {
+        "_": "Boletus",
+        "name": "quiz_mushrooms_annulatedboletus_name"
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_hint"
+      },
+      {
+        "_": "\"\"Boletus is a genus of mushroom-producing fungi, comprising over 100 species. The genus Boletus was originally broadly defined and described by Carl Linnaeus in 1753, essentially containing all fungi with pores. Since then, other genera have been defined gradually, such as Tylopilus by Petter Adolf Karsten in 1881, and old names such as Leccinum have been resurrected or redefined.\n\nThe genus Boletus contains many members which are edible and tasty, not the least of which is the famed Boletus edulis, though many others are eaten as well, such as B. badius, B. aereus and others. Many species, such as B. calopus, are bitter tasting and inedible, and others are toxic.\"",
+        "name": "quiz_mushrooms_annulatedboletus_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/Boletus",
+        "name": "quiz_mushrooms_annulatedboletus_link"
+      },
+      {
+        "_": "Russula",
+        "name": "quiz_mushrooms_russula_name"
+      },
+      {
+        "name": "quiz_mushrooms_russula_hint"
+      },
+      {
+        "_": "Around 750 worldwide species of ectomycorrhizal mushrooms compose the genus Russula. They are typically common, fairly large, and brightly colored – making them one of the most recognizable genera among mycologists and mushroom collectors. Their distinguishing characteristics include a white to dark yellow spore print, brittle free white gills, and an absence of partial veil or volva tissue on the stem. Members of the related Lactarius genus have similar characteristics but emit a milky latex when their gills are broken. The genus was described by Christian Hendrik Persoon in 1796.",
+        "name": "quiz_mushrooms_russula_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/russula",
+        "name": "quiz_mushrooms_russula_link"
+      },
+      {
+        "_": "Champignon",
+        "name": "quiz_mushrooms_champignon_name"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_hint"
+      },
+      {
+        "_": "\"Agaricus bisporus is an edible basidiomycete mushroom native to grasslands in Europe and North America. It has two color states while immature—white and brown—both of which have various names. When mature, it is known as Portobello mushroom.\n\nWhen immature and white—this mushroom may be known as common mushroom, button mushroom, white mushroom, cultivated mushroom, table mushroom, and champignon mushroom. When immature and brown—this mushroom may be known variously as Swiss brown mushroom, Roman brown mushroom, Italian brown, Italian mushroom, cremini or crimini mushroom, brown cap mushroom, or chestnut mushroom.\"",
+        "name": "quiz_mushrooms_champignon_description"
+      },
+      {
+        "_": "http://en.m.wikipedia.org/wiki/champignon",
+        "name": "quiz_mushrooms_champignon_link"
+      }
+    ],
+    "string-array": [
+      {
+        "name": "quiz_mushrooms_cep_answers",
+        "item": "cep"
+      },
+      {
+        "name": "quiz_mushrooms_cep_facts",
+        "item": "Eatable"
+      },
+      {
+        "name": "quiz_mushrooms_morel_answers",
+        "item": [
+          "gyromitra",
+          "gyromitra esculenta"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_morel_facts",
+        "item": "Eatable"
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_answers",
+        "item": "chanterelle"
+      },
+      {
+        "name": "quiz_mushrooms_chanterelle_facts",
+        "item": "Eatable"
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_answers",
+        "item": [
+          "flyagaric",
+          "toadstool"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_flyagaric_facts",
+        "item": "Toxic"
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_answers",
+        "item": [
+          "boletus",
+          "annulated boletus"
+        ]
+      },
+      {
+        "name": "quiz_mushrooms_annulatedboletus_facts",
+        "item": "Toxic / Eatable"
+      },
+      {
+        "name": "quiz_mushrooms_russula_answers",
+        "item": "russula"
+      },
+      {
+        "name": "quiz_mushrooms_russula_facts",
+        "item": "Eatable"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_answers",
+        "item": "champignon"
+      },
+      {
+        "name": "quiz_mushrooms_champignon_facts",
+        "item": "Eatable"
+      }
+    ]
+  }
+}

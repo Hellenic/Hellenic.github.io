@@ -1,0 +1,124 @@
+{
+  "category": {
+    "name": "@string/quiz_fruits_name",
+    "description": "@string/quiz_fruits_description",
+    "image": "fruits.jpg",
+    "link": "@string/quiz_fruits_link",
+    "completedText": "@string/quiz_default_category_completed",
+    "progressText": "@string/quiz_default_category_progress",
+    "levels": {
+      "level": [
+        {
+          "id": "1",
+          "name": "@string/quiz_fruits_apple_name",
+          "hint": "@string/quiz_fruits_apple_hint",
+          "description": "@string/quiz_fruits_apple_description",
+          "answers": "@array/quiz_fruits_apple_answers",
+          "image": "apple.jpg",
+          "link": "@string/quiz_fruits_apple_link",
+          "facts": "@array/quiz_fruits_apple_facts"
+        },
+        {
+          "id": "2",
+          "name": "@string/quiz_fruits_orange_name",
+          "hint": "@string/quiz_fruits_orange_hint",
+          "description": "@string/quiz_fruits_orange_description",
+          "answers": "@array/quiz_fruits_orange_answers",
+          "image": "orange.jpg",
+          "link": "@string/quiz_fruits_orange_link",
+          "facts": "@array/quiz_fruits_orange_facts"
+        },
+        {
+          "id": "3",
+          "name": "@string/quiz_fruits_lemon_name",
+          "hint": "@string/quiz_fruits_lemon_hint",
+          "description": "@string/quiz_fruits_lemon_description",
+          "answers": "@array/quiz_fruits_lemon_answers",
+          "image": "lemon.jpg",
+          "link": "@string/quiz_fruits_lemon_link",
+          "facts": "@array/quiz_fruits_lemon_facts"
+        },
+        {
+          "id": "4",
+          "name": "@string/quiz_fruits_banana_name",
+          "hint": "@string/quiz_fruits_banana_hint",
+          "description": "@string/quiz_fruits_banana_description",
+          "answers": "@array/quiz_fruits_banana_answers",
+          "image": "banana.jpg",
+          "link": "@string/quiz_fruits_banana_link",
+          "facts": "@array/quiz_fruits_banana_facts"
+        },
+        {
+          "id": "5",
+          "name": "@string/quiz_fruits_cherry_name",
+          "hint": "@string/quiz_fruits_cherry_hint",
+          "description": "@string/quiz_fruits_cherry_description",
+          "answers": "@array/quiz_fruits_cherry_answers",
+          "image": "cherries.jpg",
+          "link": "@string/quiz_fruits_cherry_link",
+          "facts": "@array/quiz_fruits_cherry_facts"
+        },
+        {
+          "id": "6",
+          "name": "@string/quiz_fruits_peach_name",
+          "hint": "@string/quiz_fruits_peach_hint",
+          "description": "@string/quiz_fruits_peach_description",
+          "answers": "@array/quiz_fruits_peach_answers",
+          "image": "peach.jpg",
+          "link": "@string/quiz_fruits_peach_link",
+          "facts": "@array/quiz_fruits_peach_facts"
+        },
+        {
+          "id": "7",
+          "name": "@string/quiz_fruits_pineapple_name",
+          "hint": "@string/quiz_fruits_pineapple_hint",
+          "description": "@string/quiz_fruits_pineapple_description",
+          "answers": "@array/quiz_fruits_pineapple_answers",
+          "image": "pineapple.jpg",
+          "link": "@string/quiz_fruits_pineapple_link",
+          "facts": "@array/quiz_fruits_pineapple_facts"
+        },
+        {
+          "id": "8",
+          "name": "@string/quiz_fruits_pear_name",
+          "hint": "@string/quiz_fruits_pear_hint",
+          "description": "@string/quiz_fruits_pear_description",
+          "answers": "@array/quiz_fruits_pear_answers",
+          "image": "pear.jpg",
+          "link": "@string/quiz_fruits_pear_link",
+          "facts": "@array/quiz_fruits_pear_facts"
+        },
+        {
+          "id": "9",
+          "name": "@string/quiz_fruits_plum_name",
+          "hint": "@string/quiz_fruits_plum_hint",
+          "description": "@string/quiz_fruits_plum_description",
+          "answers": "@array/quiz_fruits_plum_answers",
+          "image": "plum.jpg",
+          "link": "@string/quiz_fruits_plum_link",
+          "facts": "@array/quiz_fruits_plum_facts"
+        },
+        {
+          "id": "10",
+          "name": "@string/quiz_fruits_grapefruit_name",
+          "hint": "@string/quiz_fruits_grapefruit_hint",
+          "description": "@string/quiz_fruits_grapefruit_description",
+          "answers": "@array/quiz_fruits_grapefruit_answers",
+          "image": "grapefruit.jpg",
+          "link": "@string/quiz_fruits_grapefruit_link",
+          "facts": "@array/quiz_fruits_grapefruit_facts"
+        },
+        {
+          "id": "11",
+          "name": "@string/quiz_fruits_watermelon_name",
+          "hint": "@string/quiz_fruits_watermelon_hint",
+          "description": "@string/quiz_fruits_watermelon_description",
+          "answers": "@array/quiz_fruits_watermelon_answers",
+          "image": "watermelon.jpg",
+          "link": "@string/quiz_fruits_watermelon_link",
+          "facts": "@array/quiz_fruits_watermelon_facts"
+        }
+      ]
+    }
+  }
+}
