@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.8f00ba4f.chunk.css",
-  "main.js": "/static/js/main.c5f4ee5c.chunk.js",
-  "main.js.map": "/static/js/main.c5f4ee5c.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
-  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/js/2.9ae76778.chunk.js": "/static/js/2.9ae76778.chunk.js",
-  "static/js/2.9ae76778.chunk.js.map": "/static/js/2.9ae76778.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.7beba640294e8aab9d846a541b9bc88f.js": "/precache-manifest.7beba640294e8aab9d846a541b9bc88f.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.8f00ba4f.chunk.css.map": "/static/css/main.8f00ba4f.chunk.css.map"
+  "main.css": "/nen/fractalysis/static/css/main.8f00ba4f.chunk.css",
+  "main.js": "/nen/fractalysis/static/js/main.7c78a66a.chunk.js",
+  "main.js.map": "/nen/fractalysis/static/js/main.7c78a66a.chunk.js.map",
+  "runtime~main.js": "/nen/fractalysis/static/js/runtime~main.07f9a9c8.js",
+  "runtime~main.js.map": "/nen/fractalysis/static/js/runtime~main.07f9a9c8.js.map",
+  "static/js/2.9ae76778.chunk.js": "/nen/fractalysis/static/js/2.9ae76778.chunk.js",
+  "static/js/2.9ae76778.chunk.js.map": "/nen/fractalysis/static/js/2.9ae76778.chunk.js.map",
+  "index.html": "/nen/fractalysis/index.html",
+  "precache-manifest.f1de15c5ca3fea298f554133e5a3c8cf.js": "/nen/fractalysis/precache-manifest.f1de15c5ca3fea298f554133e5a3c8cf.js",
+  "service-worker.js": "/nen/fractalysis/service-worker.js",
+  "static/css/main.8f00ba4f.chunk.css.map": "/nen/fractalysis/static/css/main.8f00ba4f.chunk.css.map"
 }
