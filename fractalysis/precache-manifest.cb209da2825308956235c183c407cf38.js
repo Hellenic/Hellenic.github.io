@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f1f8f48ee76766e7adb6",
+    "revision": "507a1aacd95e02e18729",
     "url": "/fractalysis/static/css/main.b7fb3928.chunk.css"
   },
   {
-    "revision": "f1f8f48ee76766e7adb6",
-    "url": "/fractalysis/static/js/main.f1f8f48e.chunk.js"
+    "revision": "507a1aacd95e02e18729",
+    "url": "/fractalysis/static/js/main.507a1aac.chunk.js"
   },
   {
     "revision": "abda4fb3135c17e1bcab",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/fractalysis/static/js/2.2524e23a.chunk.js"
   },
   {
-    "revision": "0bd50840860e222e1d46a4674f9c9d2c",
+    "revision": "db27ad98ef799c07c1009ee6cd88c39a",
     "url": "/fractalysis/index.html"
   }
 ];
