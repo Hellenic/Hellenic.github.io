@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fractalysis/precache-manifest.1495bce14f553678f2e0e9138b2e9266.js"
+  "/fractalysis/precache-manifest.b0d248f1d161dafe8896af90819fcb56.js"
 );
 
 workbox.clientsClaim();
