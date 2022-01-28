@@ -1,13 +1,13 @@
 {
-  "main.css": "/fractalysis/static/css/main.b7fb3928.chunk.css",
-  "main.js": "/fractalysis/static/js/main.a1967476.chunk.js",
-  "main.js.map": "/fractalysis/static/js/main.a1967476.chunk.js.map",
-  "runtime~main.js": "/fractalysis/static/js/runtime~main.abda4fb3.js",
-  "runtime~main.js.map": "/fractalysis/static/js/runtime~main.abda4fb3.js.map",
-  "static/js/2.de9ba70f.chunk.js": "/fractalysis/static/js/2.de9ba70f.chunk.js",
-  "static/js/2.de9ba70f.chunk.js.map": "/fractalysis/static/js/2.de9ba70f.chunk.js.map",
+  "main.css": "/fractalysis/static/css/main.8df171f9.chunk.css",
+  "main.js": "/fractalysis/static/js/main.d3d4aa0a.chunk.js",
+  "main.js.map": "/fractalysis/static/js/main.d3d4aa0a.chunk.js.map",
+  "runtime~main.js": "/fractalysis/static/js/runtime~main.a9001bb1.js",
+  "runtime~main.js.map": "/fractalysis/static/js/runtime~main.a9001bb1.js.map",
+  "static/js/2.28868aac.chunk.js": "/fractalysis/static/js/2.28868aac.chunk.js",
+  "static/js/2.28868aac.chunk.js.map": "/fractalysis/static/js/2.28868aac.chunk.js.map",
   "index.html": "/fractalysis/index.html",
-  "precache-manifest.90e53bc7c80d8aa3de1d4ac7def7dd64.js": "/fractalysis/precache-manifest.90e53bc7c80d8aa3de1d4ac7def7dd64.js",
+  "precache-manifest.df182f318321828038399d69c7066ead.js": "/fractalysis/precache-manifest.df182f318321828038399d69c7066ead.js",
   "service-worker.js": "/fractalysis/service-worker.js",
-  "static/css/main.b7fb3928.chunk.css.map": "/fractalysis/static/css/main.b7fb3928.chunk.css.map"
+  "static/css/main.8df171f9.chunk.css.map": "/fractalysis/static/css/main.8df171f9.chunk.css.map"
 }
